@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>29 支乐队的经典专辑 · 网易云批量歌单</title>
+<style>
+:root{--bg:#0e0f12;--card:#16171b;--line:#26272e;--fg:#e9e9ec;--mut:#95969f;--accent:#ec4141;--cn:#e05a4f;--tw:#d9a441;--jp:#5aa9e6;--uk:#9d7fe0;--pl:#4fc2a0;--kr:#e07fb0;--xx:#7c7f8a}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 20% -10%,#1d1013 0%,transparent 60%),var(--bg);color:var(--fg);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+header.hero{padding:64px 0 26px}
+.kicker{color:var(--accent);font-size:12px;letter-spacing:.22em;text-transform:uppercase;margin:0 0 14px}
+h1{font-size:clamp(26px,4vw,44px);line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--accent)}
+.lede{color:var(--mut);max-width:640px;margin:0 0 22px;font-size:15px}
+.stats{display:flex;gap:26px;flex-wrap:wrap;margin:0 0 26px}
+.stat{min-width:78px;display:flex;flex-direction:column;gap:3px}
+.stat b{display:block;font-size:26px;line-height:1.1;letter-spacing:-.01em}
+.stat span{color:var(--mut);font-size:12px;letter-spacing:.08em}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+button{font:inherit;cursor:pointer}
+.btn{border:1px solid var(--accent);background:var(--accent);color:#fff;padding:10px 18px;border-radius:999px;font-size:14px;transition:.15s}
+.btn:hover{filter:brightness(1.1)}
+.btn.ghost{background:transparent;color:var(--fg);border-color:var(--line)}
+.btn.ghost:hover{border-color:#3a3b44}
+.toolbar{position:sticky;top:0;z-index:9;background:rgba(14,15,18,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:12px 0;margin:22px 0 0}
+.toolbar .wrap{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.search{flex:1 1 240px;min-width:200px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 16px;color:var(--fg);font-size:14px;outline:none}
+.search:focus{border-color:#3d3e47}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{background:transparent;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:6px 13px;font-size:13px}
+.chip.on{color:#fff;border-color:var(--accent);background:rgba(236,65,65,.14)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;padding:26px 0 10px}
+.card{background:linear-gradient(180deg,#191a1f,#141519);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;display:flex;flex-direction:column;transition:.18s}
+.card:hover{border-color:#34353e;transform:translateY(-2px)}
+.card-top{display:flex;gap:12px;align-items:flex-start}
+.idx{font-variant-numeric:tabular-nums;color:#5c5e69;font-size:13px;padding-top:4px;letter-spacing:.05em}
+.titles{flex:1;min-width:0}
+h3{margin:0;font-size:17px;letter-spacing:-.01em;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.alias{font-size:11px;color:var(--mut);font-weight:400;letter-spacing:.02em}
+.album{margin:3px 0 0;font-size:13px;color:var(--mut)}
+.album a{color:#c9cad2;text-decoration:none;border-bottom:1px dotted #3a3b44}
+.album a:hover{color:#fff}
+.year{margin-left:8px;font-variant-numeric:tabular-nums;color:#6c6e79;font-size:12px}
+.tag{font-size:11px;padding:2px 8px;border-radius:6px;border:1px solid;white-space:nowrap;margin-top:2px}
+.t-cn{color:var(--cn);border-color:rgba(224,90,79,.4);background:rgba(224,90,79,.08)}
+.t-tw{color:var(--tw);border-color:rgba(217,164,65,.4);background:rgba(217,164,65,.08)}
+.t-jp{color:var(--jp);border-color:rgba(90,169,230,.4);background:rgba(90,169,230,.08)}
+.t-uk{color:var(--uk);border-color:rgba(157,127,224,.4);background:rgba(157,127,224,.08)}
+.t-pl{color:var(--pl);border-color:rgba(79,194,160,.4);background:rgba(79,194,160,.08)}
+.t-kr{color:var(--kr);border-color:rgba(224,127,176,.4);background:rgba(224,127,176,.08)}
+.t-xx{color:var(--xx);border-color:rgba(124,127,138,.4);background:rgba(124,127,138,.08)}
+.desc{color:#7f818c;font-size:12px;margin:10px 0 12px}
+.tracks{list-style:none;margin:0;padding:0;border-top:1px solid var(--line);flex:1}
+.tracks li{border-bottom:1px solid rgba(38,39,46,.6)}
+.tracks a{display:flex;align-items:center;gap:10px;padding:8px 2px;text-decoration:none;color:#d6d7dd;font-size:13.5px;border-radius:6px}
+.tracks a:hover{color:#fff;background:rgba(255,255,255,.03)}
+.tracks .n{color:#5c5e69;font-size:11px;font-variant-numeric:tabular-nums;width:16px;flex:none}
+.tracks .t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tracks .go{opacity:0;font-size:11px;color:var(--accent);transition:.15s;flex:none}
+.tracks a:hover .go{opacity:1}
+.card-actions{display:flex;gap:8px;margin-top:12px}
+.mini{background:rgba(255,255,255,.04);border:1px solid var(--line);color:#b9bac3;font-size:12px;padding:6px 11px;border-radius:8px;text-decoration:none}
+.mini:hover{color:#fff;border-color:#3d3e47}
+.mini.ghost{background:transparent}
+.hidden{display:none!important}
+footer{margin:36px 0 0;border-top:1px solid var(--line);padding:30px 0 70px;color:#7f818c;font-size:13px}
+footer h4{color:#c9cad2;font-size:13px;letter-spacing:.06em;margin:0 0 8px}
+footer ol{margin:0 0 22px;padding-left:18px}
+footer li{margin:5px 0}
+code{background:rgba(236,65,65,.12);border:1px solid rgba(236,65,65,.22);padding:1px 6px;border-radius:5px;font-size:12px;color:#f2cfcf}
+.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:#fff;color:#111;padding:9px 18px;border-radius:999px;font-size:13px;opacity:0;pointer-events:none;transition:.25s;z-index:99;box-shadow:0 8px 30px rgba(0,0,0,.45)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+@media(max-width:560px){header.hero{padding:40px 0 20px}.grid{grid-template-columns:1fr;padding-top:18px}.stats{gap:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <p class="kicker">Netease Cloud Music · Playlist</p>
+  <h1>29 支乐队，29 张<em>经典专辑</em></h1>
+  <p class="lede">按你给的顺序整理：从两岸三地的 emo / 盯鞋，到日本的 Number Girl、ミドリ、東京酒吐座、honeydip，再到 mbv。每支乐队取一张代表作、4 首曲子，共 116 首，歌名与歌手均按网易云的实际命名写好，可直接批量匹配。</p>
+  <div class="stats">
+    <div class="stat"><b>29</b><span>专辑</span></div>
+    <div class="stat"><b>116</b><span>首歌</span></div>
+    <div class="stat"><b>7</b><span>国家 / 地区</span></div>
+    <div class="stat"><b>≈ 7.5h</b><span>时长</span></div>
+  </div>
+  <div class="actions">
+    <button class="btn" id="copyAll">复制批量文本（歌名 - 歌手）</button>
+    <button class="btn ghost" id="download">下载 .txt</button>
+    <a class="btn ghost" href="https://music.163.com" target="_blank" rel="noopener">打开网易云网页版 ↗</a>
+  </div>
+</header>
+</div>
+
+<div class="toolbar"><div class="wrap">
+  <input class="search" id="q" type="search" placeholder="搜乐队 / 专辑 / 曲名…" autocomplete="off">
+  <div class="chips"><button class="chip on" data-f="*">全部</button><button class="chip" data-f="cn">大陆</button><button class="chip" data-f="tw">台湾</button><button class="chip" data-f="jp">日本</button><button class="chip" data-f="uk">英国</button><button class="chip" data-f="pl">波兰</button><button class="chip" data-f="kr">韩国</button><button class="chip" data-f="xx">待考</button></div>
+</div></div>
+
+<div class="wrap"><div class="grid" id="grid">
+<article class="card" data-region="大陆" data-search="yourboyfriendsucks! 第一集 yourboyfriendsucks! ybs 广州 emo / 独立摇滚">
+  <header class="card-top">
+    <span class="idx">01</span>
+    <div class="titles">
+      <h3>yourboyfriendsucks!<span class="alias">YBS</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=34767049" target="_blank" rel="noopener">第一集</a><span class="year">2016</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc">广州 emo / 独立摇滚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=419594176" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">diu × 3</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=419596180" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Stay/Stayaway</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=419594177" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">白鹤</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=419596181" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">波兰首都是上海</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="diu × 3 - yourboyfriendsucks!
+Stay/Stayaway - yourboyfriendsucks!
+白鹤 - yourboyfriendsucks!
+波兰首都是上海 - yourboyfriendsucks!">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=34767049" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="大陆" data-search="鼠鼠鼠 the three mice 鼠鼠鼠  卧室流行 / 低保真">
+  <header class="card-top">
+    <span class="idx">02</span>
+    <div class="titles">
+      <h3>鼠鼠鼠</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=244349559" target="_blank" rel="noopener">the three mice</a><span class="year">2024</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc">卧室流行 / 低保真</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2615065778" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">鲁蛇俱乐部</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2615067705" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">凌晨三点</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2615067706" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">teenage mice club</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2615065777" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">stereo mice lab</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="鲁蛇俱乐部 - 鼠鼠鼠
+凌晨三点 - 鼠鼠鼠
+teenage mice club - 鼠鼠鼠
+stereo mice lab - 鼠鼠鼠">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=244349559" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="台湾" data-search="紅髮少年殺人事件 brutal girl delusion 紅髮少年殺人事件 红发少年 盯鞋 / 后硬核">
+  <header class="card-top">
+    <span class="idx">03</span>
+    <div class="titles">
+      <h3>紅髮少年殺人事件<span class="alias">红发少年</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=264544725" target="_blank" rel="noopener">BRUTAL GIRL DELUSION</a><span class="year">2025</span></p>
+    </div>
+    <span class="tag t-tw">台湾</span>
+  </header>
+  <p class="desc">盯鞋 / 后硬核</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2680695844" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">黒目少女</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2680702161" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">YES,We Love Number Girl</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2680707401" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">DELUSION</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2680707734" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">短髮</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="黒目少女 - 紅髮少年殺人事件
+YES,We Love Number Girl - 紅髮少年殺人事件
+DELUSION - 紅髮少年殺人事件
+短髮 - 紅髮少年殺人事件">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=264544725" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="大陆" data-search="chinese football chinese football chinese football 国足 武汉 emo，中国 midwest emo 代表">
+  <header class="card-top">
+    <span class="idx">04</span>
+    <div class="titles">
+      <h3>Chinese Football<span class="alias">国足</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=3314467" target="_blank" rel="noopener">Chinese Football</a><span class="year">2015</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc">武汉 emo，中国 midwest emo 代表</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=35678538" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">守门员</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=35678539" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">飞鱼转身</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=35678540" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">400米</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=35678544" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">地球上最后一个EMO男孩</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="守门员 - Chinese Football
+飞鱼转身 - Chinese Football
+400米 - Chinese Football
+地球上最后一个EMO男孩 - Chinese Football">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=3314467" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="波兰" data-search="eli&#x27;s ladder polychrome eli&#x27;s ladder  波兰盯鞋 / emo">
+  <header class="card-top">
+    <span class="idx">05</span>
+    <div class="titles">
+      <h3>eli&#x27;s ladder</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=249000272" target="_blank" rel="noopener">polychrome</a><span class="year">2024</span></p>
+    </div>
+    <span class="tag t-pl">波兰</span>
+  </header>
+  <p class="desc">波兰盯鞋 / emo</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2630817670" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">show me the castle</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2630817669" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">simon</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2630816718" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">medical mechanica</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2630816717" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">burning circle</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="show me the castle - eli&#x27;s ladder
+simon - eli&#x27;s ladder
+medical mechanica - eli&#x27;s ladder
+burning circle - eli&#x27;s ladder">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=249000272" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="台湾" data-search="透明杂志 透明雜誌forever 透明杂志 透明雜誌 台北 emo / 朋克">
+  <header class="card-top">
+    <span class="idx">06</span>
+    <div class="titles">
+      <h3>透明杂志<span class="alias">透明雜誌</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2386289" target="_blank" rel="noopener">透明雜誌FOREVER</a><span class="year">2012</span></p>
+    </div>
+    <span class="tag t-tw">台湾</span>
+  </header>
+  <p class="desc">台北 emo / 朋克</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=26094378" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">透明雜誌FOREVER</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26094379" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">野貓</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26094381" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">萬華的宇宙</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26094383" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">E的鬼魂</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="透明雜誌FOREVER - 透明杂志
+野貓 - 透明杂志
+萬華的宇宙 - 透明杂志
+E的鬼魂 - 透明杂志">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2386289" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="大陆" data-search="v是兔子wishtoday 疼痛部 v是兔子wishtoday v是兔子 盯鞋 / 噪音流行">
+  <header class="card-top">
+    <span class="idx">07</span>
+    <div class="titles">
+      <h3>v是兔子wishtoday<span class="alias">v是兔子</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=258161671" target="_blank" rel="noopener">疼痛部</a><span class="year">2025</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc">盯鞋 / 噪音流行</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2660975039" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">怯懦</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2660975037" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">超人少女</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2660977441" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">桂花</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2660977443" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">一个循环，冬天结束的时候</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="怯懦 - v是兔子wishtoday
+超人少女 - v是兔子wishtoday
+桂花 - v是兔子wishtoday
+一个循环，冬天结束的时候 - v是兔子wishtoday">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=258161671" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="大陆" data-search="天然味道 少女终末旅行 天然味道  盯鞋 / 梦幻流行">
+  <header class="card-top">
+    <span class="idx">08</span>
+    <div class="titles">
+      <h3>天然味道</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=193595524" target="_blank" rel="noopener">少女终末旅行</a><span class="year">2024</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc">盯鞋 / 梦幻流行</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2149555269" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">壳中少女</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2149555917" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Yuck ByeBye</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2149555270" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">天然味道</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2149555918" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">夏日祭、唯我一人</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="壳中少女 - 天然味道
+Yuck ByeBye - 天然味道
+天然味道 - 天然味道
+夏日祭、唯我一人 - 天然味道">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=193595524" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="大陆" data-search="气象限定quadrant 象限 气象限定quadrant 气象限定 后摇 / 器乐">
+  <header class="card-top">
+    <span class="idx">09</span>
+    <div class="titles">
+      <h3>气象限定Quadrant<span class="alias">气象限定</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=400804204" target="_blank" rel="noopener">象限</a><span class="year">2026</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc">后摇 / 器乐</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=3441608900" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">象限外 旷野中(Uncharted Horizon)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3445265354" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">在灰烬里盛放(Growing Desire)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3445264831" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">雷克雅内斯灯塔(Reykjanesviti)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3445260712" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">零与无限(Origin to Infinity)</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="象限外 旷野中(Uncharted Horizon) - 气象限定Quadrant
+在灰烬里盛放(Growing Desire) - 气象限定Quadrant
+雷克雅内斯灯塔(Reykjanesviti) - 气象限定Quadrant
+零与无限(Origin to Infinity) - 气象限定Quadrant">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=400804204" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="台湾" data-search="vooid vooid vooid  台北迷幻 / 后朋">
+  <header class="card-top">
+    <span class="idx">10</span>
+    <div class="titles">
+      <h3>VOOID</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=38008607" target="_blank" rel="noopener">VOOID</a><span class="year">2017</span></p>
+    </div>
+    <span class="tag t-tw">台湾</span>
+  </header>
+  <p class="desc">台北迷幻 / 后朋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=548187349" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Into The Void</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=548186436" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">CANCER [terminal ver.]</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=548169749" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">一亿年前</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=548170697" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">生活的答案 [UK Surf]</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Into The Void - VOOID
+CANCER [terminal ver.] - VOOID
+一亿年前 - VOOID
+生活的答案 [UK Surf] - VOOID">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=38008607" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="台湾" data-search="午夜乒乓 剧烈物语 午夜乒乓 midnight ping pong 台北 emo / 独立摇滚">
+  <header class="card-top">
+    <span class="idx">11</span>
+    <div class="titles">
+      <h3>午夜乒乓<span class="alias">Midnight Ping Pong</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=35589727" target="_blank" rel="noopener">剧烈物语</a><span class="year">2017</span></p>
+    </div>
+    <span class="tag t-tw">台湾</span>
+  </header>
+  <p class="desc">台北 emo / 独立摇滚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=483242413" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">青春剧烈物语</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=483378311" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Blue Hearts</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=483242415" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">巴黎影院</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=483242418" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">午夜的直球对决</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="青春剧烈物语 - 午夜乒乓
+Blue Hearts - 午夜乒乓
+巴黎影院 - 午夜乒乓
+午夜的直球对决 - 午夜乒乓">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=35589727" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-search="my bloody valentine loveless my bloody valentine mbv 盯鞋鼻祖">
+  <header class="card-top">
+    <span class="idx">12</span>
+    <div class="titles">
+      <h3>My Bloody Valentine<span class="alias">mbv</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=422052" target="_blank" rel="noopener">loveless</a><span class="year">1991</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">盯鞋鼻祖</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=4174117" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">only shallow</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4174137" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">when you sleep</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4174129" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">to here knows when</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4174158" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">soon</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="only shallow - My Bloody Valentine
+when you sleep - My Bloody Valentine
+to here knows when - My Bloody Valentine
+soon - My Bloody Valentine">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=422052" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="台湾" data-search="返校日 riotinschool 庆祝一场溃烂 返校日 riotinschool 返校日 后硬核 / screamo">
+  <header class="card-top">
+    <span class="idx">13</span>
+    <div class="titles">
+      <h3>返校日 RiotInSchool<span class="alias">返校日</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=145414771" target="_blank" rel="noopener">庆祝一场溃烂</a><span class="year">2022</span></p>
+    </div>
+    <span class="tag t-tw">台湾</span>
+  </header>
+  <p class="desc">后硬核 / screamo</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=1950031636" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">解体</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1950031637" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">迪斯科</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1950031046" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">半岛中学</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1950031049" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">风滚草</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="解体 - 返校日 RiotInSchool
+迪斯科 - 返校日 RiotInSchool
+半岛中学 - 返校日 RiotInSchool
+风滚草 - 返校日 RiotInSchool">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=145414771" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="韩国" data-search="鸽子牛奶 aero 鸽子牛奶 vidulgi ooyoo 首尔盯鞋">
+  <header class="card-top">
+    <span class="idx">14</span>
+    <div class="titles">
+      <h3>鸽子牛奶<span class="alias">Vidulgi OoyoO</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=531409" target="_blank" rel="noopener">Aero</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-kr">韩国</span>
+  </header>
+  <p class="desc">首尔盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=5408237" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Siren</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=5408239" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">너의 눈으로 나를 본다</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=5408241" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Elephant</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=5408259" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Aero</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Siren - 鸽子牛奶
+너의 눈으로 나를 본다 - 鸽子牛奶
+Elephant - 鸽子牛奶
+Aero - 鸽子牛奶">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=531409" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="japanese football reflections of you ep japanese football  日系 emo / 独立摇滚">
+  <header class="card-top">
+    <span class="idx">15</span>
+    <div class="titles">
+      <h3>Japanese Football</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=162265965" target="_blank" rel="noopener">Reflections Of You EP</a><span class="year">2023</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">日系 emo / 独立摇滚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2032433225" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Castles</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2032433226" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Locked Out</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2032434256" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Escape</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2032434257" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Reflections Of You</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Castles - Japanese Football
+Locked Out - Japanese Football
+Escape - Japanese Football
+Reflections Of You - Japanese Football">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=162265965" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="きのこ帝国 フェイクワールドワンダーランド きのこ帝国 蘑菇帝国 东京盯鞋 / 另类摇滚">
+  <header class="card-top">
+    <span class="idx">16</span>
+    <div class="titles">
+      <h3>きのこ帝国<span class="alias">蘑菇帝国</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=3054015" target="_blank" rel="noopener">フェイクワールドワンダーランド</a><span class="year">2014</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">东京盯鞋 / 另类摇滚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=29593072" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">東京</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29593073" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">クロノスタシス</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29593074" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">ヴァージン・スーサイド</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29593075" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">You outside my window</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="東京 - きのこ帝国
+クロノスタシス - きのこ帝国
+ヴァージン・スーサイド - きのこ帝国
+You outside my window - きのこ帝国">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=3054015" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="ミドリ あらためまして、はじめまして、ミドリです。 ミドリ midori 爵士朋克 / 硬核">
+  <header class="card-top">
+    <span class="idx">17</span>
+    <div class="titles">
+      <h3>ミドリ<span class="alias">Midori</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2086571" target="_blank" rel="noopener">あらためまして、はじめまして、ミドリです。</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">爵士朋克 / 硬核</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22727922" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">スキ</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22727918" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">ゆきこさん</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22727919" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">お猿</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22727921" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">ちはるの恋</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="スキ - ミドリ
+ゆきこさん - ミドリ
+お猿 - ミドリ
+ちはるの恋 - ミドリ">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2086571" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="ひとひら 円 ひとひら hitohira（hihohira 二专） 日系 emo / 另类摇滚">
+  <header class="card-top">
+    <span class="idx">18</span>
+    <div class="titles">
+      <h3>ひとひら<span class="alias">hitohira（hihohira 二专）</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=288505879" target="_blank" rel="noopener">円</a><span class="year">2025</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">日系 emo / 另类摇滚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2755669231" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">十二月-Departure</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2755669237" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">夏至</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2755669235" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">塔は白い</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2755669136" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">円</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="十二月-Departure - ひとひら
+夏至 - ひとひら
+塔は白い - ひとひら
+円 - ひとひら">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=288505879" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="number girl school girl distortional addict number girl ナンバーガール 日本另类摇滚传奇">
+  <header class="card-top">
+    <span class="idx">19</span>
+    <div class="titles">
+      <h3>Number Girl<span class="alias">ナンバーガール</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2080565" target="_blank" rel="noopener">School Girl Distortional Addict</a><span class="year">1999</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">日本另类摇滚传奇</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22680347" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">透明少女</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22680341" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">タッチ</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22680343" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">裸足の季節</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22680345" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">YOUNG GIRL SEVENTEEN ******** KNOWING</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="透明少女 - Number Girl
+タッチ - Number Girl
+裸足の季節 - Number Girl
+YOUNG GIRL SEVENTEEN ******** KNOWING - Number Girl">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2080565" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="東京酒吐座 crystallize (remastered) 東京酒吐座 tokyo shoegazer 东京盯鞋">
+  <header class="card-top">
+    <span class="idx">20</span>
+    <div class="titles">
+      <h3>東京酒吐座<span class="alias">Tokyo Shoegazer</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=152494397" target="_blank" rel="noopener">crystallize (remastered)</a><span class="year">2022</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">东京盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=1985721070" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">299 Addiction</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1985721997" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Just Alright</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1985721071" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Bright</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1985721072" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Waltz Matilda</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="299 Addiction - 東京酒吐座
+Just Alright - 東京酒吐座
+Bright - 東京酒吐座
+Waltz Matilda - 東京酒吐座">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=152494397" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="待考" data-search="mowmowmow happenings mowmowmow mowmow 卧室流行 / 梦幻流行（bandcamp 系）">
+  <header class="card-top">
+    <span class="idx">21</span>
+    <div class="titles">
+      <h3>Mowmowmow<span class="alias">mowmow</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=198722684" target="_blank" rel="noopener">happenings</a><span class="year">2024</span></p>
+    </div>
+    <span class="tag t-xx">待考</span>
+  </header>
+  <p class="desc">卧室流行 / 梦幻流行（Bandcamp 系）</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2164441023" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">happenings</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2164441024" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">another pop song</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2164441027" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">repeating phrases</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2164441025" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">death! roll</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="happenings - Mowmowmow
+another pop song - Mowmowmow
+repeating phrases - Mowmowmow
+death! roll - Mowmowmow">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=198722684" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="go!go!7188 虎の穴 go!go!7188 gogo7188 和风摇滚 / 冲浪">
+  <header class="card-top">
+    <span class="idx">22</span>
+    <div class="titles">
+      <h3>GO!GO!7188<span class="alias">gogo7188</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=71968" target="_blank" rel="noopener">虎の穴</a><span class="year">2002</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">和风摇滚 / 冲浪</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=734871" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">妖怪人間ベム</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=734873" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">恋の奴隷</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=734879" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">キューティーハニー</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=734900" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">心の旅</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="妖怪人間ベム - GO!GO!7188
+恋の奴隷 - GO!GO!7188
+キューティーハニー - GO!GO!7188
+心の旅 - GO!GO!7188">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=71968" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="honeydip planet of the honey honeydip  90 年代日本盯鞋">
+  <header class="card-top">
+    <span class="idx">23</span>
+    <div class="titles">
+      <h3>honeydip</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=349607266" target="_blank" rel="noopener">PLANET OF THE HONEY</a><span class="year">1999</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">90 年代日本盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=3315527401" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Echo &amp; The Honeymen</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3315528138" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Universal Teenage Frequency</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3315528139" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Groovy Indian Summer</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3315528140" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Space Camp</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Echo &amp; The Honeymen - honeydip
+Universal Teenage Frequency - honeydip
+Groovy Indian Summer - honeydip
+Space Camp - honeydip">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=349607266" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="台湾" data-search="河豚子 你不是人 河豚子 fugu 台北 emo / 独立摇滚">
+  <header class="card-top">
+    <span class="idx">24</span>
+    <div class="titles">
+      <h3>河豚子<span class="alias">Fugu</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=35585" target="_blank" rel="noopener">你不是人</a><span class="year">2012</span></p>
+    </div>
+    <span class="tag t-tw">台湾</span>
+  </header>
+  <p class="desc">台北 emo / 独立摇滚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=360345" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">一个人的日子</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=360347" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">剑龙</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=360348" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Orca！Orca！</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=360353" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">少女黑猫</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="一个人的日子 - 河豚子
+剑龙 - 河豚子
+Orca！Orca！ - 河豚子
+少女黑猫 - 河豚子">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=35585" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="くだらない1日 rebound くだらない1日 kudaranai1nichi 日系 emo / 另类摇滚">
+  <header class="card-top">
+    <span class="idx">25</span>
+    <div class="titles">
+      <h3>くだらない1日<span class="alias">kudaranai1nichi</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=143305773" target="_blank" rel="noopener">rebound</a><span class="year">2022</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">日系 emo / 另类摇滚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=1937102790" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">やるせない</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1937102791" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">原宿五階秘密基地</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1937104699" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">力水</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1937104704" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">こわれはじめてゆく今</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="やるせない - くだらない1日
+原宿五階秘密基地 - くだらない1日
+力水 - くだらない1日
+こわれはじめてゆく今 - くだらない1日">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=143305773" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="mass of the fermenting dregs ワールドイズユアーズ mass of the fermenting dregs world is yours / マスドレ 神户后硬核 / 盯鞋">
+  <header class="card-top">
+    <span class="idx">26</span>
+    <div class="titles">
+      <h3>MASS OF THE FERMENTING DREGS<span class="alias">world is yours / マスドレ</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2091688" target="_blank" rel="noopener">ワールドイズユアーズ</a><span class="year">2009</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">神户后硬核 / 盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22769456" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">このスピードの先へ</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22769455" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">青い、濃い、橙色の日</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22769458" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">ワールドイズユアーズ</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22769460" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">She is inside, He is outside</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="このスピードの先へ - MASS OF THE FERMENTING DREGS
+青い、濃い、橙色の日 - MASS OF THE FERMENTING DREGS
+ワールドイズユアーズ - MASS OF THE FERMENTING DREGS
+She is inside, He is outside - MASS OF THE FERMENTING DREGS">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2091688" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="未來電波基地 墨田区depression 未來電波基地 未来电波基地 东京卧室电子 / 另类">
+  <header class="card-top">
+    <span class="idx">27</span>
+    <div class="titles">
+      <h3>未來電波基地<span class="alias">未来电波基地</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=160824490" target="_blank" rel="noopener">墨田区DEPRESSION</a><span class="year">2023</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">东京卧室电子 / 另类</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2025961926" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">墨堤通り</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2025961923" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">悲しみが溢れて</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2025961925" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">或る日の隅田川</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2025961928" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">淀川長治</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="墨堤通り - 未來電波基地
+悲しみが溢れて - 未來電波基地
+或る日の隅田川 - 未來電波基地
+淀川長治 - 未來電波基地">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=160824490" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="相対性理論 ハイファイ新書 相対性理論 相对性理论 东京另类流行">
+  <header class="card-top">
+    <span class="idx">28</span>
+    <div class="titles">
+      <h3>相対性理論<span class="alias">相对性理论</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2076916" target="_blank" rel="noopener">ハイファイ新書</a><span class="year">2009</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">东京另类流行</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22651156" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">テレ東</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22651158" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">地獄先生</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22651155" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">ふしぎデカルト</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22651162" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">四角革命</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="テレ東 - 相対性理論
+地獄先生 - 相対性理論
+ふしぎデカルト - 相対性理論
+四角革命 - 相対性理論">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2076916" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-search="the musmus 射的 the musmus 射的 日本 post-hardcore">
+  <header class="card-top">
+    <span class="idx">29</span>
+    <div class="titles">
+      <h3>THE MUSMUS<span class="alias">射的</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2087722" target="_blank" rel="noopener">射的</a><span class="year">2006</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">日本 post-hardcore</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22736728" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">射的</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22736729" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">雨ざらし</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22736727" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">M31</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22736725" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">絵の具</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="射的 - THE MUSMUS
+雨ざらし - THE MUSMUS
+M31 - THE MUSMUS
+絵の具 - THE MUSMUS">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2087722" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+</div></div>
+
+<div class="wrap"><footer>
+  <h4>怎么变成网易云里的歌单</h4>
+  <ol>
+    <li>复制上面的<strong>批量文本</strong>（或下载的 <code>歌单_批量导入.txt</code>），每行是 <code>歌名 - 歌手</code>，歌手名已对齐网易云。</li>
+    <li>手机端：网易云「我的 → 导入外部歌单」，支持贴 QQ 音乐 / 汽水 / Apple Music 链接，部分版本也支持文本或截图识别；电脑端可用第三方迁移工具（如 TestMusic）粘贴文本批量匹配。</li>
+    <li>匹配不上的通常是日本地下盘或已下架版权，页面上每首歌都能点开直达单曲页，手动补一首即可。</li>
+  </ol>
+  <h4>两点说明</h4>
+  <ol>
+    <li>网易云没有“把文本直接生成歌单链接”的公开接口，歌单只能在登录状态下建；所以这里给的是<strong>可直接批量识别</strong>的清单 + 逐首直链。</li>
+    <li>存疑条目：<code>mowmow</code> 取 Mowmowmow；<code>hihohira 二专</code> 按 ひとひら 第二张《円》处理；<code>world is yours</code> 取 マスドレ 的同名专辑；<code>射的</code> 取 THE MUSMUS 的同名 EP。</li>
+  </ol>
+</footer></div>
+
+<div class="toast" id="toast">已复制</div>
+<script id="txtdata" type="text/plain">diu × 3 - yourboyfriendsucks!
+Stay/Stayaway - yourboyfriendsucks!
+白鹤 - yourboyfriendsucks!
+波兰首都是上海 - yourboyfriendsucks!
+鲁蛇俱乐部 - 鼠鼠鼠
+凌晨三点 - 鼠鼠鼠
+teenage mice club - 鼠鼠鼠
+stereo mice lab - 鼠鼠鼠
+黒目少女 - 紅髮少年殺人事件
+YES,We Love Number Girl - 紅髮少年殺人事件
+DELUSION - 紅髮少年殺人事件
+短髮 - 紅髮少年殺人事件
+守门员 - Chinese Football
+飞鱼转身 - Chinese Football
+400米 - Chinese Football
+地球上最后一个EMO男孩 - Chinese Football
+show me the castle - eli&#x27;s ladder
+simon - eli&#x27;s ladder
+medical mechanica - eli&#x27;s ladder
+burning circle - eli&#x27;s ladder
+透明雜誌FOREVER - 透明杂志
+野貓 - 透明杂志
+萬華的宇宙 - 透明杂志
+E的鬼魂 - 透明杂志
+怯懦 - v是兔子wishtoday
+超人少女 - v是兔子wishtoday
+桂花 - v是兔子wishtoday
+一个循环，冬天结束的时候 - v是兔子wishtoday
+壳中少女 - 天然味道
+Yuck ByeBye - 天然味道
+天然味道 - 天然味道
+夏日祭、唯我一人 - 天然味道
+象限外 旷野中(Uncharted Horizon) - 气象限定Quadrant
+在灰烬里盛放(Growing Desire) - 气象限定Quadrant
+雷克雅内斯灯塔(Reykjanesviti) - 气象限定Quadrant
+零与无限(Origin to Infinity) - 气象限定Quadrant
+Into The Void - VOOID
+CANCER [terminal ver.] - VOOID
+一亿年前 - VOOID
+生活的答案 [UK Surf] - VOOID
+青春剧烈物语 - 午夜乒乓
+Blue Hearts - 午夜乒乓
+巴黎影院 - 午夜乒乓
+午夜的直球对决 - 午夜乒乓
+only shallow - My Bloody Valentine
+when you sleep - My Bloody Valentine
+to here knows when - My Bloody Valentine
+soon - My Bloody Valentine
+解体 - 返校日 RiotInSchool
+迪斯科 - 返校日 RiotInSchool
+半岛中学 - 返校日 RiotInSchool
+风滚草 - 返校日 RiotInSchool
+Siren - 鸽子牛奶
+너의 눈으로 나를 본다 - 鸽子牛奶
+Elephant - 鸽子牛奶
+Aero - 鸽子牛奶
+Castles - Japanese Football
+Locked Out - Japanese Football
+Escape - Japanese Football
+Reflections Of You - Japanese Football
+東京 - きのこ帝国
+クロノスタシス - きのこ帝国
+ヴァージン・スーサイド - きのこ帝国
+You outside my window - きのこ帝国
+スキ - ミドリ
+ゆきこさん - ミドリ
+お猿 - ミドリ
+ちはるの恋 - ミドリ
+十二月-Departure - ひとひら
+夏至 - ひとひら
+塔は白い - ひとひら
+円 - ひとひら
+透明少女 - Number Girl
+タッチ - Number Girl
+裸足の季節 - Number Girl
+YOUNG GIRL SEVENTEEN ******** KNOWING - Number Girl
+299 Addiction - 東京酒吐座
+Just Alright - 東京酒吐座
+Bright - 東京酒吐座
+Waltz Matilda - 東京酒吐座
+happenings - Mowmowmow
+another pop song - Mowmowmow
+repeating phrases - Mowmowmow
+death! roll - Mowmowmow
+妖怪人間ベム - GO!GO!7188
+恋の奴隷 - GO!GO!7188
+キューティーハニー - GO!GO!7188
+心の旅 - GO!GO!7188
+Echo &amp; The Honeymen - honeydip
+Universal Teenage Frequency - honeydip
+Groovy Indian Summer - honeydip
+Space Camp - honeydip
+一个人的日子 - 河豚子
+剑龙 - 河豚子
+Orca！Orca！ - 河豚子
+少女黑猫 - 河豚子
+やるせない - くだらない1日
+原宿五階秘密基地 - くだらない1日
+力水 - くだらない1日
+こわれはじめてゆく今 - くだらない1日
+このスピードの先へ - MASS OF THE FERMENTING DREGS
+青い、濃い、橙色の日 - MASS OF THE FERMENTING DREGS
+ワールドイズユアーズ - MASS OF THE FERMENTING DREGS
+She is inside, He is outside - MASS OF THE FERMENTING DREGS
+墨堤通り - 未來電波基地
+悲しみが溢れて - 未來電波基地
+或る日の隅田川 - 未來電波基地
+淀川長治 - 未來電波基地
+テレ東 - 相対性理論
+地獄先生 - 相対性理論
+ふしぎデカルト - 相対性理論
+四角革命 - 相対性理論
+射的 - THE MUSMUS
+雨ざらし - THE MUSMUS
+M31 - THE MUSMUS
+絵の具 - THE MUSMUS
+</script>
+<script>
+const grid=document.getElementById('grid');
+const q=document.getElementById('q');
+const toast=document.getElementById('toast');
+let region='*';
+function show(msg){toast.textContent=msg;toast.classList.add('on');clearTimeout(show._t);show._t=setTimeout(()=>toast.classList.remove('on'),1600);}
+function apply(){
+  const kw=q.value.trim().toLowerCase();
+  document.querySelectorAll('.card').forEach(c=>{
+    const okR=(region==='*')||(c.dataset.region===document.querySelector('.chip.on').textContent);
+    const okK=!kw||c.dataset.search.includes(kw);
+    c.classList.toggle('hidden',!(okR&&okK));
+  });
+}
+q.addEventListener('input',apply);
+document.querySelectorAll('.chip').forEach(ch=>ch.addEventListener('click',()=>{
+  document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));ch.classList.add('on');region=ch.dataset.f;apply();
+}));
+async function copy(text){
+  try{await navigator.clipboard.writeText(text);}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';
+    document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();
+  }
+  show('已复制 '+text.split('\n').filter(Boolean).length+' 行');
+}
+document.getElementById('copyAll').addEventListener('click',()=>copy(document.getElementById('txtdata').textContent.trim()));
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>copy(b.dataset.copy)));
+document.getElementById('download').addEventListener('click',()=>{
+  const blob=new Blob([document.getElementById('txtdata').textContent],{type:'text/plain;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='网易云歌单_29张经典专辑.txt';a.click();URL.revokeObjectURL(a.href);
+});
+</script>
+</body>
+</html>

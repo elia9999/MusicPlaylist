@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jazz Hiphop × Jazz Pop · 31 张经典专辑</title>
+<style>
+:root{--bg:#0e0f12;--card:#16171b;--line:#26272e;--fg:#e9e9ec;--mut:#95969f;--accent:#e0b64a;--cn:#e05a4f;--tw:#d9a441;--jp:#5aa9e6;--us:#9d7fe0;--uk:#4fc2a0;--ca:#e07fb0;--pl:#7fb3e0;--is:#8fd0c8}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 620px at 18% -10%,#221a08 0%,transparent 62%),var(--bg);color:var(--fg);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+header.hero{padding:64px 0 26px}
+.kicker{color:var(--accent);font-size:12px;letter-spacing:.22em;text-transform:uppercase;margin:0 0 14px}
+h1{font-size:clamp(26px,4vw,44px);line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--accent)}
+.lede{color:var(--mut);max-width:660px;margin:0 0 22px;font-size:15px}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin:0 0 26px}
+.stat{min-width:78px;display:flex;flex-direction:column;gap:3px}
+.stat b{display:block;font-size:26px;line-height:1.1;letter-spacing:-.01em}
+.stat span{color:var(--mut);font-size:12px;letter-spacing:.08em}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+button{font:inherit;cursor:pointer}
+.btn{border:1px solid var(--accent);background:var(--accent);color:#141414;font-weight:600;padding:10px 18px;border-radius:999px;font-size:14px;transition:.15s}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--fg);font-weight:400;border-color:var(--line)}
+.btn.ghost:hover{border-color:#3a3b44}
+.toolbar{position:sticky;top:0;z-index:9;background:rgba(14,15,18,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:11px 0;margin-top:22px}
+.toolbar .wrap{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.search{flex:1 1 220px;min-width:180px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 16px;color:var(--fg);font-size:14px;outline:none}
+.search:focus{border-color:#3d3e47}
+.filters{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.filters .sep{width:1px;height:18px;background:var(--line);margin:0 4px}
+.chip{background:transparent;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:6px 13px;font-size:13px}
+.chip.on{color:#141414;border-color:var(--accent);background:var(--accent);font-weight:600}
+.section{padding-top:34px}
+.sec-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:12px}
+.sec-head h2{margin:0;font-size:22px;letter-spacing:-.01em}
+.sec-sub{color:var(--mut);font-size:12.5px}
+.sec-count{margin-left:auto;color:var(--accent);font-size:12px;font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;padding:20px 0 6px}
+.card{background:linear-gradient(180deg,#191a1f,#141519);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;display:flex;flex-direction:column;transition:.18s}
+.card:hover{border-color:#34353e;transform:translateY(-2px)}
+.card-top{display:flex;gap:12px;align-items:flex-start}
+.idx{font-variant-numeric:tabular-nums;color:#5c5e69;font-size:13px;padding-top:4px}
+.titles{flex:1;min-width:0}
+h3{margin:0;font-size:17px;letter-spacing:-.01em;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.alias{font-size:11px;color:var(--mut);font-weight:400}
+.album{margin:3px 0 0;font-size:13px;color:var(--mut)}
+.album a{color:#c9cad2;text-decoration:none;border-bottom:1px dotted #3a3b44}
+.album a:hover{color:#fff}
+.year{margin-left:8px;font-variant-numeric:tabular-nums;color:#6c6e79;font-size:12px}
+.tag{font-size:11px;padding:2px 8px;border-radius:6px;border:1px solid;white-space:nowrap;margin-top:2px}
+.t-cn{color:var(--cn);border-color:rgba(224,90,79,.4);background:rgba(224,90,79,.08)}
+.t-tw{color:var(--tw);border-color:rgba(217,164,65,.4);background:rgba(217,164,65,.08)}
+.t-jp{color:var(--jp);border-color:rgba(90,169,230,.4);background:rgba(90,169,230,.08)}
+.t-us{color:var(--us);border-color:rgba(157,127,224,.4);background:rgba(157,127,224,.08)}
+.t-uk{color:var(--uk);border-color:rgba(79,194,160,.4);background:rgba(79,194,160,.08)}
+.t-ca{color:var(--ca);border-color:rgba(224,127,176,.4);background:rgba(224,127,176,.08)}
+.t-pl{color:var(--pl);border-color:rgba(127,179,224,.4);background:rgba(127,179,224,.08)}
+.t-is{color:var(--is);border-color:rgba(143,208,200,.4);background:rgba(143,208,200,.08)}
+.desc{color:#83858f;font-size:12px;margin:10px 0 12px;display:flex;gap:7px;align-items:flex-start}
+.dot-jazzhiphop,.dot-jazzpop{width:6px;height:6px;border-radius:50%;flex:none;margin-top:6px}
+.dot-jazzhiphop{background:var(--accent)}
+.dot-jazzpop{background:#6fd0c0}
+.tracks{list-style:none;margin:0;padding:0;border-top:1px solid var(--line);flex:1}
+.tracks li{border-bottom:1px solid rgba(38,39,46,.6)}
+.tracks a{display:flex;align-items:center;gap:10px;padding:8px 2px;text-decoration:none;color:#d6d7dd;font-size:13.5px;border-radius:6px}
+.tracks a:hover{color:#fff;background:rgba(255,255,255,.03)}
+.tracks .n{color:#5c5e69;font-size:11px;font-variant-numeric:tabular-nums;width:16px;flex:none}
+.tracks .t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tracks .go{opacity:0;font-size:11px;color:var(--accent);transition:.15s;flex:none}
+.tracks a:hover .go{opacity:1}
+.card-actions{display:flex;gap:8px;margin-top:12px}
+.mini{background:rgba(255,255,255,.04);border:1px solid var(--line);color:#b9bac3;font-size:12px;padding:6px 11px;border-radius:8px;text-decoration:none}
+.mini:hover{color:#fff;border-color:#3d3e47}
+.mini.ghost{background:transparent}
+.hidden{display:none!important}
+footer{margin:34px 0 0;border-top:1px solid var(--line);padding:30px 0 70px;color:#7f818c;font-size:13px}
+footer h4{color:#c9cad2;font-size:13px;letter-spacing:.06em;margin:0 0 8px}
+footer ol{margin:0 0 22px;padding-left:18px}
+footer li{margin:5px 0}
+code{background:rgba(224,182,74,.12);border:1px solid rgba(224,182,74,.22);padding:1px 6px;border-radius:5px;font-size:12px;color:#f0dfb0}
+.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:#fff;color:#111;padding:9px 18px;border-radius:999px;font-size:13px;opacity:0;pointer-events:none;transition:.25s;z-index:99;box-shadow:0 8px 30px rgba(0,0,0,.45)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+@media(max-width:560px){header.hero{padding:40px 0 20px}.grid{grid-template-columns:1fr}.stats{gap:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <p class="kicker">Jazz Hiphop × Jazz Pop · Netease</p>
+  <h1>31 组 <em>jazz</em>，31 张专辑</h1>
+  <p class="lede">上半场是 Nujabes 那条线：Hydeout 的钢琴与萨克斯、东京的爵士说唱，再到 J Dilla、ATCQ、Guru 的美国爵士嘻哈，以及蛋堡、Lu1 的华语版本。下半场是二宮愛、BLU-SWING 那种爵士流行：东京的爵士 vocal、原声小乐队，一路接到 Norah Jones、Sade、Basia。每张专辑 4 首，共 124 首。</p>
+  <div class="stats">
+    <div class="stat"><b>31</b><span>专辑</span></div>
+    <div class="stat"><b>124</b><span>首歌</span></div>
+    <div class="stat"><b>2</b><span>分类</span></div>
+    <div class="stat"><b>8</b><span>国家 / 地区</span></div>
+  </div>
+  <div class="actions">
+    <button class="btn" id="copyAll">复制批量文本（歌名 - 歌手）</button>
+    <button class="btn ghost" id="download">下载 .txt</button>
+    <a class="btn ghost" href="https://music.163.com" target="_blank" rel="noopener">打开网易云网页版 ↗</a>
+  </div>
+</header>
+</div>
+
+<div class="toolbar"><div class="wrap">
+  <input class="search" id="q" type="search" placeholder="搜音乐人 / 专辑 / 曲名…" autocomplete="off">
+  <div class="filters">
+    <button class="chip on" data-c="*">全部</button>
+    <button class="chip" data-c="jazzhiphop">爵士嘻哈</button>
+    <button class="chip" data-c="jazzpop">爵士流行</button>
+    <span class="sep"></span>
+    <button class="chip on" data-r="*">全部地区</button><button class="chip" data-r="日本">日本</button><button class="chip" data-r="美国">美国</button><button class="chip" data-r="台湾">台湾</button><button class="chip" data-r="大陆">大陆</button><button class="chip" data-r="英国">英国</button><button class="chip" data-r="加拿大">加拿大</button><button class="chip" data-r="波兰">波兰</button><button class="chip" data-r="冰岛">冰岛</button>
+  </div>
+</div></div>
+
+<div class="wrap">
+<section class="section" data-cat="jazzhiphop">
+  <div class="sec-head"><h2>Jazz Hiphop</h2><span class="sec-sub">18 组 · 从 Hydeout 到 Stones Throw</span><span class="sec-count" id="c1">72 首</span></div>
+  <div class="grid"><article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="nujabes modal soul nujabes 瀬葉淳 hydeout 厂牌主脑，日本 jazz hiphop 的原点">
+  <header class="card-top">
+    <span class="idx">01</span>
+    <div class="titles">
+      <h3>Nujabes<span class="alias">瀬葉淳</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2098348" target="_blank" rel="noopener">modal soul</a><span class="year">2005</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>Hydeout 厂牌主脑，日本 jazz hiphop 的原点</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22821099" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Feather (feat.Cise Starr &amp; Akin from CYNE)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22821100" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Luv(sic.) Part 3 (feat. Shing02)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22821107" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Reflection Eternal</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22821101" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Modal Soul (feat.Uyama Hiroto)</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Feather (feat.Cise Starr &amp; Akin from CYNE) - Nujabes
+Luv(sic.) Part 3 (feat. Shing02) - Nujabes
+Reflection Eternal - Nujabes
+Modal Soul (feat.Uyama Hiroto) - Nujabes">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2098348" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="dj okawari diorama dj okawari  山形出身，钢琴 + 鼓点的画面感">
+  <header class="card-top">
+    <span class="idx">02</span>
+    <div class="titles">
+      <h3>DJ OKAWARI</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2080037" target="_blank" rel="noopener">DIORAMA</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>山形出身，钢琴 + 鼓点的画面感</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22676188" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Evening Comes</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22676190" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Bluebird Story feat.Jumelles</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22676192" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Ring</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22676200" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Crescent Moon</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Evening Comes - DJ OKAWARI
+Bluebird Story feat.Jumelles - DJ OKAWARI
+Ring - DJ OKAWARI
+Crescent Moon - DJ OKAWARI">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2080037" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="uyama hiroto a son of the sun uyama hiroto 宇山寛人 nujabes 的战友，萨克斯与键盘">
+  <header class="card-top">
+    <span class="idx">03</span>
+    <div class="titles">
+      <h3>Uyama Hiroto<span class="alias">宇山寛人</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2085283" target="_blank" rel="noopener">a son of the sun</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>Nujabes 的战友，萨克斯与键盘</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22717918" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">81Summer</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22717913" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Waltz For Life Will Born</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22717923" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">One Dream</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22717917" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Color Of Jade</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="81Summer - Uyama Hiroto
+Waltz For Life Will Born - Uyama Hiroto
+One Dream - Uyama Hiroto
+Color Of Jade - Uyama Hiroto">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2085283" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="shing02 400 shing02  说唱诗人，luv(sic) 系列的固定搭档">
+  <header class="card-top">
+    <span class="idx">04</span>
+    <div class="titles">
+      <h3>Shing02</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2092324" target="_blank" rel="noopener">400</a><span class="year">2002</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>说唱诗人，Luv(sic) 系列的固定搭档</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22773822" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">400</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22773820" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">切開</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22773825" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">夢幻殿</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22773830" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">安息日</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="400 - Shing02
+切開 - Shing02
+夢幻殿 - Shing02
+安息日 - Shing02">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2092324" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="nomak calm nomak  东京，氛围系爵士说唱">
+  <header class="card-top">
+    <span class="idx">05</span>
+    <div class="titles">
+      <h3>Nomak</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2094565" target="_blank" rel="noopener">Calm</a><span class="year">2007</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>东京，氛围系爵士说唱</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22844573" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Anger Of The Earth</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22844582" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Spiritual Home</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22844584" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Force For Truth</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22844586" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Sanctuary</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Anger Of The Earth - Nomak
+Spiritual Home - Nomak
+Force For Truth - Nomak
+Sanctuary - Nomak">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2094565" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="re:plus everlasting truth re:plus  静冈，钢琴驱动的爵士说唱">
+  <header class="card-top">
+    <span class="idx">06</span>
+    <div class="titles">
+      <h3>re:plus</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2088534" target="_blank" rel="noopener">Everlasting Truth</a><span class="year">2010</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>静冈，钢琴驱动的爵士说唱</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22743831" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Time Goes By feat. Hydroponikz &amp; Anika</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22743832" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Never Looking Back feat. Nick Smalc from Vitium (Album Ver)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22743825" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Everlasting Truth (Album Mix)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22743828" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Sol feat. Cise Star</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Time Goes By feat. Hydroponikz &amp; Anika - re:plus
+Never Looking Back feat. Nick Smalc from Vitium (Album Ver) - re:plus
+Everlasting Truth (Album Mix) - re:plus
+Sol feat. Cise Star - re:plus">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2088534" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="tsunenori a.k.a marukabis landscape tsunenori a.k.a marukabis  北海道，吉他 + 自然采样">
+  <header class="card-top">
+    <span class="idx">07</span>
+    <div class="titles">
+      <h3>tsunenori a.k.a Marukabis</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=49415" target="_blank" rel="noopener">Landscape</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>北海道，吉他 + 自然采样</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=524644" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Backlight</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=524648" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Forest Bathing</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=524652" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Pastness</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=524681" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">An Avenue</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Backlight - tsunenori a.k.a Marukabis
+Forest Bathing - tsunenori a.k.a Marukabis
+Pastness - tsunenori a.k.a Marukabis
+An Avenue - tsunenori a.k.a Marukabis">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=49415" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="西原健一郎 humming jazz 西原健一郎 kenichiro nishihara 爵士乐队编制 + 说唱，humming jazz 一代名盘">
+  <header class="card-top">
+    <span class="idx">08</span>
+    <div class="titles">
+      <h3>西原健一郎<span class="alias">Kenichiro Nishihara</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=44159" target="_blank" rel="noopener">Humming Jazz</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>爵士乐队编制 + 说唱，Humming Jazz 一代名盘</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=456050" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Nebulosa</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=456052" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Heart</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=456054" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Rain Falls</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=456060" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Consider My Love</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Nebulosa - 西原健一郎
+Heart - 西原健一郎
+Rain Falls - 西原健一郎
+Consider My Love - 西原健一郎">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=44159" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="michita sense of values michita  东京制作人，日式爵士说唱的中坚">
+  <header class="card-top">
+    <span class="idx">09</span>
+    <div class="titles">
+      <h3>Michita</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2987056" target="_blank" rel="noopener">Sense of Values</a><span class="year">2014</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>东京制作人，日式爵士说唱的中坚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=29038422" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Inevitable Drama featuring DJ-YO-HEI a.k.a. Pei</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29038425" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Over the Rainbow featuring KEYCO</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29038426" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Thinking About You featuring B.I.G. JOE</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29038428" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Secret Theory featuring ELIAS</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Inevitable Drama featuring DJ-YO-HEI a.k.a. Pei - Michita
+Over the Rainbow featuring KEYCO - Michita
+Thinking About You featuring B.I.G. JOE - Michita
+Secret Theory featuring ELIAS - Michita">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2987056" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzhiphop" data-songs="4" data-search="haruka nakamura grace haruka nakamura 中村遥 青森，钢琴与氛围，nujabes 同门">
+  <header class="card-top">
+    <span class="idx">10</span>
+    <div class="titles">
+      <h3>haruka nakamura<span class="alias">中村遥</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2083091" target="_blank" rel="noopener">grace</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>青森，钢琴与氛围，Nujabes 同门</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22701048" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">every day</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22701041" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">arne</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22701051" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">opus</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22701050" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">grace</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="every day - Haruka Nakamura
+arne - Haruka Nakamura
+opus - Haruka Nakamura
+grace - Haruka Nakamura">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2083091" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-cat="jazzhiphop" data-songs="4" data-search="kero one windmills of the soul kero one  旧金山韩裔，爵士说唱 + 轻快律动">
+  <header class="card-top">
+    <span class="idx">11</span>
+    <div class="titles">
+      <h3>Kero One</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=164372" target="_blank" rel="noopener">Windmills of the Soul</a><span class="year">2006</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>旧金山韩裔，爵士说唱 + 轻快律动</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=1617842" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Give Thanks</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1617844" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Musical Journey</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1617847" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">My Story</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1617888" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Check the Blueprints</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Give Thanks - Kero One
+Musical Journey - Kero One
+My Story - Kero One
+Check the Blueprints - Kero One">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=164372" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-cat="jazzhiphop" data-songs="4" data-search="emancipator soon it will be cold enough emancipator  器乐嘻哈 / downtempo，山川湖海的采样">
+  <header class="card-top">
+    <span class="idx">12</span>
+    <div class="titles">
+      <h3>Emancipator</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=134192" target="_blank" rel="noopener">Soon It Will Be Cold Enough</a><span class="year">2006</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>器乐嘻哈 / downtempo，山川湖海的采样</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=1302571" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Eve</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1302575" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">First Snow</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1302581" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Anthem</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1302596" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">With Rainy Eyes</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Eve - Emancipator
+First Snow - Emancipator
+Anthem - Emancipator
+With Rainy Eyes - Emancipator">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=134192" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-cat="jazzhiphop" data-songs="4" data-search="j dilla donuts j dilla  底特律，采样美学的圣经级人物">
+  <header class="card-top">
+    <span class="idx">13</span>
+    <div class="titles">
+      <h3>J Dilla</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1918954" target="_blank" rel="noopener">Donuts</a><span class="year">2006</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>底特律，采样美学的圣经级人物</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=20631527" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Workinonit</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=20631535" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Time: The Donut of the Heart</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=20631538" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Lightworks</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=20631555" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Last Donut Of The Night</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Workinonit - J Dilla
+Time: The Donut of the Heart - J Dilla
+Lightworks - J Dilla
+Last Donut Of The Night - J Dilla">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1918954" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-cat="jazzhiphop" data-songs="4" data-search="a tribe called quest the low end theory a tribe called quest atcq 纽约，jazz rap 的开山团体">
+  <header class="card-top">
+    <span class="idx">14</span>
+    <div class="titles">
+      <h3>A Tribe Called Quest<span class="alias">ATCQ</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1506332" target="_blank" rel="noopener">The Low End Theory</a><span class="year">1991</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>纽约，jazz rap 的开山团体</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=16330722" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Excursions</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=16330730" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Check the Rhime</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=16330732" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Jazz (We&#x27;ve Got)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=16330735" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Scenario (LP Mix)</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Excursions - A Tribe Called Quest
+Check the Rhime - A Tribe Called Quest
+Jazz (We&#x27;ve Got) - A Tribe Called Quest
+Scenario (LP Mix) - A Tribe Called Quest">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1506332" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-cat="jazzhiphop" data-songs="4" data-search="guru jazzmatazz volume 1 guru  jazzmatazz 系列，把爵士乐手请进嘻哈">
+  <header class="card-top">
+    <span class="idx">15</span>
+    <div class="titles">
+      <h3>Guru</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1652723" target="_blank" rel="noopener">Jazzmatazz Volume 1</a><span class="year">1993</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>Jazzmatazz 系列，把爵士乐手请进嘻哈</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=17976477" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Loungin&#x27;</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17976478" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">When You&#x27;re Near</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17976480" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">No Time To Play</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17976487" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Sights In The City</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Loungin&#x27; - Guru
+When You&#x27;re Near - Guru
+No Time To Play - Guru
+Sights In The City - Guru">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1652723" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-cat="jazzhiphop" data-songs="4" data-search="digable planets reachin&#x27; (a new refutation of time and space) digable planets  纽约，爵士说唱 + 波普诗意">
+  <header class="card-top">
+    <span class="idx">16</span>
+    <div class="titles">
+      <h3>Digable Planets</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1606721" target="_blank" rel="noopener">Reachin&#x27; (A New Refutation Of Time And Space)</a><span class="year">1993</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>纽约，爵士说唱 + 波普诗意</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=17433970" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Rebirth Of Slick (Cool Like Dat)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17433966" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Pacifics (Sdtrk &quot;N.Y. Is Red Hot&quot;)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17433967" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Where I&#x27;m From</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17433976" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Nickel Bags</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Rebirth Of Slick (Cool Like Dat) - Digable Planets
+Pacifics (Sdtrk &quot;N.Y. Is Red Hot&quot;) - Digable Planets
+Where I&#x27;m From - Digable Planets
+Nickel Bags - Digable Planets">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1606721" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="台湾" data-cat="jazzhiphop" data-songs="4" data-search="蛋堡 收敛水 蛋堡 soft lipa 台南，华语爵士嘻哈的标杆">
+  <header class="card-top">
+    <span class="idx">17</span>
+    <div class="titles">
+      <h3>蛋堡<span class="alias">Soft Lipa</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=7547" target="_blank" rel="noopener">收敛水</a><span class="year">2009</span></p>
+    </div>
+    <span class="tag t-tw">台湾</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>台南，华语爵士嘻哈的标杆</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=76875" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Hit the Rhyme</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=76879" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">乡愁</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=76881" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">关于小熊</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=76899" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">收敛水</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Hit the Rhyme - 蛋堡
+乡愁 - 蛋堡
+关于小熊 - 蛋堡
+收敛水 - 蛋堡">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=7547" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="大陆" data-cat="jazzhiphop" data-songs="4" data-search="lu1 男孩/ a portrait in time lu1  上海 / 洛杉矶，华语爵士说唱">
+  <header class="card-top">
+    <span class="idx">18</span>
+    <div class="titles">
+      <h3>Lu1</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=3159352" target="_blank" rel="noopener">男孩/ a portrait in time</a><span class="year">2015</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzhiphop"></span>上海 / 洛杉矶，华语爵士说唱</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=32341912" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">男孩</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=32944711" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">很可爱的歌</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=32944733" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">夜街</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=32944784" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">老电影</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="男孩 - Lu1
+很可爱的歌 - Lu1
+夜街 - Lu1
+老电影 - Lu1">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=3159352" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article></div>
+</section>
+<section class="section" data-cat="jazzpop">
+  <div class="sec-head"><h2>Jazz Pop</h2><span class="sec-sub">13 组 · 从二宮愛、BLU-SWING 到 Norah Jones</span><span class="sec-count" id="c2">52 首</span></div>
+  <div class="grid"><article class="card" data-region="日本" data-cat="jazzpop" data-songs="4" data-search="二宮愛 finding stride 二宮愛 ai ninomiya 东京，爵士流行 vocal，fly coast 成员">
+  <header class="card-top">
+    <span class="idx">19</span>
+    <div class="titles">
+      <h3>二宮愛<span class="alias">Ai Ninomiya</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=37015863" target="_blank" rel="noopener">Finding Stride</a><span class="year">2016</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>东京，爵士流行 vocal，FLY COAST 成员</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=526432648" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">I&#x27;m Always Here</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=526437414" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Get me</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=526439257" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Goodbye to Your Love</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=526440862" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Last Song</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="I&#x27;m Always Here - 二宮愛
+Get me - 二宮愛
+Goodbye to Your Love - 二宮愛
+Last Song - 二宮愛">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=37015863" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzpop" data-songs="4" data-search="blu-swing jazzyster blu-swing blu-swing 东京爵士流行乐队，2007 年出道">
+  <header class="card-top">
+    <span class="idx">20</span>
+    <div class="titles">
+      <h3>BLU-SWING<span class="alias">Blu-Swing</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2401337" target="_blank" rel="noopener">Jazzyster</a><span class="year">2007</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>东京爵士流行乐队，2007 年出道</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=26165963" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Fabulous</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26165965" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Midnight Lounge</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26165967" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Bossanavia</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26165973" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Acoustic Lover</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Fabulous - BLU-SWING
+Midnight Lounge - BLU-SWING
+Bossanavia - BLU-SWING
+Acoustic Lover - BLU-SWING">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2401337" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzpop" data-songs="4" data-search="大橋トリオ this is music 大橋トリオ ohashitrio 多乐器一人乐队，爵士流行的柔软面">
+  <header class="card-top">
+    <span class="idx">21</span>
+    <div class="titles">
+      <h3>大橋トリオ<span class="alias">ohashiTrio</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2093344" target="_blank" rel="noopener">THIS IS MUSIC</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>多乐器一人乐队，爵士流行的柔软面</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22781791" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">HAPPY TRAIL</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22781792" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">THE MUSIC AROUND ME</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22781790" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">そんなことがすてきです</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22781788" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">BLUES IN JUNE</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="HAPPY TRAIL - 大橋トリオ
+THE MUSIC AROUND ME - 大橋トリオ
+そんなことがすてきです - 大橋トリオ
+BLUES IN JUNE - 大橋トリオ">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2093344" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzpop" data-songs="4" data-search="土岐麻子 talkin&#x27; 土岐麻子 asako toki 爵士 vocal 出身，后转向 city pop">
+  <header class="card-top">
+    <span class="idx">22</span>
+    <div class="titles">
+      <h3>土岐麻子<span class="alias">Asako Toki</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2085569" target="_blank" rel="noopener">TALKIN&#x27;</a><span class="year">2007</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>爵士 vocal 出身，后转向 city pop</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22720263" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">モンスターを飼い馴らせ</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22720269" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">ファンタジア</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22720264" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">My Sunny Rainy</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22720270" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Walk On</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="モンスターを飼い馴らせ - 土岐麻子
+ファンタジア - 土岐麻子
+My Sunny Rainy - 土岐麻子
+Walk On - 土岐麻子">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2085569" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzpop" data-songs="4" data-search="畠山美由紀 わたしのうた 畠山美由紀 miyuki hatakeyama 爵士 / 民谣 vocal，port of notes">
+  <header class="card-top">
+    <span class="idx">23</span>
+    <div class="titles">
+      <h3>畠山美由紀<span class="alias">Miyuki Hatakeyama</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=54528" target="_blank" rel="noopener">わたしのうた</a><span class="year">2007</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>爵士 / 民谣 vocal，Port of Notes</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=578603" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Lover come back to me</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=578608" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">君恋し</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=578616" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Somethin&#x27; stupid[feat.リリーフランキー]</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=578637" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">浜辺の歌</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Lover come back to me - 畠山美由紀
+君恋し - 畠山美由紀
+Somethin&#x27; stupid[feat.リリーフランキー] - 畠山美由紀
+浜辺の歌 - 畠山美由紀">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=54528" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-cat="jazzpop" data-songs="4" data-search="羊毛とおはな live in living &#x27;08 羊毛とおはな  千叶，原声吉他与女声的爵士流行">
+  <header class="card-top">
+    <span class="idx">24</span>
+    <div class="titles">
+      <h3>羊毛とおはな</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=86355" target="_blank" rel="noopener">LIVE IN LIVING &#x27;08</a><span class="year">2008</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>千叶，原声吉他与女声的爵士流行</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=865288" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">やさしい朝の雨</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=865291" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">ナチュラル</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=865293" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">明日は、</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=865307" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">My Favorite Things</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="やさしい朝の雨 - 羊毛とおはな
+ナチュラル - 羊毛とおはな
+明日は、 - 羊毛とおはな
+My Favorite Things - 羊毛とおはな">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=86355" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-cat="jazzpop" data-songs="4" data-search="norah jones come away with me (remastered 2022) norah jones  纽约，2000 年代爵士流行的入口">
+  <header class="card-top">
+    <span class="idx">25</span>
+    <div class="titles">
+      <h3>Norah Jones</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2059904" target="_blank" rel="noopener">Come Away With Me (Remastered 2022)</a><span class="year">2002</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>纽约，2000 年代爵士流行的入口</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22489526" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Don&#x27;t Know Why</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22489530" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Come Away With Me</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22489532" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Turn Me On</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22489539" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">The Nearness Of You</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Don&#x27;t Know Why - Norah Jones
+Come Away With Me - Norah Jones
+Turn Me On - Norah Jones
+The Nearness Of You - Norah Jones">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2059904" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="加拿大" data-cat="jazzpop" data-songs="4" data-search="diana krall when i look in your eyes diana krall  钢琴与 vocal，标准曲的当代诠释">
+  <header class="card-top">
+    <span class="idx">26</span>
+    <div class="titles">
+      <h3>Diana Krall</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1605540" target="_blank" rel="noopener">When I Look In Your Eyes</a><span class="year">1999</span></p>
+    </div>
+    <span class="tag t-ca">加拿大</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>钢琴与 vocal，标准曲的当代诠释</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=17416781" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Let&#x27;s Face The Music And Dance</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17416784" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">When I Look In Your Eyes</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17416789" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">East Of The Sun (West Of The Moon)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17416790" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Pick Yourself Up</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Let&#x27;s Face The Music And Dance - Diana Krall
+When I Look In Your Eyes - Diana Krall
+East Of The Sun (West Of The Moon) - Diana Krall
+Pick Yourself Up - Diana Krall">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1605540" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-cat="jazzpop" data-songs="4" data-search="michael franks sleeping gypsy michael franks  jazz-pop 创作歌手，70 年代的慵懒">
+  <header class="card-top">
+    <span class="idx">27</span>
+    <div class="titles">
+      <h3>Michael Franks</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1957085" target="_blank" rel="noopener">Sleeping Gypsy</a><span class="year">2011</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>jazz-pop 创作歌手，70 年代的慵懒</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=21164709" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">The Lady Wants To Know (Album Version)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21164714" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Antonio&#x27;s Song (The Rainbow) (Album Version)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21164712" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">B&#x27;wana-He No Home (Album Version)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21164713" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Don&#x27;t Be Blue (Album Version)</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="The Lady Wants To Know (Album Version) - Michael Franks
+Antonio&#x27;s Song (The Rainbow) (Album Version) - Michael Franks
+B&#x27;wana-He No Home (Album Version) - Michael Franks
+Don&#x27;t Be Blue (Album Version) - Michael Franks">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1957085" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-cat="jazzpop" data-songs="4" data-search="sade diamond life sade  伦敦，sophisti-pop 与爵士灵魂">
+  <header class="card-top">
+    <span class="idx">28</span>
+    <div class="titles">
+      <h3>Sade</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1757821" target="_blank" rel="noopener">Diamond Life</a><span class="year">1984</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>伦敦，sophisti-pop 与爵士灵魂</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=19171515" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Smooth Operator</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19171516" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Your Love Is King</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19171517" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Hang on to Your Love</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19171520" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Cherry Pie</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Smooth Operator - Sade
+Your Love Is King - Sade
+Hang on to Your Love - Sade
+Cherry Pie - Sade">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1757821" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="波兰" data-cat="jazzpop" data-songs="4" data-search="basia time and tide basia  波兰出生、伦敦发展，爵士流行">
+  <header class="card-top">
+    <span class="idx">29</span>
+    <div class="titles">
+      <h3>Basia</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1543002" target="_blank" rel="noopener">Time And Tide</a><span class="year">1987</span></p>
+    </div>
+    <span class="tag t-pl">波兰</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>波兰出生、伦敦发展，爵士流行</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=16738060" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Promises</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=16738062" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Time And Tide (Album Version)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=16738065" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">New Day For You</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=16738067" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Astrud</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Promises - Basia
+Time And Tide (Album Version) - Basia
+New Day For You - Basia
+Astrud - Basia">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1543002" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-cat="jazzpop" data-songs="4" data-search="matt bianco whose side are you on? matt bianco  伦敦，sophisti-pop 三人组">
+  <header class="card-top">
+    <span class="idx">30</span>
+    <div class="titles">
+      <h3>Matt Bianco</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=422903" target="_blank" rel="noopener">Whose Side Are You On?</a><span class="year">1984</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>伦敦，sophisti-pop 三人组</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=4183300" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Whose Side Are You On?</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4183302" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">More Than I Can Bear</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4183306" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Half a Minute</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4183307" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Matt&#x27;s Mood</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Whose Side Are You On? - Matt Bianco
+More Than I Can Bear - Matt Bianco
+Half a Minute - Matt Bianco
+Matt&#x27;s Mood - Matt Bianco">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=422903" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="冰岛" data-cat="jazzpop" data-songs="4" data-search="laufey bewitched laufey 林冰 当代爵士流行，大提琴与老派标准曲">
+  <header class="card-top">
+    <span class="idx">31</span>
+    <div class="titles">
+      <h3>Laufey<span class="alias">林冰</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=167233205" target="_blank" rel="noopener">Bewitched</a><span class="year">2023</span></p>
+    </div>
+    <span class="tag t-is">冰岛</span>
+  </header>
+  <p class="desc"><span class="cat dot-jazzpop"></span>当代爵士流行，大提琴与老派标准曲</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2053999922" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">From The Start</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2054000799" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Lovesick</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2053999921" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Promise</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2054000801" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Bewitched</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="From The Start - Laufey
+Lovesick - Laufey
+Promise - Laufey
+Bewitched - Laufey">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=167233205" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article></div>
+</section>
+<footer>
+  <h4>怎么变成网易云里的歌单</h4>
+  <ol>
+    <li>复制上面的<strong>批量文本</strong>，每行 <code>歌名 - 歌手</code>，歌手名用的是网易云单曲页上的主艺人。</li>
+    <li>手机端「我的 → 导入外部歌单」支持贴其他平台链接；文本可用第三方迁移工具（如 TestMusic）批量匹配。</li>
+    <li>匹配不上的多半是版权下架，点每首歌直达单曲页手动补即可。</li>
+  </ol>
+  <h4>说明</h4>
+  <ol>
+    <li>网易云没有“文本直出歌单链接”的公开接口，歌单只能登录后创建；这里给的是可批量识别的清单 + 逐首直链。</li>
+    <li>jazz pop 部分刻意压到 13 组：二宮愛取《Finding Stride》原创专辑，BLU-SWING 取出道作《Jazzyster》。</li>
+  </ol>
+</footer>
+</div>
+
+<div class="toast" id="toast">已复制</div>
+<script id="txtdata" type="text/plain">Feather (feat.Cise Starr &amp; Akin from CYNE) - Nujabes
+Luv(sic.) Part 3 (feat. Shing02) - Nujabes
+Reflection Eternal - Nujabes
+Modal Soul (feat.Uyama Hiroto) - Nujabes
+Evening Comes - DJ OKAWARI
+Bluebird Story feat.Jumelles - DJ OKAWARI
+Ring - DJ OKAWARI
+Crescent Moon - DJ OKAWARI
+81Summer - Uyama Hiroto
+Waltz For Life Will Born - Uyama Hiroto
+One Dream - Uyama Hiroto
+Color Of Jade - Uyama Hiroto
+400 - Shing02
+切開 - Shing02
+夢幻殿 - Shing02
+安息日 - Shing02
+Anger Of The Earth - Nomak
+Spiritual Home - Nomak
+Force For Truth - Nomak
+Sanctuary - Nomak
+Time Goes By feat. Hydroponikz &amp; Anika - re:plus
+Never Looking Back feat. Nick Smalc from Vitium (Album Ver) - re:plus
+Everlasting Truth (Album Mix) - re:plus
+Sol feat. Cise Star - re:plus
+Backlight - tsunenori a.k.a Marukabis
+Forest Bathing - tsunenori a.k.a Marukabis
+Pastness - tsunenori a.k.a Marukabis
+An Avenue - tsunenori a.k.a Marukabis
+Nebulosa - 西原健一郎
+Heart - 西原健一郎
+Rain Falls - 西原健一郎
+Consider My Love - 西原健一郎
+Inevitable Drama featuring DJ-YO-HEI a.k.a. Pei - Michita
+Over the Rainbow featuring KEYCO - Michita
+Thinking About You featuring B.I.G. JOE - Michita
+Secret Theory featuring ELIAS - Michita
+every day - Haruka Nakamura
+arne - Haruka Nakamura
+opus - Haruka Nakamura
+grace - Haruka Nakamura
+Give Thanks - Kero One
+Musical Journey - Kero One
+My Story - Kero One
+Check the Blueprints - Kero One
+Eve - Emancipator
+First Snow - Emancipator
+Anthem - Emancipator
+With Rainy Eyes - Emancipator
+Workinonit - J Dilla
+Time: The Donut of the Heart - J Dilla
+Lightworks - J Dilla
+Last Donut Of The Night - J Dilla
+Excursions - A Tribe Called Quest
+Check the Rhime - A Tribe Called Quest
+Jazz (We&#x27;ve Got) - A Tribe Called Quest
+Scenario (LP Mix) - A Tribe Called Quest
+Loungin&#x27; - Guru
+When You&#x27;re Near - Guru
+No Time To Play - Guru
+Sights In The City - Guru
+Rebirth Of Slick (Cool Like Dat) - Digable Planets
+Pacifics (Sdtrk &quot;N.Y. Is Red Hot&quot;) - Digable Planets
+Where I&#x27;m From - Digable Planets
+Nickel Bags - Digable Planets
+Hit the Rhyme - 蛋堡
+乡愁 - 蛋堡
+关于小熊 - 蛋堡
+收敛水 - 蛋堡
+男孩 - Lu1
+很可爱的歌 - Lu1
+夜街 - Lu1
+老电影 - Lu1
+I&#x27;m Always Here - 二宮愛
+Get me - 二宮愛
+Goodbye to Your Love - 二宮愛
+Last Song - 二宮愛
+Fabulous - BLU-SWING
+Midnight Lounge - BLU-SWING
+Bossanavia - BLU-SWING
+Acoustic Lover - BLU-SWING
+HAPPY TRAIL - 大橋トリオ
+THE MUSIC AROUND ME - 大橋トリオ
+そんなことがすてきです - 大橋トリオ
+BLUES IN JUNE - 大橋トリオ
+モンスターを飼い馴らせ - 土岐麻子
+ファンタジア - 土岐麻子
+My Sunny Rainy - 土岐麻子
+Walk On - 土岐麻子
+Lover come back to me - 畠山美由紀
+君恋し - 畠山美由紀
+Somethin&#x27; stupid[feat.リリーフランキー] - 畠山美由紀
+浜辺の歌 - 畠山美由紀
+やさしい朝の雨 - 羊毛とおはな
+ナチュラル - 羊毛とおはな
+明日は、 - 羊毛とおはな
+My Favorite Things - 羊毛とおはな
+Don&#x27;t Know Why - Norah Jones
+Come Away With Me - Norah Jones
+Turn Me On - Norah Jones
+The Nearness Of You - Norah Jones
+Let&#x27;s Face The Music And Dance - Diana Krall
+When I Look In Your Eyes - Diana Krall
+East Of The Sun (West Of The Moon) - Diana Krall
+Pick Yourself Up - Diana Krall
+The Lady Wants To Know (Album Version) - Michael Franks
+Antonio&#x27;s Song (The Rainbow) (Album Version) - Michael Franks
+B&#x27;wana-He No Home (Album Version) - Michael Franks
+Don&#x27;t Be Blue (Album Version) - Michael Franks
+Smooth Operator - Sade
+Your Love Is King - Sade
+Hang on to Your Love - Sade
+Cherry Pie - Sade
+Promises - Basia
+Time And Tide (Album Version) - Basia
+New Day For You - Basia
+Astrud - Basia
+Whose Side Are You On? - Matt Bianco
+More Than I Can Bear - Matt Bianco
+Half a Minute - Matt Bianco
+Matt&#x27;s Mood - Matt Bianco
+From The Start - Laufey
+Lovesick - Laufey
+Promise - Laufey
+Bewitched - Laufey
+</script>
+<script>
+const q=document.getElementById('q'), toast=document.getElementById('toast');
+let cat='*', region='*';
+function show(m){toast.textContent=m;toast.classList.add('on');clearTimeout(show._t);show._t=setTimeout(()=>toast.classList.remove('on'),1600);}
+function apply(){
+  const kw=q.value.trim().toLowerCase();
+  document.querySelectorAll('.card').forEach(c=>{
+    const ok=c.dataset.cat.includes(cat==='*'?'':cat)&&(region==='*'||c.dataset.region===region)&&(!kw||c.dataset.search.includes(kw));
+    c.classList.toggle('hidden',!ok);
+  });
+  document.querySelectorAll('.section').forEach(s=>{
+    const vis=[...s.querySelectorAll('.card')].filter(c=>!c.classList.contains('hidden'));
+    s.classList.toggle('hidden',vis.length===0);
+    const cnt=s.querySelector('.sec-count'); if(cnt) cnt.textContent=vis.reduce((a,c)=>a+Number(c.dataset.songs||0),0)+' 首';
+  });
+}
+q.addEventListener('input',apply);
+document.querySelectorAll('[data-c]').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('[data-c]').forEach(x=>x.classList.remove('on'));b.classList.add('on');cat=b.dataset.c;apply();}));
+document.querySelectorAll('[data-r]').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('[data-r]').forEach(x=>x.classList.remove('on'));b.classList.add('on');region=b.dataset.r;apply();}));
+async function copy(t){try{await navigator.clipboard.writeText(t);}catch(e){
+  const ta=document.createElement('textarea');ta.value=t;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();}
+  show('已复制 '+t.split('\n').filter(Boolean).length+' 行');}
+document.getElementById('copyAll').addEventListener('click',()=>copy(document.getElementById('txtdata').textContent.trim()));
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>copy(b.dataset.copy)));
+document.getElementById('download').addEventListener('click',()=>{
+  const blob=new Blob([document.getElementById('txtdata').textContent],{type:'text/plain;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='网易云歌单_Jazz31张.txt';a.click();URL.revokeObjectURL(a.href);});
+</script>
+</body>
+</html>

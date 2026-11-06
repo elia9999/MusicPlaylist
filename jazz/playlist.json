@@ -1,0 +1,1211 @@
+[
+ {
+  "no": 1,
+  "cat": "jazzhiphop",
+  "key": "Nujabes",
+  "band": "Nujabes",
+  "alias": "瀬葉淳",
+  "region": "日本",
+  "desc": "Hydeout 厂牌主脑，日本 jazz hiphop 的原点",
+  "album": "modal soul",
+  "albumId": 2098348,
+  "artist": "Nujabes",
+  "year": "2005",
+  "songs": [
+   {
+    "id": 22821099,
+    "name": "Feather (feat.Cise Starr & Akin from CYNE)",
+    "real": "Feather (feat.Cise Starr & Akin from CYNE)",
+    "artist1": "Nujabes"
+   },
+   {
+    "id": 22821100,
+    "name": "Luv(sic.) Part 3 (feat. Shing02)",
+    "real": "Luv(sic.) Part 3 (feat. Shing02)",
+    "artist1": "Nujabes"
+   },
+   {
+    "id": 22821107,
+    "name": "Reflection Eternal",
+    "real": "Reflection Eternal",
+    "artist1": "Nujabes"
+   },
+   {
+    "id": 22821101,
+    "name": "Modal Soul (feat.Uyama Hiroto)",
+    "real": "Modal Soul (feat.Uyama Hiroto)",
+    "artist1": "Nujabes"
+   }
+  ]
+ },
+ {
+  "no": 2,
+  "cat": "jazzhiphop",
+  "key": "DJ OKAWARI",
+  "band": "DJ OKAWARI",
+  "alias": "",
+  "region": "日本",
+  "desc": "山形出身，钢琴 + 鼓点的画面感",
+  "album": "DIORAMA",
+  "albumId": 2080037,
+  "artist": "DJ OKAWARI",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 22676188,
+    "name": "Evening Comes",
+    "real": "Evening Comes",
+    "artist1": "DJ OKAWARI"
+   },
+   {
+    "id": 22676190,
+    "name": "Bluebird Story feat.Jumelles",
+    "real": "Bluebird Story feat.Jumelles",
+    "artist1": "DJ OKAWARI"
+   },
+   {
+    "id": 22676192,
+    "name": "Ring",
+    "real": "Ring",
+    "artist1": "DJ OKAWARI"
+   },
+   {
+    "id": 22676200,
+    "name": "Crescent Moon",
+    "real": "Crescent Moon",
+    "artist1": "DJ OKAWARI"
+   }
+  ]
+ },
+ {
+  "no": 3,
+  "cat": "jazzhiphop",
+  "key": "Uyama Hiroto",
+  "band": "Uyama Hiroto",
+  "alias": "宇山寛人",
+  "region": "日本",
+  "desc": "Nujabes 的战友，萨克斯与键盘",
+  "album": "a son of the sun",
+  "albumId": 2085283,
+  "artist": "Uyama Hiroto",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 22717918,
+    "name": "81Summer",
+    "real": "81Summer",
+    "artist1": "Uyama Hiroto"
+   },
+   {
+    "id": 22717913,
+    "name": "Waltz For Life Will Born",
+    "real": "Waltz For Life Will Born",
+    "artist1": "Uyama Hiroto"
+   },
+   {
+    "id": 22717923,
+    "name": "One Dream",
+    "real": "One Dream",
+    "artist1": "Uyama Hiroto"
+   },
+   {
+    "id": 22717917,
+    "name": "Color Of Jade",
+    "real": "Color Of Jade",
+    "artist1": "Uyama Hiroto"
+   }
+  ]
+ },
+ {
+  "no": 4,
+  "cat": "jazzhiphop",
+  "key": "Shing02",
+  "band": "Shing02",
+  "alias": "",
+  "region": "日本",
+  "desc": "说唱诗人，Luv(sic) 系列的固定搭档",
+  "album": "400",
+  "albumId": 2092324,
+  "artist": "Shing02",
+  "year": "2002",
+  "songs": [
+   {
+    "id": 22773822,
+    "name": "400",
+    "real": "400",
+    "artist1": "Shing02"
+   },
+   {
+    "id": 22773820,
+    "name": "切開",
+    "real": "切開",
+    "artist1": "Shing02"
+   },
+   {
+    "id": 22773825,
+    "name": "夢幻殿",
+    "real": "夢幻殿",
+    "artist1": "Shing02"
+   },
+   {
+    "id": 22773830,
+    "name": "安息日",
+    "real": "安息日",
+    "artist1": "Shing02"
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "cat": "jazzhiphop",
+  "key": "Nomak",
+  "band": "Nomak",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京，氛围系爵士说唱",
+  "album": "Calm",
+  "albumId": 2094565,
+  "artist": "Nomak",
+  "year": "2007",
+  "songs": [
+   {
+    "id": 22844573,
+    "name": "Anger Of The Earth",
+    "real": "Anger Of The Earth",
+    "artist1": "Nomak"
+   },
+   {
+    "id": 22844582,
+    "name": "Spiritual Home",
+    "real": "Spiritual Home",
+    "artist1": "Nomak"
+   },
+   {
+    "id": 22844584,
+    "name": "Force For Truth",
+    "real": "Force For Truth",
+    "artist1": "Nomak"
+   },
+   {
+    "id": 22844586,
+    "name": "Sanctuary",
+    "real": "Sanctuary",
+    "artist1": "Nomak"
+   }
+  ]
+ },
+ {
+  "no": 6,
+  "cat": "jazzhiphop",
+  "key": "re:plus",
+  "band": "re:plus",
+  "alias": "",
+  "region": "日本",
+  "desc": "静冈，钢琴驱动的爵士说唱",
+  "album": "Everlasting Truth",
+  "albumId": 2088534,
+  "artist": "re:plus",
+  "year": "2010",
+  "songs": [
+   {
+    "id": 22743831,
+    "name": "Time Goes By feat. Hydroponikz & Anika",
+    "real": "Time Goes By feat. Hydroponikz & Anika",
+    "artist1": "re:plus"
+   },
+   {
+    "id": 22743832,
+    "name": "Never Looking Back feat. Nick Smalc from Vitium (Album Ver)",
+    "real": "Never Looking Back feat. Nick Smalc from Vitium (Album Ver)",
+    "artist1": "re:plus"
+   },
+   {
+    "id": 22743825,
+    "name": "Everlasting Truth (Album Mix)",
+    "real": "Everlasting Truth (Album Mix)",
+    "artist1": "re:plus"
+   },
+   {
+    "id": 22743828,
+    "name": "Sol feat. Cise Star",
+    "real": "Sol feat. Cise Star",
+    "artist1": "re:plus"
+   }
+  ]
+ },
+ {
+  "no": 7,
+  "cat": "jazzhiphop",
+  "key": "tsunenori",
+  "band": "tsunenori a.k.a Marukabis",
+  "alias": "",
+  "region": "日本",
+  "desc": "北海道，吉他 + 自然采样",
+  "album": "Landscape",
+  "albumId": 49415,
+  "artist": "tsunenori a.k.a Marukabis",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 524644,
+    "name": "Backlight",
+    "real": "Backlight",
+    "artist1": "tsunenori a.k.a Marukabis"
+   },
+   {
+    "id": 524648,
+    "name": "Forest Bathing",
+    "real": "Forest Bathing",
+    "artist1": "tsunenori a.k.a Marukabis"
+   },
+   {
+    "id": 524652,
+    "name": "Pastness",
+    "real": "Pastness",
+    "artist1": "tsunenori a.k.a Marukabis"
+   },
+   {
+    "id": 524681,
+    "name": "An Avenue",
+    "real": "An Avenue",
+    "artist1": "tsunenori a.k.a Marukabis"
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "cat": "jazzhiphop",
+  "key": "西原健一郎",
+  "band": "西原健一郎",
+  "alias": "Kenichiro Nishihara",
+  "region": "日本",
+  "desc": "爵士乐队编制 + 说唱，Humming Jazz 一代名盘",
+  "album": "Humming Jazz",
+  "albumId": 44159,
+  "artist": "西原健一郎",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 456050,
+    "name": "Nebulosa",
+    "real": "Nebulosa",
+    "artist1": "西原健一郎"
+   },
+   {
+    "id": 456052,
+    "name": "Heart",
+    "real": "Heart",
+    "artist1": "西原健一郎"
+   },
+   {
+    "id": 456054,
+    "name": "Rain Falls",
+    "real": "Rain Falls",
+    "artist1": "西原健一郎"
+   },
+   {
+    "id": 456060,
+    "name": "Consider My Love",
+    "real": "Consider My Love",
+    "artist1": "西原健一郎"
+   }
+  ]
+ },
+ {
+  "no": 9,
+  "cat": "jazzhiphop",
+  "key": "Michita",
+  "band": "Michita",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京制作人，日式爵士说唱的中坚",
+  "album": "Sense of Values",
+  "albumId": 2987056,
+  "artist": "Michita",
+  "year": "2014",
+  "songs": [
+   {
+    "id": 29038422,
+    "name": "Inevitable Drama featuring DJ-YO-HEI a.k.a. Pei",
+    "real": "Inevitable Drama featuring DJ-YO-HEI a.k.a. Pei",
+    "artist1": "Michita"
+   },
+   {
+    "id": 29038425,
+    "name": "Over the Rainbow featuring KEYCO",
+    "real": "Over the Rainbow featuring KEYCO",
+    "artist1": "Michita"
+   },
+   {
+    "id": 29038426,
+    "name": "Thinking About You featuring B.I.G. JOE",
+    "real": "Thinking About You featuring B.I.G. JOE",
+    "artist1": "Michita"
+   },
+   {
+    "id": 29038428,
+    "name": "Secret Theory featuring ELIAS",
+    "real": "Secret Theory featuring ELIAS",
+    "artist1": "Michita"
+   }
+  ]
+ },
+ {
+  "no": 10,
+  "cat": "jazzhiphop",
+  "key": "haruka nakamura",
+  "band": "haruka nakamura",
+  "alias": "中村遥",
+  "region": "日本",
+  "desc": "青森，钢琴与氛围，Nujabes 同门",
+  "album": "grace",
+  "albumId": 2083091,
+  "artist": "Haruka Nakamura",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 22701048,
+    "name": "every day",
+    "real": "every day",
+    "artist1": "Haruka Nakamura"
+   },
+   {
+    "id": 22701041,
+    "name": "arne",
+    "real": "arne",
+    "artist1": "Haruka Nakamura"
+   },
+   {
+    "id": 22701051,
+    "name": "opus",
+    "real": "opus",
+    "artist1": "Haruka Nakamura"
+   },
+   {
+    "id": 22701050,
+    "name": "grace",
+    "real": "grace",
+    "artist1": "Haruka Nakamura"
+   }
+  ]
+ },
+ {
+  "no": 11,
+  "cat": "jazzhiphop",
+  "key": "Kero One",
+  "band": "Kero One",
+  "alias": "",
+  "region": "美国",
+  "desc": "旧金山韩裔，爵士说唱 + 轻快律动",
+  "album": "Windmills of the Soul",
+  "albumId": 164372,
+  "artist": "Kero One",
+  "year": "2006",
+  "songs": [
+   {
+    "id": 1617842,
+    "name": "Give Thanks",
+    "real": "Give Thanks",
+    "artist1": "Kero One"
+   },
+   {
+    "id": 1617844,
+    "name": "Musical Journey",
+    "real": "Musical Journey",
+    "artist1": "Kero One"
+   },
+   {
+    "id": 1617847,
+    "name": "My Story",
+    "real": "My Story",
+    "artist1": "Kero One"
+   },
+   {
+    "id": 1617888,
+    "name": "Check the Blueprints",
+    "real": "Check the Blueprints",
+    "artist1": "Kero One"
+   }
+  ]
+ },
+ {
+  "no": 12,
+  "cat": "jazzhiphop",
+  "key": "Emancipator",
+  "band": "Emancipator",
+  "alias": "",
+  "region": "美国",
+  "desc": "器乐嘻哈 / downtempo，山川湖海的采样",
+  "album": "Soon It Will Be Cold Enough",
+  "albumId": 134192,
+  "artist": "Emancipator",
+  "year": "2006",
+  "songs": [
+   {
+    "id": 1302571,
+    "name": "Eve",
+    "real": "Eve",
+    "artist1": "Emancipator"
+   },
+   {
+    "id": 1302575,
+    "name": "First Snow",
+    "real": "First Snow",
+    "artist1": "Emancipator"
+   },
+   {
+    "id": 1302581,
+    "name": "Anthem",
+    "real": "Anthem",
+    "artist1": "Emancipator"
+   },
+   {
+    "id": 1302596,
+    "name": "With Rainy Eyes",
+    "real": "With Rainy Eyes",
+    "artist1": "Emancipator"
+   }
+  ]
+ },
+ {
+  "no": 13,
+  "cat": "jazzhiphop",
+  "key": "J Dilla",
+  "band": "J Dilla",
+  "alias": "",
+  "region": "美国",
+  "desc": "底特律，采样美学的圣经级人物",
+  "album": "Donuts",
+  "albumId": 1918954,
+  "artist": "J Dilla",
+  "year": "2006",
+  "songs": [
+   {
+    "id": 20631527,
+    "name": "Workinonit",
+    "real": "Workinonit",
+    "artist1": "J Dilla"
+   },
+   {
+    "id": 20631535,
+    "name": "Time: The Donut of the Heart",
+    "real": "Time: The Donut of the Heart",
+    "artist1": "J Dilla"
+   },
+   {
+    "id": 20631538,
+    "name": "Lightworks",
+    "real": "Lightworks",
+    "artist1": "J Dilla"
+   },
+   {
+    "id": 20631555,
+    "name": "Last Donut Of The Night",
+    "real": "Last Donut Of The Night",
+    "artist1": "J Dilla"
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "cat": "jazzhiphop",
+  "key": "A Tribe Called Quest",
+  "band": "A Tribe Called Quest",
+  "alias": "ATCQ",
+  "region": "美国",
+  "desc": "纽约，jazz rap 的开山团体",
+  "album": "The Low End Theory",
+  "albumId": 1506332,
+  "artist": "A Tribe Called Quest",
+  "year": "1991",
+  "songs": [
+   {
+    "id": 16330722,
+    "name": "Excursions",
+    "real": "Excursions",
+    "artist1": "A Tribe Called Quest"
+   },
+   {
+    "id": 16330730,
+    "name": "Check the Rhime",
+    "real": "Check the Rhime",
+    "artist1": "A Tribe Called Quest"
+   },
+   {
+    "id": 16330732,
+    "name": "Jazz (We've Got)",
+    "real": "Jazz (We've Got)",
+    "artist1": "A Tribe Called Quest"
+   },
+   {
+    "id": 16330735,
+    "name": "Scenario (LP Mix)",
+    "real": "Scenario (LP Mix)",
+    "artist1": "A Tribe Called Quest"
+   }
+  ]
+ },
+ {
+  "no": 15,
+  "cat": "jazzhiphop",
+  "key": "Guru",
+  "band": "Guru",
+  "alias": "",
+  "region": "美国",
+  "desc": "Jazzmatazz 系列，把爵士乐手请进嘻哈",
+  "album": "Jazzmatazz Volume 1",
+  "albumId": 1652723,
+  "artist": "Guru",
+  "year": "1993",
+  "songs": [
+   {
+    "id": 17976477,
+    "name": "Loungin'",
+    "real": "Loungin'",
+    "artist1": "Guru"
+   },
+   {
+    "id": 17976478,
+    "name": "When You're Near",
+    "real": "When You're Near",
+    "artist1": "Guru"
+   },
+   {
+    "id": 17976480,
+    "name": "No Time To Play",
+    "real": "No Time To Play",
+    "artist1": "Guru"
+   },
+   {
+    "id": 17976487,
+    "name": "Sights In The City",
+    "real": "Sights In The City",
+    "artist1": "Guru"
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "cat": "jazzhiphop",
+  "key": "Digable Planets",
+  "band": "Digable Planets",
+  "alias": "",
+  "region": "美国",
+  "desc": "纽约，爵士说唱 + 波普诗意",
+  "album": "Reachin' (A New Refutation Of Time And Space)",
+  "albumId": 1606721,
+  "artist": "Digable Planets",
+  "year": "1993",
+  "songs": [
+   {
+    "id": 17433970,
+    "name": "Rebirth Of Slick (Cool Like Dat)",
+    "real": "Rebirth Of Slick (Cool Like Dat)",
+    "artist1": "Digable Planets"
+   },
+   {
+    "id": 17433966,
+    "name": "Pacifics (Sdtrk \"N.Y. Is Red Hot\")",
+    "real": "Pacifics (Sdtrk \"N.Y. Is Red Hot\")",
+    "artist1": "Digable Planets"
+   },
+   {
+    "id": 17433967,
+    "name": "Where I'm From",
+    "real": "Where I'm From",
+    "artist1": "Digable Planets"
+   },
+   {
+    "id": 17433976,
+    "name": "Nickel Bags",
+    "real": "Nickel Bags",
+    "artist1": "Digable Planets"
+   }
+  ]
+ },
+ {
+  "no": 17,
+  "cat": "jazzhiphop",
+  "key": "蛋堡",
+  "band": "蛋堡",
+  "alias": "Soft Lipa",
+  "region": "台湾",
+  "desc": "台南，华语爵士嘻哈的标杆",
+  "album": "收敛水",
+  "albumId": 7547,
+  "artist": "蛋堡",
+  "year": "2009",
+  "songs": [
+   {
+    "id": 76875,
+    "name": "Hit the Rhyme",
+    "real": "Hit the Rhyme",
+    "artist1": "蛋堡"
+   },
+   {
+    "id": 76879,
+    "name": "乡愁",
+    "real": "乡愁",
+    "artist1": "蛋堡"
+   },
+   {
+    "id": 76881,
+    "name": "关于小熊",
+    "real": "关于小熊",
+    "artist1": "蛋堡"
+   },
+   {
+    "id": 76899,
+    "name": "收敛水",
+    "real": "收敛水",
+    "artist1": "蛋堡"
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "cat": "jazzhiphop",
+  "key": "Lu1",
+  "band": "Lu1",
+  "alias": "",
+  "region": "大陆",
+  "desc": "上海 / 洛杉矶，华语爵士说唱",
+  "album": "男孩/ a portrait in time",
+  "albumId": 3159352,
+  "artist": "Lu1",
+  "year": "2015",
+  "songs": [
+   {
+    "id": 32341912,
+    "name": "男孩",
+    "real": "男孩",
+    "artist1": "Lu1"
+   },
+   {
+    "id": 32944711,
+    "name": "很可爱的歌",
+    "real": "很可爱的歌",
+    "artist1": "Lu1"
+   },
+   {
+    "id": 32944733,
+    "name": "夜街",
+    "real": "夜街",
+    "artist1": "Lu1"
+   },
+   {
+    "id": 32944784,
+    "name": "老电影",
+    "real": "老电影",
+    "artist1": "Lu1"
+   }
+  ]
+ },
+ {
+  "no": 19,
+  "cat": "jazzpop",
+  "key": "二宮愛",
+  "band": "二宮愛",
+  "alias": "Ai Ninomiya",
+  "region": "日本",
+  "desc": "东京，爵士流行 vocal，FLY COAST 成员",
+  "album": "Finding Stride",
+  "albumId": 37015863,
+  "artist": "二宮愛",
+  "year": "2016",
+  "songs": [
+   {
+    "id": 526432648,
+    "name": "I'm Always Here",
+    "real": "I'm Always Here",
+    "artist1": "二宮愛"
+   },
+   {
+    "id": 526437414,
+    "name": "Get me",
+    "real": "Get me",
+    "artist1": "二宮愛"
+   },
+   {
+    "id": 526439257,
+    "name": "Goodbye to Your Love",
+    "real": "Goodbye to Your Love",
+    "artist1": "二宮愛"
+   },
+   {
+    "id": 526440862,
+    "name": "Last Song",
+    "real": "Last Song",
+    "artist1": "二宮愛"
+   }
+  ]
+ },
+ {
+  "no": 20,
+  "cat": "jazzpop",
+  "key": "BLU-SWING",
+  "band": "BLU-SWING",
+  "alias": "Blu-Swing",
+  "region": "日本",
+  "desc": "东京爵士流行乐队，2007 年出道",
+  "album": "Jazzyster",
+  "albumId": 2401337,
+  "artist": "BLU-SWING",
+  "year": "2007",
+  "songs": [
+   {
+    "id": 26165963,
+    "name": "Fabulous",
+    "real": "Fabulous",
+    "artist1": "BLU-SWING"
+   },
+   {
+    "id": 26165965,
+    "name": "Midnight Lounge",
+    "real": "Midnight Lounge",
+    "artist1": "BLU-SWING"
+   },
+   {
+    "id": 26165967,
+    "name": "Bossanavia",
+    "real": "Bossanavia",
+    "artist1": "BLU-SWING"
+   },
+   {
+    "id": 26165973,
+    "name": "Acoustic Lover",
+    "real": "Acoustic Lover",
+    "artist1": "BLU-SWING"
+   }
+  ]
+ },
+ {
+  "no": 21,
+  "cat": "jazzpop",
+  "key": "大橋トリオ",
+  "band": "大橋トリオ",
+  "alias": "ohashiTrio",
+  "region": "日本",
+  "desc": "多乐器一人乐队，爵士流行的柔软面",
+  "album": "THIS IS MUSIC",
+  "albumId": 2093344,
+  "artist": "大橋トリオ",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 22781791,
+    "name": "HAPPY TRAIL",
+    "real": "HAPPY TRAIL",
+    "artist1": "大橋トリオ"
+   },
+   {
+    "id": 22781792,
+    "name": "THE MUSIC AROUND ME",
+    "real": "THE MUSIC AROUND ME",
+    "artist1": "大橋トリオ"
+   },
+   {
+    "id": 22781790,
+    "name": "そんなことがすてきです",
+    "real": "そんなことがすてきです",
+    "artist1": "大橋トリオ"
+   },
+   {
+    "id": 22781788,
+    "name": "BLUES IN JUNE",
+    "real": "BLUES IN JUNE",
+    "artist1": "大橋トリオ"
+   }
+  ]
+ },
+ {
+  "no": 22,
+  "cat": "jazzpop",
+  "key": "土岐麻子",
+  "band": "土岐麻子",
+  "alias": "Asako Toki",
+  "region": "日本",
+  "desc": "爵士 vocal 出身，后转向 city pop",
+  "album": "TALKIN'",
+  "albumId": 2085569,
+  "artist": "土岐麻子",
+  "year": "2007",
+  "songs": [
+   {
+    "id": 22720263,
+    "name": "モンスターを飼い馴らせ",
+    "real": "モンスターを飼い馴らせ",
+    "artist1": "土岐麻子"
+   },
+   {
+    "id": 22720269,
+    "name": "ファンタジア",
+    "real": "ファンタジア",
+    "artist1": "土岐麻子"
+   },
+   {
+    "id": 22720264,
+    "name": "My Sunny Rainy",
+    "real": "My Sunny Rainy",
+    "artist1": "土岐麻子"
+   },
+   {
+    "id": 22720270,
+    "name": "Walk On",
+    "real": "Walk On",
+    "artist1": "土岐麻子"
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "cat": "jazzpop",
+  "key": "畠山美由紀",
+  "band": "畠山美由紀",
+  "alias": "Miyuki Hatakeyama",
+  "region": "日本",
+  "desc": "爵士 / 民谣 vocal，Port of Notes",
+  "album": "わたしのうた",
+  "albumId": 54528,
+  "artist": "畠山美由紀",
+  "year": "2007",
+  "songs": [
+   {
+    "id": 578603,
+    "name": "Lover come back to me",
+    "real": "Lover come back to me",
+    "artist1": "畠山美由紀"
+   },
+   {
+    "id": 578608,
+    "name": "君恋し",
+    "real": "君恋し",
+    "artist1": "畠山美由紀"
+   },
+   {
+    "id": 578616,
+    "name": "Somethin' stupid[feat.リリーフランキー]",
+    "real": "Somethin' stupid[feat.リリーフランキー]",
+    "artist1": "畠山美由紀"
+   },
+   {
+    "id": 578637,
+    "name": "浜辺の歌",
+    "real": "浜辺の歌",
+    "artist1": "畠山美由紀"
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "cat": "jazzpop",
+  "key": "羊毛とおはな",
+  "band": "羊毛とおはな",
+  "alias": "",
+  "region": "日本",
+  "desc": "千叶，原声吉他与女声的爵士流行",
+  "album": "LIVE IN LIVING '08",
+  "albumId": 86355,
+  "artist": "羊毛とおはな",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 865288,
+    "name": "やさしい朝の雨",
+    "real": "やさしい朝の雨",
+    "artist1": "羊毛とおはな"
+   },
+   {
+    "id": 865291,
+    "name": "ナチュラル",
+    "real": "ナチュラル",
+    "artist1": "羊毛とおはな"
+   },
+   {
+    "id": 865293,
+    "name": "明日は、",
+    "real": "明日は、",
+    "artist1": "羊毛とおはな"
+   },
+   {
+    "id": 865307,
+    "name": "My Favorite Things",
+    "real": "My Favorite Things",
+    "artist1": "羊毛とおはな"
+   }
+  ]
+ },
+ {
+  "no": 25,
+  "cat": "jazzpop",
+  "key": "Norah Jones",
+  "band": "Norah Jones",
+  "alias": "",
+  "region": "美国",
+  "desc": "纽约，2000 年代爵士流行的入口",
+  "album": "Come Away With Me (Remastered 2022)",
+  "albumId": 2059904,
+  "artist": "Norah Jones",
+  "year": "2002",
+  "songs": [
+   {
+    "id": 22489526,
+    "name": "Don't Know Why",
+    "real": "Don't Know Why",
+    "artist1": "Norah Jones"
+   },
+   {
+    "id": 22489530,
+    "name": "Come Away With Me",
+    "real": "Come Away With Me",
+    "artist1": "Norah Jones"
+   },
+   {
+    "id": 22489532,
+    "name": "Turn Me On",
+    "real": "Turn Me On",
+    "artist1": "Norah Jones"
+   },
+   {
+    "id": 22489539,
+    "name": "The Nearness Of You",
+    "real": "The Nearness Of You",
+    "artist1": "Norah Jones"
+   }
+  ]
+ },
+ {
+  "no": 26,
+  "cat": "jazzpop",
+  "key": "Diana Krall",
+  "band": "Diana Krall",
+  "alias": "",
+  "region": "加拿大",
+  "desc": "钢琴与 vocal，标准曲的当代诠释",
+  "album": "When I Look In Your Eyes",
+  "albumId": 1605540,
+  "artist": "Diana Krall",
+  "year": "1999",
+  "songs": [
+   {
+    "id": 17416781,
+    "name": "Let's Face The Music And Dance",
+    "real": "Let's Face The Music And Dance",
+    "artist1": "Diana Krall"
+   },
+   {
+    "id": 17416784,
+    "name": "When I Look In Your Eyes",
+    "real": "When I Look In Your Eyes",
+    "artist1": "Diana Krall"
+   },
+   {
+    "id": 17416789,
+    "name": "East Of The Sun (West Of The Moon)",
+    "real": "East Of The Sun (West Of The Moon)",
+    "artist1": "Diana Krall"
+   },
+   {
+    "id": 17416790,
+    "name": "Pick Yourself Up",
+    "real": "Pick Yourself Up",
+    "artist1": "Diana Krall"
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "cat": "jazzpop",
+  "key": "Michael Franks",
+  "band": "Michael Franks",
+  "alias": "",
+  "region": "美国",
+  "desc": "jazz-pop 创作歌手，70 年代的慵懒",
+  "album": "Sleeping Gypsy",
+  "albumId": 1957085,
+  "artist": "Michael Franks",
+  "year": "2011",
+  "songs": [
+   {
+    "id": 21164709,
+    "name": "The Lady Wants To Know (Album Version)",
+    "real": "The Lady Wants To Know (Album Version)",
+    "artist1": "Michael Franks"
+   },
+   {
+    "id": 21164714,
+    "name": "Antonio's Song (The Rainbow) (Album Version)",
+    "real": "Antonio's Song (The Rainbow) (Album Version)",
+    "artist1": "Michael Franks"
+   },
+   {
+    "id": 21164712,
+    "name": "B'wana-He No Home (Album Version)",
+    "real": "B'wana-He No Home (Album Version)",
+    "artist1": "Michael Franks"
+   },
+   {
+    "id": 21164713,
+    "name": "Don't Be Blue (Album Version)",
+    "real": "Don't Be Blue (Album Version)",
+    "artist1": "Michael Franks"
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "cat": "jazzpop",
+  "key": "Sade",
+  "band": "Sade",
+  "alias": "",
+  "region": "英国",
+  "desc": "伦敦，sophisti-pop 与爵士灵魂",
+  "album": "Diamond Life",
+  "albumId": 1757821,
+  "artist": "Sade",
+  "year": "1984",
+  "songs": [
+   {
+    "id": 19171515,
+    "name": "Smooth Operator",
+    "real": "Smooth Operator",
+    "artist1": "Sade"
+   },
+   {
+    "id": 19171516,
+    "name": "Your Love Is King",
+    "real": "Your Love Is King",
+    "artist1": "Sade"
+   },
+   {
+    "id": 19171517,
+    "name": "Hang on to Your Love",
+    "real": "Hang on to Your Love",
+    "artist1": "Sade"
+   },
+   {
+    "id": 19171520,
+    "name": "Cherry Pie",
+    "real": "Cherry Pie",
+    "artist1": "Sade"
+   }
+  ]
+ },
+ {
+  "no": 29,
+  "cat": "jazzpop",
+  "key": "Basia",
+  "band": "Basia",
+  "alias": "",
+  "region": "波兰",
+  "desc": "波兰出生、伦敦发展，爵士流行",
+  "album": "Time And Tide",
+  "albumId": 1543002,
+  "artist": "Basia",
+  "year": "1987",
+  "songs": [
+   {
+    "id": 16738060,
+    "name": "Promises",
+    "real": "Promises",
+    "artist1": "Basia"
+   },
+   {
+    "id": 16738062,
+    "name": "Time And Tide (Album Version)",
+    "real": "Time And Tide (Album Version)",
+    "artist1": "Basia"
+   },
+   {
+    "id": 16738065,
+    "name": "New Day For You",
+    "real": "New Day For You",
+    "artist1": "Basia"
+   },
+   {
+    "id": 16738067,
+    "name": "Astrud",
+    "real": "Astrud",
+    "artist1": "Basia"
+   }
+  ]
+ },
+ {
+  "no": 30,
+  "cat": "jazzpop",
+  "key": "Matt Bianco",
+  "band": "Matt Bianco",
+  "alias": "",
+  "region": "英国",
+  "desc": "伦敦，sophisti-pop 三人组",
+  "album": "Whose Side Are You On?",
+  "albumId": 422903,
+  "artist": "Matt Bianco",
+  "year": "1984",
+  "songs": [
+   {
+    "id": 4183300,
+    "name": "Whose Side Are You On?",
+    "real": "Whose Side Are You On?",
+    "artist1": "Matt Bianco"
+   },
+   {
+    "id": 4183302,
+    "name": "More Than I Can Bear",
+    "real": "More Than I Can Bear",
+    "artist1": "Matt Bianco"
+   },
+   {
+    "id": 4183306,
+    "name": "Half a Minute",
+    "real": "Half a Minute",
+    "artist1": "Matt Bianco"
+   },
+   {
+    "id": 4183307,
+    "name": "Matt's Mood",
+    "real": "Matt's Mood",
+    "artist1": "Matt Bianco"
+   }
+  ]
+ },
+ {
+  "no": 31,
+  "cat": "jazzpop",
+  "key": "Laufey",
+  "band": "Laufey",
+  "alias": "林冰",
+  "region": "冰岛",
+  "desc": "当代爵士流行，大提琴与老派标准曲",
+  "album": "Bewitched",
+  "albumId": 167233205,
+  "artist": "Laufey",
+  "year": "2023",
+  "songs": [
+   {
+    "id": 2053999922,
+    "name": "From The Start",
+    "real": "From The Start",
+    "artist1": "Laufey"
+   },
+   {
+    "id": 2054000799,
+    "name": "Lovesick",
+    "real": "Lovesick",
+    "artist1": "Laufey"
+   },
+   {
+    "id": 2053999921,
+    "name": "Promise",
+    "real": "Promise",
+    "artist1": "Laufey"
+   },
+   {
+    "id": 2054000801,
+    "name": "Bewitched",
+    "real": "Bewitched",
+    "artist1": "Laufey"
+   }
+  ]
+ }
+]

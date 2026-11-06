@@ -1,0 +1,872 @@
+[
+ {
+  "no": 1,
+  "key": "yourboyfriendsucks!",
+  "band": "yourboyfriendsucks!",
+  "alias": "YBS",
+  "region": "大陆",
+  "desc": "广州 emo / 独立摇滚",
+  "album": "第一集",
+  "albumId": 34767049,
+  "artist": "yourboyfriendsucks!",
+  "year": "2016",
+  "songs": [
+   {
+    "id": 419594176,
+    "name": "diu × 3"
+   },
+   {
+    "id": 419596180,
+    "name": "Stay/Stayaway"
+   },
+   {
+    "id": 419594177,
+    "name": "白鹤"
+   },
+   {
+    "id": 419596181,
+    "name": "波兰首都是上海"
+   }
+  ]
+ },
+ {
+  "no": 2,
+  "key": "鼠鼠鼠",
+  "band": "鼠鼠鼠",
+  "alias": "",
+  "region": "大陆",
+  "desc": "卧室流行 / 低保真",
+  "album": "the three mice",
+  "albumId": 244349559,
+  "artist": "鼠鼠鼠",
+  "year": "2024",
+  "songs": [
+   {
+    "id": 2615065778,
+    "name": "鲁蛇俱乐部"
+   },
+   {
+    "id": 2615067705,
+    "name": "凌晨三点"
+   },
+   {
+    "id": 2615067706,
+    "name": "teenage mice club"
+   },
+   {
+    "id": 2615065777,
+    "name": "stereo mice lab"
+   }
+  ]
+ },
+ {
+  "no": 3,
+  "key": "紅髮少年殺人事件",
+  "band": "紅髮少年殺人事件",
+  "alias": "红发少年",
+  "region": "台湾",
+  "desc": "盯鞋 / 后硬核",
+  "album": "BRUTAL GIRL DELUSION",
+  "albumId": 264544725,
+  "artist": "紅髮少年殺人事件",
+  "year": "2025",
+  "songs": [
+   {
+    "id": 2680695844,
+    "name": "黒目少女"
+   },
+   {
+    "id": 2680702161,
+    "name": "YES,We Love Number Girl"
+   },
+   {
+    "id": 2680707401,
+    "name": "DELUSION"
+   },
+   {
+    "id": 2680707734,
+    "name": "短髮"
+   }
+  ]
+ },
+ {
+  "no": 4,
+  "key": "Chinese Football",
+  "band": "Chinese Football",
+  "alias": "国足",
+  "region": "大陆",
+  "desc": "武汉 emo，中国 midwest emo 代表",
+  "album": "Chinese Football",
+  "albumId": 3314467,
+  "artist": "Chinese Football",
+  "year": "2015",
+  "songs": [
+   {
+    "id": 35678538,
+    "name": "守门员"
+   },
+   {
+    "id": 35678539,
+    "name": "飞鱼转身"
+   },
+   {
+    "id": 35678540,
+    "name": "400米"
+   },
+   {
+    "id": 35678544,
+    "name": "地球上最后一个EMO男孩"
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "key": "eli's ladder",
+  "band": "eli's ladder",
+  "alias": "",
+  "region": "波兰",
+  "desc": "波兰盯鞋 / emo",
+  "album": "polychrome",
+  "albumId": 249000272,
+  "artist": "eli's ladder",
+  "year": "2024",
+  "songs": [
+   {
+    "id": 2630817670,
+    "name": "show me the castle"
+   },
+   {
+    "id": 2630817669,
+    "name": "simon"
+   },
+   {
+    "id": 2630816718,
+    "name": "medical mechanica"
+   },
+   {
+    "id": 2630816717,
+    "name": "burning circle"
+   }
+  ]
+ },
+ {
+  "no": 6,
+  "key": "透明杂志",
+  "band": "透明杂志",
+  "alias": "透明雜誌",
+  "region": "台湾",
+  "desc": "台北 emo / 朋克",
+  "album": "透明雜誌FOREVER",
+  "albumId": 2386289,
+  "artist": "透明杂志",
+  "year": "2012",
+  "songs": [
+   {
+    "id": 26094378,
+    "name": "透明雜誌FOREVER"
+   },
+   {
+    "id": 26094379,
+    "name": "野貓"
+   },
+   {
+    "id": 26094381,
+    "name": "萬華的宇宙"
+   },
+   {
+    "id": 26094383,
+    "name": "E的鬼魂"
+   }
+  ]
+ },
+ {
+  "no": 7,
+  "key": "v是兔子",
+  "band": "v是兔子wishtoday",
+  "alias": "v是兔子",
+  "region": "大陆",
+  "desc": "盯鞋 / 噪音流行",
+  "album": "疼痛部",
+  "albumId": 258161671,
+  "artist": "v是兔子wishtoday",
+  "year": "2025",
+  "songs": [
+   {
+    "id": 2660975039,
+    "name": "怯懦"
+   },
+   {
+    "id": 2660975037,
+    "name": "超人少女"
+   },
+   {
+    "id": 2660977441,
+    "name": "桂花"
+   },
+   {
+    "id": 2660977443,
+    "name": "一个循环，冬天结束的时候"
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "key": "天然味道",
+  "band": "天然味道",
+  "alias": "",
+  "region": "大陆",
+  "desc": "盯鞋 / 梦幻流行",
+  "album": "少女终末旅行",
+  "albumId": 193595524,
+  "artist": "天然味道",
+  "year": "2024",
+  "songs": [
+   {
+    "id": 2149555269,
+    "name": "壳中少女"
+   },
+   {
+    "id": 2149555917,
+    "name": "Yuck ByeBye"
+   },
+   {
+    "id": 2149555270,
+    "name": "天然味道"
+   },
+   {
+    "id": 2149555918,
+    "name": "夏日祭、唯我一人"
+   }
+  ]
+ },
+ {
+  "no": 9,
+  "key": "气象限定Quadrant",
+  "band": "气象限定Quadrant",
+  "alias": "气象限定",
+  "region": "大陆",
+  "desc": "后摇 / 器乐",
+  "album": "象限",
+  "albumId": 400804204,
+  "artist": "气象限定Quadrant",
+  "year": "2026",
+  "songs": [
+   {
+    "id": 3441608900,
+    "name": "象限外 旷野中(Uncharted Horizon)"
+   },
+   {
+    "id": 3445265354,
+    "name": "在灰烬里盛放(Growing Desire)"
+   },
+   {
+    "id": 3445264831,
+    "name": "雷克雅内斯灯塔(Reykjanesviti)"
+   },
+   {
+    "id": 3445260712,
+    "name": "零与无限(Origin to Infinity)"
+   }
+  ]
+ },
+ {
+  "no": 10,
+  "key": "VOOID",
+  "band": "VOOID",
+  "alias": "",
+  "region": "台湾",
+  "desc": "台北迷幻 / 后朋",
+  "album": "VOOID",
+  "albumId": 38008607,
+  "artist": "VOOID",
+  "year": "2017",
+  "songs": [
+   {
+    "id": 548187349,
+    "name": "Into The Void"
+   },
+   {
+    "id": 548186436,
+    "name": "CANCER [terminal ver.]"
+   },
+   {
+    "id": 548169749,
+    "name": "一亿年前"
+   },
+   {
+    "id": 548170697,
+    "name": "生活的答案 [UK Surf]"
+   }
+  ]
+ },
+ {
+  "no": 11,
+  "key": "午夜乒乓",
+  "band": "午夜乒乓",
+  "alias": "Midnight Ping Pong",
+  "region": "台湾",
+  "desc": "台北 emo / 独立摇滚",
+  "album": "剧烈物语",
+  "albumId": 35589727,
+  "artist": "午夜乒乓",
+  "year": "2017",
+  "songs": [
+   {
+    "id": 483242413,
+    "name": "青春剧烈物语"
+   },
+   {
+    "id": 483378311,
+    "name": "Blue Hearts"
+   },
+   {
+    "id": 483242415,
+    "name": "巴黎影院"
+   },
+   {
+    "id": 483242418,
+    "name": "午夜的直球对决"
+   }
+  ]
+ },
+ {
+  "no": 12,
+  "key": "My Bloody Valentine",
+  "band": "My Bloody Valentine",
+  "alias": "mbv",
+  "region": "英国",
+  "desc": "盯鞋鼻祖",
+  "album": "loveless",
+  "albumId": 422052,
+  "artist": "My Bloody Valentine",
+  "year": "1991",
+  "songs": [
+   {
+    "id": 4174117,
+    "name": "only shallow"
+   },
+   {
+    "id": 4174137,
+    "name": "when you sleep"
+   },
+   {
+    "id": 4174129,
+    "name": "to here knows when"
+   },
+   {
+    "id": 4174158,
+    "name": "soon"
+   }
+  ]
+ },
+ {
+  "no": 13,
+  "key": "返校日",
+  "band": "返校日 RiotInSchool",
+  "alias": "返校日",
+  "region": "台湾",
+  "desc": "后硬核 / screamo",
+  "album": "庆祝一场溃烂",
+  "albumId": 145414771,
+  "artist": "返校日 RiotInSchool",
+  "year": "2022",
+  "songs": [
+   {
+    "id": 1950031636,
+    "name": "解体"
+   },
+   {
+    "id": 1950031637,
+    "name": "迪斯科"
+   },
+   {
+    "id": 1950031046,
+    "name": "半岛中学"
+   },
+   {
+    "id": 1950031049,
+    "name": "风滚草"
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "key": "鸽子牛奶",
+  "band": "鸽子牛奶",
+  "alias": "Vidulgi OoyoO",
+  "region": "韩国",
+  "desc": "首尔盯鞋",
+  "album": "Aero",
+  "albumId": 531409,
+  "artist": "鸽子牛奶",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 5408237,
+    "name": "Siren"
+   },
+   {
+    "id": 5408239,
+    "name": "너의 눈으로 나를 본다"
+   },
+   {
+    "id": 5408241,
+    "name": "Elephant"
+   },
+   {
+    "id": 5408259,
+    "name": "Aero"
+   }
+  ]
+ },
+ {
+  "no": 15,
+  "key": "Japanese Football",
+  "band": "Japanese Football",
+  "alias": "",
+  "region": "日本",
+  "desc": "日系 emo / 独立摇滚",
+  "album": "Reflections Of You EP",
+  "albumId": 162265965,
+  "artist": "Japanese Football",
+  "year": "2023",
+  "songs": [
+   {
+    "id": 2032433225,
+    "name": "Castles"
+   },
+   {
+    "id": 2032433226,
+    "name": "Locked Out"
+   },
+   {
+    "id": 2032434256,
+    "name": "Escape"
+   },
+   {
+    "id": 2032434257,
+    "name": "Reflections Of You"
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "key": "きのこ帝国",
+  "band": "きのこ帝国",
+  "alias": "蘑菇帝国",
+  "region": "日本",
+  "desc": "东京盯鞋 / 另类摇滚",
+  "album": "フェイクワールドワンダーランド",
+  "albumId": 3054015,
+  "artist": "きのこ帝国",
+  "year": "2014",
+  "songs": [
+   {
+    "id": 29593072,
+    "name": "東京"
+   },
+   {
+    "id": 29593073,
+    "name": "クロノスタシス"
+   },
+   {
+    "id": 29593074,
+    "name": "ヴァージン・スーサイド"
+   },
+   {
+    "id": 29593075,
+    "name": "You outside my window"
+   }
+  ]
+ },
+ {
+  "no": 17,
+  "key": "ミドリ",
+  "band": "ミドリ",
+  "alias": "Midori",
+  "region": "日本",
+  "desc": "爵士朋克 / 硬核",
+  "album": "あらためまして、はじめまして、ミドリです。",
+  "albumId": 2086571,
+  "artist": "ミドリ",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 22727922,
+    "name": "スキ"
+   },
+   {
+    "id": 22727918,
+    "name": "ゆきこさん"
+   },
+   {
+    "id": 22727919,
+    "name": "お猿"
+   },
+   {
+    "id": 22727921,
+    "name": "ちはるの恋"
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "key": "ひとひら",
+  "band": "ひとひら",
+  "alias": "hitohira（hihohira 二专）",
+  "region": "日本",
+  "desc": "日系 emo / 另类摇滚",
+  "album": "円",
+  "albumId": 288505879,
+  "artist": "ひとひら",
+  "year": "2025",
+  "songs": [
+   {
+    "id": 2755669231,
+    "name": "十二月-Departure"
+   },
+   {
+    "id": 2755669237,
+    "name": "夏至"
+   },
+   {
+    "id": 2755669235,
+    "name": "塔は白い"
+   },
+   {
+    "id": 2755669136,
+    "name": "円"
+   }
+  ]
+ },
+ {
+  "no": 19,
+  "key": "Number Girl",
+  "band": "Number Girl",
+  "alias": "ナンバーガール",
+  "region": "日本",
+  "desc": "日本另类摇滚传奇",
+  "album": "School Girl Distortional Addict",
+  "albumId": 2080565,
+  "artist": "Number Girl",
+  "year": "1999",
+  "songs": [
+   {
+    "id": 22680347,
+    "name": "透明少女"
+   },
+   {
+    "id": 22680341,
+    "name": "タッチ"
+   },
+   {
+    "id": 22680343,
+    "name": "裸足の季節"
+   },
+   {
+    "id": 22680345,
+    "name": "YOUNG GIRL SEVENTEEN ******** KNOWING"
+   }
+  ]
+ },
+ {
+  "no": 20,
+  "key": "東京酒吐座",
+  "band": "東京酒吐座",
+  "alias": "Tokyo Shoegazer",
+  "region": "日本",
+  "desc": "东京盯鞋",
+  "album": "crystallize (remastered)",
+  "albumId": 152494397,
+  "artist": "東京酒吐座",
+  "year": "2022",
+  "songs": [
+   {
+    "id": 1985721070,
+    "name": "299 Addiction"
+   },
+   {
+    "id": 1985721997,
+    "name": "Just Alright"
+   },
+   {
+    "id": 1985721071,
+    "name": "Bright"
+   },
+   {
+    "id": 1985721072,
+    "name": "Waltz Matilda"
+   }
+  ]
+ },
+ {
+  "no": 21,
+  "key": "mowmow",
+  "band": "Mowmowmow",
+  "alias": "mowmow",
+  "region": "待考",
+  "desc": "卧室流行 / 梦幻流行（Bandcamp 系）",
+  "album": "happenings",
+  "albumId": 198722684,
+  "artist": "Mowmowmow",
+  "year": "2024",
+  "songs": [
+   {
+    "id": 2164441023,
+    "name": "happenings"
+   },
+   {
+    "id": 2164441024,
+    "name": "another pop song"
+   },
+   {
+    "id": 2164441027,
+    "name": "repeating phrases"
+   },
+   {
+    "id": 2164441025,
+    "name": "death! roll"
+   }
+  ]
+ },
+ {
+  "no": 22,
+  "key": "GO!GO!7188",
+  "band": "GO!GO!7188",
+  "alias": "gogo7188",
+  "region": "日本",
+  "desc": "和风摇滚 / 冲浪",
+  "album": "虎の穴",
+  "albumId": 71968,
+  "artist": "GO!GO!7188",
+  "year": "2002",
+  "songs": [
+   {
+    "id": 734871,
+    "name": "妖怪人間ベム"
+   },
+   {
+    "id": 734873,
+    "name": "恋の奴隷"
+   },
+   {
+    "id": 734879,
+    "name": "キューティーハニー"
+   },
+   {
+    "id": 734900,
+    "name": "心の旅"
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "key": "honeydip",
+  "band": "honeydip",
+  "alias": "",
+  "region": "日本",
+  "desc": "90 年代日本盯鞋",
+  "album": "PLANET OF THE HONEY",
+  "albumId": 349607266,
+  "artist": "honeydip",
+  "year": "1999",
+  "songs": [
+   {
+    "id": 3315527401,
+    "name": "Echo & The Honeymen"
+   },
+   {
+    "id": 3315528138,
+    "name": "Universal Teenage Frequency"
+   },
+   {
+    "id": 3315528139,
+    "name": "Groovy Indian Summer"
+   },
+   {
+    "id": 3315528140,
+    "name": "Space Camp"
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "key": "河豚子",
+  "band": "河豚子",
+  "alias": "Fugu",
+  "region": "台湾",
+  "desc": "台北 emo / 独立摇滚",
+  "album": "你不是人",
+  "albumId": 35585,
+  "artist": "河豚子",
+  "year": "2012",
+  "songs": [
+   {
+    "id": 360345,
+    "name": "一个人的日子"
+   },
+   {
+    "id": 360347,
+    "name": "剑龙"
+   },
+   {
+    "id": 360348,
+    "name": "Orca！Orca！"
+   },
+   {
+    "id": 360353,
+    "name": "少女黑猫"
+   }
+  ]
+ },
+ {
+  "no": 25,
+  "key": "くだらない1日",
+  "band": "くだらない1日",
+  "alias": "kudaranai1nichi",
+  "region": "日本",
+  "desc": "日系 emo / 另类摇滚",
+  "album": "rebound",
+  "albumId": 143305773,
+  "artist": "くだらない1日",
+  "year": "2022",
+  "songs": [
+   {
+    "id": 1937102790,
+    "name": "やるせない"
+   },
+   {
+    "id": 1937102791,
+    "name": "原宿五階秘密基地"
+   },
+   {
+    "id": 1937104699,
+    "name": "力水"
+   },
+   {
+    "id": 1937104704,
+    "name": "こわれはじめてゆく今"
+   }
+  ]
+ },
+ {
+  "no": 26,
+  "key": "MASS OF THE FERMENTING DREGS",
+  "band": "MASS OF THE FERMENTING DREGS",
+  "alias": "world is yours / マスドレ",
+  "region": "日本",
+  "desc": "神户后硬核 / 盯鞋",
+  "album": "ワールドイズユアーズ",
+  "albumId": 2091688,
+  "artist": "MASS OF THE FERMENTING DREGS",
+  "year": "2009",
+  "songs": [
+   {
+    "id": 22769456,
+    "name": "このスピードの先へ"
+   },
+   {
+    "id": 22769455,
+    "name": "青い、濃い、橙色の日"
+   },
+   {
+    "id": 22769458,
+    "name": "ワールドイズユアーズ"
+   },
+   {
+    "id": 22769460,
+    "name": "She is inside, He is outside"
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "key": "未来电波基地",
+  "band": "未來電波基地",
+  "alias": "未来电波基地",
+  "region": "日本",
+  "desc": "东京卧室电子 / 另类",
+  "album": "墨田区DEPRESSION",
+  "albumId": 160824490,
+  "artist": "未來電波基地",
+  "year": "2023",
+  "songs": [
+   {
+    "id": 2025961926,
+    "name": "墨堤通り"
+   },
+   {
+    "id": 2025961923,
+    "name": "悲しみが溢れて"
+   },
+   {
+    "id": 2025961925,
+    "name": "或る日の隅田川"
+   },
+   {
+    "id": 2025961928,
+    "name": "淀川長治"
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "key": "相対性理論",
+  "band": "相対性理論",
+  "alias": "相对性理论",
+  "region": "日本",
+  "desc": "东京另类流行",
+  "album": "ハイファイ新書",
+  "albumId": 2076916,
+  "artist": "相対性理論",
+  "year": "2009",
+  "songs": [
+   {
+    "id": 22651156,
+    "name": "テレ東"
+   },
+   {
+    "id": 22651158,
+    "name": "地獄先生"
+   },
+   {
+    "id": 22651155,
+    "name": "ふしぎデカルト"
+   },
+   {
+    "id": 22651162,
+    "name": "四角革命"
+   }
+  ]
+ },
+ {
+  "no": 29,
+  "key": "THE MUSMUS",
+  "band": "THE MUSMUS",
+  "alias": "射的",
+  "region": "日本",
+  "desc": "日本 post-hardcore",
+  "album": "射的",
+  "albumId": 2087722,
+  "artist": "THE MUSMUS",
+  "year": "2006",
+  "songs": [
+   {
+    "id": 22736728,
+    "name": "射的"
+   },
+   {
+    "id": 22736729,
+    "name": "雨ざらし"
+   },
+   {
+    "id": 22736727,
+    "name": "M31"
+   },
+   {
+    "id": 22736725,
+    "name": "絵の具"
+   }
+  ]
+ }
+]

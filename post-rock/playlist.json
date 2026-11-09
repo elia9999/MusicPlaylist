@@ -1,0 +1,1565 @@
+[
+ {
+  "no": 1,
+  "cat": "postrock",
+  "key": "Mogwai",
+  "band": "Mogwai",
+  "alias": "",
+  "region": "英国",
+  "desc": "格拉斯哥，后摇最重要的名字之一，1997 年首专",
+  "album": "Young Team",
+  "albumId": 422059,
+  "artist": "Mogwai",
+  "year": "1997",
+  "songs": [
+   {
+    "id": 4174175,
+    "name": "Yes! I Am a Long Way from Home",
+    "real": "Yes! I Am a Long Way from Home",
+    "artist1": "Mogwai",
+    "artists": [
+     "Mogwai"
+    ]
+   },
+   {
+    "id": 4174178,
+    "name": "Like Herod",
+    "real": "Like Herod",
+    "artist1": "Mogwai",
+    "artists": [
+     "Mogwai"
+    ]
+   },
+   {
+    "id": 4174187,
+    "name": "Tracy",
+    "real": "Tracy",
+    "artist1": "Mogwai",
+    "artists": [
+     "Mogwai"
+    ]
+   },
+   {
+    "id": 4174195,
+    "name": "Mogwai Fear Satan",
+    "real": "Mogwai Fear Satan",
+    "artist1": "Mogwai",
+    "artists": [
+     "Mogwai"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 2,
+  "cat": "postrock",
+  "key": "Explosions In The Sky",
+  "band": "Explosions in the Sky",
+  "alias": "EITS",
+  "region": "美国",
+  "desc": "德州，吉他的星空与爆裂",
+  "album": "The Earth Is Not a Cold Dead Place",
+  "albumId": 1626070,
+  "artist": "Explosions In The Sky",
+  "year": "2003",
+  "songs": [
+   {
+    "id": 17670028,
+    "name": "First Breath After Coma",
+    "real": "First Breath After Coma",
+    "artist1": "Explosions In The Sky",
+    "artists": [
+     "Explosions In The Sky"
+    ]
+   },
+   {
+    "id": 17670029,
+    "name": "The Only Moment We Were Alone",
+    "real": "The Only Moment We Were Alone",
+    "artist1": "Explosions In The Sky",
+    "artists": [
+     "Explosions In The Sky"
+    ]
+   },
+   {
+    "id": 17670030,
+    "name": "Six Days at the Bottom of the Ocean",
+    "real": "Six Days at the Bottom of the Ocean",
+    "artist1": "Explosions In The Sky",
+    "artists": [
+     "Explosions In The Sky"
+    ]
+   },
+   {
+    "id": 17670032,
+    "name": "Your Hand in Mine",
+    "real": "Your Hand in Mine",
+    "artist1": "Explosions In The Sky",
+    "artists": [
+     "Explosions In The Sky"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 3,
+  "cat": "postrock",
+  "key": "Godspeed You! Black Emperor",
+  "band": "Godspeed You! Black Emperor",
+  "alias": "GY!BE",
+  "region": "加拿大",
+  "desc": "蒙特利尔，集体创作与政治叙事",
+  "album": "Lift Your Skinny Fists Like Antennas to Heaven",
+  "albumId": 412971,
+  "artist": "Godspeed You! Black Emperor",
+  "year": "2000",
+  "songs": [
+   {
+    "id": 4084027,
+    "name": "Storm",
+    "real": "Storm",
+    "artist1": "Godspeed You! Black Emperor",
+    "artists": [
+     "Godspeed You! Black Emperor"
+    ]
+   },
+   {
+    "id": 4084037,
+    "name": "Sleep",
+    "real": "Sleep",
+    "artist1": "Godspeed You! Black Emperor",
+    "artists": [
+     "Godspeed You! Black Emperor"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 4,
+  "cat": "postrock",
+  "key": "Sigur Rós",
+  "band": "Sigur Rós",
+  "alias": "",
+  "region": "冰岛",
+  "desc": "雷克雅未克，假声与弓弦吉他",
+  "album": "Ágætis byrjun",
+  "albumId": 2029087,
+  "artist": "Sigur Rós",
+  "year": "1999",
+  "songs": [
+   {
+    "id": 22063111,
+    "name": "Svefn-g-englar",
+    "real": "Svefn-g-englar",
+    "artist1": "Sigur Rós",
+    "artists": [
+     "Sigur Rós"
+    ]
+   },
+   {
+    "id": 22063112,
+    "name": "Starálfur",
+    "real": "Starálfur",
+    "artist1": "Sigur Rós",
+    "artists": [
+     "Sigur Rós"
+    ]
+   },
+   {
+    "id": 22063114,
+    "name": "Ný batterí",
+    "real": "Ný batterí",
+    "artist1": "Sigur Rós",
+    "artists": [
+     "Sigur Rós"
+    ]
+   },
+   {
+    "id": 22063116,
+    "name": "Viðrar vel til loftárása",
+    "real": "Viðrar vel til loftárása",
+    "artist1": "Sigur Rós",
+    "artists": [
+     "Sigur Rós"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "cat": "postrock",
+  "key": "Slint",
+  "band": "Slint",
+  "alias": "",
+  "region": "美国",
+  "desc": "路易斯维尔，post-rock 的史前史",
+  "album": "Spiderland",
+  "albumId": 1891517,
+  "artist": "Slint",
+  "year": "1991",
+  "songs": [
+   {
+    "id": 20353014,
+    "name": "Breadcrumb Trail",
+    "real": "Breadcrumb Trail",
+    "artist1": "Slint",
+    "artists": [
+     "Slint"
+    ]
+   },
+   {
+    "id": 20353015,
+    "name": "Nosferatu Man",
+    "real": "Nosferatu Man",
+    "artist1": "Slint",
+    "artists": [
+     "Slint"
+    ]
+   },
+   {
+    "id": 20353017,
+    "name": "Washer",
+    "real": "Washer",
+    "artist1": "Slint",
+    "artists": [
+     "Slint"
+    ]
+   },
+   {
+    "id": 20353019,
+    "name": "Good Morning, Captain",
+    "real": "Good Morning, Captain",
+    "artist1": "Slint",
+    "artists": [
+     "Slint"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 6,
+  "cat": "postrock",
+  "key": "Talk Talk",
+  "band": "Talk Talk",
+  "alias": "",
+  "region": "英国",
+  "desc": "伦敦，从 synth-pop 走向极简与留白",
+  "album": "Laughing Stock",
+  "albumId": 439223,
+  "artist": "Talk Talk",
+  "year": "1991",
+  "songs": [
+   {
+    "id": 4351309,
+    "name": "Myrrhman",
+    "real": "Myrrhman",
+    "artist1": "Talk Talk",
+    "artists": [
+     "Talk Talk"
+    ]
+   },
+   {
+    "id": 4351313,
+    "name": "Ascension Day",
+    "real": "Ascension Day",
+    "artist1": "Talk Talk",
+    "artists": [
+     "Talk Talk"
+    ]
+   },
+   {
+    "id": 4351317,
+    "name": "After The Flood",
+    "real": "After The Flood",
+    "artist1": "Talk Talk",
+    "artists": [
+     "Talk Talk"
+    ]
+   },
+   {
+    "id": 4351323,
+    "name": "New Grass",
+    "real": "New Grass",
+    "artist1": "Talk Talk",
+    "artists": [
+     "Talk Talk"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 7,
+  "cat": "postrock",
+  "key": "Bark Psychosis",
+  "band": "Bark Psychosis",
+  "alias": "",
+  "region": "英国",
+  "desc": "伦敦，后摇一词的出处之一",
+  "album": "Hex",
+  "albumId": 2045054,
+  "artist": "Bark Psychosis",
+  "year": "1994",
+  "songs": [
+   {
+    "id": 22254454,
+    "name": "The Loom",
+    "real": "The Loom",
+    "artist1": "Bark Psychosis",
+    "artists": [
+     "Bark Psychosis"
+    ]
+   },
+   {
+    "id": 22254455,
+    "name": "A Street Scene",
+    "real": "A Street Scene",
+    "artist1": "Bark Psychosis",
+    "artists": [
+     "Bark Psychosis"
+    ]
+   },
+   {
+    "id": 22254456,
+    "name": "Absent Friend",
+    "real": "Absent Friend",
+    "artist1": "Bark Psychosis",
+    "artists": [
+     "Bark Psychosis"
+    ]
+   },
+   {
+    "id": 22254460,
+    "name": "Pendulum Man",
+    "real": "Pendulum Man",
+    "artist1": "Bark Psychosis",
+    "artists": [
+     "Bark Psychosis"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "cat": "postrock",
+  "key": "Tortoise",
+  "band": "Tortoise",
+  "alias": "",
+  "region": "美国",
+  "desc": "芝加哥，后摇 / post-rock 的实验室",
+  "album": "Millions Now Living Will Never Die",
+  "albumId": 2551002,
+  "artist": "Tortoise",
+  "year": "1996",
+  "songs": [
+   {
+    "id": 26717637,
+    "name": "Djed",
+    "real": "Djed",
+    "artist1": "Tortoise",
+    "artists": [
+     "Tortoise"
+    ]
+   },
+   {
+    "id": 26717638,
+    "name": "Glass Museum",
+    "real": "Glass Museum",
+    "artist1": "Tortoise",
+    "artists": [
+     "Tortoise"
+    ]
+   },
+   {
+    "id": 26717640,
+    "name": "The Taut and Tame",
+    "real": "The Taut and Tame",
+    "artist1": "Tortoise",
+    "artists": [
+     "Tortoise"
+    ]
+   },
+   {
+    "id": 26717642,
+    "name": "Along the Banks of Rivers",
+    "real": "Along the Banks of Rivers",
+    "artist1": "Tortoise",
+    "artists": [
+     "Tortoise"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 9,
+  "cat": "postrock",
+  "key": "Do Make Say Think",
+  "band": "Do Make Say Think",
+  "alias": "",
+  "region": "加拿大",
+  "desc": "多伦多，铜管与双鼓的仪式感",
+  "album": "& Yet & Yet",
+  "albumId": 1598412,
+  "artist": "Do Make Say Think",
+  "year": "2002",
+  "songs": [
+   {
+    "id": 17336850,
+    "name": "Classic Noodlanding",
+    "real": "Classic Noodlanding",
+    "artist1": "Do Make Say Think",
+    "artists": [
+     "Do Make Say Think"
+    ]
+   },
+   {
+    "id": 17336851,
+    "name": "End Of Music",
+    "real": "End Of Music",
+    "artist1": "Do Make Say Think",
+    "artists": [
+     "Do Make Say Think"
+    ]
+   },
+   {
+    "id": 17336853,
+    "name": "Chinatown",
+    "real": "Chinatown",
+    "artist1": "Do Make Say Think",
+    "artists": [
+     "Do Make Say Think"
+    ]
+   },
+   {
+    "id": 17336856,
+    "name": "Anything For Now",
+    "real": "Anything For Now",
+    "artist1": "Do Make Say Think",
+    "artists": [
+     "Do Make Say Think"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 10,
+  "cat": "postrock",
+  "key": "MONO",
+  "band": "MONO",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京，弦乐编制与末日感的渐强",
+  "album": "Hymn to the Immortal Wind",
+  "albumId": 76561,
+  "artist": "MONO",
+  "year": "2009",
+  "songs": [
+   {
+    "id": 776668,
+    "name": "Ashes in the Snow",
+    "real": "Ashes in the Snow",
+    "artist1": "MONO",
+    "artists": [
+     "MONO"
+    ]
+   },
+   {
+    "id": 776669,
+    "name": "Burial at Sea",
+    "real": "Burial at Sea",
+    "artist1": "MONO",
+    "artists": [
+     "MONO"
+    ]
+   },
+   {
+    "id": 776671,
+    "name": "Pure as Snow (Trails of the Winter Storm)",
+    "real": "Pure as Snow (Trails of the Winter Storm)",
+    "artist1": "MONO",
+    "artists": [
+     "MONO"
+    ]
+   },
+   {
+    "id": 776677,
+    "name": "Everlasting Light",
+    "real": "Everlasting Light",
+    "artist1": "MONO",
+    "artists": [
+     "MONO"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 11,
+  "cat": "postrock",
+  "key": "Envy",
+  "band": "Envy",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京，screamo 与后摇的交界",
+  "album": "A Dead Sinking Story",
+  "albumId": 2089954,
+  "artist": "Envy",
+  "year": "2003",
+  "songs": [
+   {
+    "id": 22754248,
+    "name": "Chain Wandering Deeply",
+    "real": "Chain Wandering Deeply",
+    "artist1": "Envy",
+    "artists": [
+     "Envy"
+    ]
+   },
+   {
+    "id": 22754249,
+    "name": "Distress of Ignorance",
+    "real": "Distress of Ignorance",
+    "artist1": "Envy",
+    "artists": [
+     "Envy"
+    ]
+   },
+   {
+    "id": 22754252,
+    "name": "Color of Fetters",
+    "real": "Color of Fetters",
+    "artist1": "Envy",
+    "artists": [
+     "Envy"
+    ]
+   },
+   {
+    "id": 22754250,
+    "name": "A Will Remains in the Ashes",
+    "real": "A Will Remains in the Ashes",
+    "artist1": "Envy",
+    "artists": [
+     "Envy"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 12,
+  "cat": "postrock",
+  "key": "toe",
+  "band": "toe",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京，数学摇滚式的鼓与 guitar loop",
+  "album": "the book about my idle plot on a vague anxiety",
+  "albumId": 2078525,
+  "artist": "toe",
+  "year": "2005",
+  "songs": [
+   {
+    "id": 22664759,
+    "name": "孤独の発明",
+    "real": "孤独の発明",
+    "artist1": "toe",
+    "artists": [
+     "toe"
+    ]
+   },
+   {
+    "id": 22664761,
+    "name": "tremolo+delay",
+    "real": "tremolo+delay",
+    "artist1": "toe",
+    "artists": [
+     "toe"
+    ]
+   },
+   {
+    "id": 22664758,
+    "name": "むこう岸が視る夢",
+    "real": "むこう岸が視る夢",
+    "artist1": "toe",
+    "artists": [
+     "toe"
+    ]
+   },
+   {
+    "id": 22664764,
+    "name": "メトロノーム",
+    "real": "メトロノーム",
+    "artist1": "toe",
+    "artists": [
+     "toe"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 13,
+  "cat": "postrock",
+  "key": "té",
+  "band": "té",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京，长标题与器乐叙事的异类",
+  "album": "まして、心と五感が一致するなら全て最上の「音楽」に変ずる。",
+  "albumId": 2096734,
+  "artist": "té",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 22809477,
+    "name": "人間は自由なものとして生まれ、至る所で『鎖』に繋がれてゆく.",
+    "real": "人間は自由なものとして生まれ、至る所で『鎖』に繋がれてゆく.",
+    "artist1": "té",
+    "artists": [
+     "té"
+    ]
+   },
+   {
+    "id": 22809484,
+    "name": "夢とは現実という平凡なものに付ける美しさに似た『嘘』の俗称.",
+    "real": "夢とは現実という平凡なものに付ける美しさに似た『嘘』の俗称.",
+    "artist1": "té",
+    "artists": [
+     "té"
+    ]
+   },
+   {
+    "id": 22809479,
+    "name": "意味の在る巡り会いを求めず、出会いに『意味』を见つけて行く.",
+    "real": "意味の在る巡り会いを求めず、出会いに『意味』を见つけて行く.",
+    "artist1": "té",
+    "artists": [
+     "té"
+    ]
+   },
+   {
+    "id": 22809486,
+    "name": "歌を謡って眠らせてやりたい.谁かの傍に坐り『謡』っていたい.",
+    "real": "歌を謡って眠らせてやりたい.谁かの傍に坐り『謡』っていたい.",
+    "artist1": "té",
+    "artists": [
+     "té"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "cat": "postrock",
+  "key": "LITE",
+  "band": "LITE",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京，数学摇滚 / 后摇的四件套",
+  "album": "Phantasia",
+  "albumId": 2081461,
+  "artist": "LITE",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 22687364,
+    "name": "Ef",
+    "real": "Ef",
+    "artist1": "LITE",
+    "artists": [
+     "LITE"
+    ]
+   },
+   {
+    "id": 22687360,
+    "name": "Contra",
+    "real": "Contra",
+    "artist1": "LITE",
+    "artists": [
+     "LITE"
+    ]
+   },
+   {
+    "id": 22687365,
+    "name": "Ghost Dance",
+    "real": "Ghost Dance",
+    "artist1": "LITE",
+    "artists": [
+     "LITE"
+    ]
+   },
+   {
+    "id": 22687369,
+    "name": "Phantasia",
+    "real": "Phantasia",
+    "artist1": "LITE",
+    "artists": [
+     "LITE"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 15,
+  "cat": "postrock",
+  "key": "mouse on the keys",
+  "band": "mouse on the keys",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京，双钢琴 + 鼓的爵士后摇",
+  "album": "an anxious object",
+  "albumId": 2079380,
+  "artist": "mouse on the keys",
+  "year": "2009",
+  "songs": [
+   {
+    "id": 22670802,
+    "name": "completed nihilism",
+    "real": "completed nihilism",
+    "artist1": "mouse on the keys",
+    "artists": [
+     "mouse on the keys"
+    ]
+   },
+   {
+    "id": 22670800,
+    "name": "spectres de mouse",
+    "real": "spectres de mouse",
+    "artist1": "mouse on the keys",
+    "artists": [
+     "mouse on the keys"
+    ]
+   },
+   {
+    "id": 22670806,
+    "name": "seiren",
+    "real": "seiren",
+    "artist1": "mouse on the keys",
+    "artists": [
+     "mouse on the keys"
+    ]
+   },
+   {
+    "id": 22670807,
+    "name": "ouroboros",
+    "real": "ouroboros",
+    "artist1": "mouse on the keys",
+    "artists": [
+     "mouse on the keys"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "cat": "postrock",
+  "key": "惘闻",
+  "band": "惘闻",
+  "alias": "Wang Wen",
+  "region": "大陆",
+  "desc": "大连，中国后摇的旗帜",
+  "album": "八匹马",
+  "albumId": 2857065,
+  "artist": "惘闻",
+  "year": "2014",
+  "songs": [
+   {
+    "id": 28629173,
+    "name": "大连天空",
+    "real": "大连天空",
+    "artist1": "惘闻",
+    "artists": [
+     "惘闻"
+    ]
+   },
+   {
+    "id": 28629168,
+    "name": "第八层地狱",
+    "real": "第八层地狱",
+    "artist1": "惘闻",
+    "artists": [
+     "惘闻"
+    ]
+   },
+   {
+    "id": 28629174,
+    "name": "万佛朝宗",
+    "real": "万佛朝宗",
+    "artist1": "惘闻",
+    "artists": [
+     "惘闻"
+    ]
+   },
+   {
+    "id": 28629178,
+    "name": "最后旅程",
+    "real": "最后旅程",
+    "artist1": "惘闻",
+    "artists": [
+     "惘闻"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 17,
+  "cat": "postrock",
+  "key": "沼泽",
+  "band": "沼泽",
+  "alias": "Zhaoze",
+  "region": "大陆",
+  "desc": "广州，古琴与后摇的融合",
+  "album": "1911",
+  "albumId": 39110,
+  "artist": "沼泽",
+  "year": "2011",
+  "songs": [
+   {
+    "id": 394870,
+    "name": "1911第一回",
+    "real": "1911第一回",
+    "artist1": "沼泽",
+    "artists": [
+     "沼泽"
+    ]
+   },
+   {
+    "id": 394873,
+    "name": "1911第二回",
+    "real": "1911第二回",
+    "artist1": "沼泽",
+    "artists": [
+     "沼泽"
+    ]
+   },
+   {
+    "id": 394876,
+    "name": "1911第三回",
+    "real": "1911第三回",
+    "artist1": "沼泽",
+    "artists": [
+     "沼泽"
+    ]
+   },
+   {
+    "id": 394879,
+    "name": "1911第四回",
+    "real": "1911第四回",
+    "artist1": "沼泽",
+    "artists": [
+     "沼泽"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "cat": "postrock",
+  "key": "文雀",
+  "band": "文雀",
+  "alias": "Sparrow",
+  "region": "大陆",
+  "desc": "北京，旋律化的器乐摇滚",
+  "album": "彩虹山",
+  "albumId": 2646287,
+  "artist": "文雀",
+  "year": "2012",
+  "songs": [
+   {
+    "id": 27646210,
+    "name": "时间是富翁",
+    "real": "时间是富翁",
+    "artist1": "文雀",
+    "artists": [
+     "文雀"
+    ]
+   },
+   {
+    "id": 27646212,
+    "name": "寒心寺",
+    "real": "寒心寺",
+    "artist1": "文雀",
+    "artists": [
+     "文雀"
+    ]
+   },
+   {
+    "id": 27646214,
+    "name": "雨",
+    "real": "雨",
+    "artist1": "文雀",
+    "artists": [
+     "文雀"
+    ]
+   },
+   {
+    "id": 27646215,
+    "name": "彩虹山",
+    "real": "彩虹山",
+    "artist1": "文雀",
+    "artists": [
+     "文雀"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 19,
+  "cat": "postrock",
+  "key": "甜梅号",
+  "band": "甜梅号",
+  "alias": "Sugar Plum Ferry",
+  "region": "台湾",
+  "desc": "台北，华语后摇的先行者",
+  "album": "脑海群岛",
+  "albumId": 37826,
+  "artist": "甜梅号",
+  "year": "2010",
+  "songs": [
+   {
+    "id": 382141,
+    "name": "清醒梦",
+    "real": "清醒梦",
+    "artist1": "甜梅号",
+    "artists": [
+     "甜梅号"
+    ]
+   },
+   {
+    "id": 382144,
+    "name": "黄昏鹿场",
+    "real": "黄昏鹿场",
+    "artist1": "甜梅号",
+    "artists": [
+     "甜梅号"
+    ]
+   },
+   {
+    "id": 382147,
+    "name": "站在太阳上",
+    "real": "站在太阳上",
+    "artist1": "甜梅号",
+    "artists": [
+     "甜梅号"
+    ]
+   },
+   {
+    "id": 382149,
+    "name": "人儿啊",
+    "real": "人儿啊",
+    "artist1": "甜梅号",
+    "artists": [
+     "甜梅号"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 20,
+  "cat": "postrock",
+  "key": "晨曦光廊",
+  "band": "晨曦光廊",
+  "alias": "",
+  "region": "台湾",
+  "desc": "台南，明亮而热血的器乐摇滚",
+  "album": "60 km/h",
+  "albumId": 2866716,
+  "artist": "晨曦光廊",
+  "year": "2013",
+  "songs": [
+   {
+    "id": 28748455,
+    "name": "知义里",
+    "real": "知义里",
+    "artist1": "晨曦光廊",
+    "artists": [
+     "晨曦光廊"
+    ]
+   },
+   {
+    "id": 28748456,
+    "name": "光合作用",
+    "real": "光合作用",
+    "artist1": "晨曦光廊",
+    "artists": [
+     "晨曦光廊"
+    ]
+   },
+   {
+    "id": 28748457,
+    "name": "风中的人",
+    "real": "风中的人",
+    "artist1": "晨曦光廊",
+    "artists": [
+     "晨曦光廊"
+    ]
+   },
+   {
+    "id": 28748458,
+    "name": "60km/h",
+    "real": "60km/h",
+    "artist1": "晨曦光廊",
+    "artists": [
+     "晨曦光廊"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 21,
+  "cat": "postrock",
+  "key": "This Will Destroy You",
+  "band": "This Will Destroy You",
+  "alias": "TWDY",
+  "region": "美国",
+  "desc": "德州，厚重墙式音场",
+  "album": "This Will Destroy You",
+  "albumId": 438451,
+  "artist": "This Will Destroy You",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 4341989,
+    "name": "A Three-Legged Workhorse",
+    "real": "A Three-Legged Workhorse",
+    "artist1": "This Will Destroy You",
+    "artists": [
+     "This Will Destroy You"
+    ]
+   },
+   {
+    "id": 4341999,
+    "name": "Threads",
+    "real": "Threads",
+    "artist1": "This Will Destroy You",
+    "artists": [
+     "This Will Destroy You"
+    ]
+   },
+   {
+    "id": 4342009,
+    "name": "The Mighty Rio Grande",
+    "real": "The Mighty Rio Grande",
+    "artist1": "This Will Destroy You",
+    "artists": [
+     "This Will Destroy You"
+    ]
+   },
+   {
+    "id": 4342011,
+    "name": "They Move on Tracks of Never-Ending Light",
+    "real": "They Move on Tracks of Never-Ending Light",
+    "artist1": "This Will Destroy You",
+    "artists": [
+     "This Will Destroy You"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 22,
+  "cat": "postrock",
+  "key": "Caspian",
+  "band": "Caspian",
+  "alias": "",
+  "region": "美国",
+  "desc": "马萨诸塞，宽广的渐强与温柔",
+  "album": "The Four Trees",
+  "albumId": 1577043,
+  "artist": "Caspian",
+  "year": "2007",
+  "songs": [
+   {
+    "id": 17120802,
+    "name": "Moksha",
+    "real": "Moksha",
+    "artist1": "Caspian",
+    "artists": [
+     "Caspian"
+    ]
+   },
+   {
+    "id": 17120803,
+    "name": "Some Are White Light",
+    "real": "Some Are White Light",
+    "artist1": "Caspian",
+    "artists": [
+     "Caspian"
+    ]
+   },
+   {
+    "id": 17120805,
+    "name": "Crawlspace",
+    "real": "Crawlspace",
+    "artist1": "Caspian",
+    "artists": [
+     "Caspian"
+    ]
+   },
+   {
+    "id": 17120810,
+    "name": "The Dove",
+    "real": "The Dove",
+    "artist1": "Caspian",
+    "artists": [
+     "Caspian"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "cat": "postrock",
+  "key": "Hammock",
+  "band": "Hammock",
+  "alias": "",
+  "region": "美国",
+  "desc": "纳什维尔，氛围 / 后摇的漂浮感",
+  "album": "Raising Your Voice... Trying to Stop an Echo",
+  "albumId": 1680988,
+  "artist": "Hammock",
+  "year": "2006",
+  "songs": [
+   {
+    "id": 18313361,
+    "name": "I Can Almost See You",
+    "real": "I Can Almost See You",
+    "artist1": "Hammock",
+    "artists": [
+     "Hammock"
+    ]
+   },
+   {
+    "id": 18313362,
+    "name": "Raising Your Voice... Trying to Stop an Echo",
+    "real": "Raising Your Voice... Trying to Stop an Echo",
+    "artist1": "Hammock",
+    "artists": [
+     "Hammock"
+    ]
+   },
+   {
+    "id": 18313363,
+    "name": "Losing You to You",
+    "real": "Losing You to You",
+    "artist1": "Hammock",
+    "artists": [
+     "Hammock"
+    ]
+   },
+   {
+    "id": 18313373,
+    "name": "...Like Starlight Into Day",
+    "real": "...Like Starlight Into Day",
+    "artist1": "Hammock",
+    "artists": [
+     "Hammock"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "cat": "postrock",
+  "key": "Russian Circles",
+  "band": "Russian Circles",
+  "alias": "",
+  "region": "美国",
+  "desc": "芝加哥，三人重型 post-metal",
+  "album": "Station",
+  "albumId": 430876,
+  "artist": "Russian Circles",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 4262875,
+    "name": "Campaign",
+    "real": "Campaign",
+    "artist1": "Russian Circles",
+    "artists": [
+     "Russian Circles"
+    ]
+   },
+   {
+    "id": 4262879,
+    "name": "Harper Lewis",
+    "real": "Harper Lewis",
+    "artist1": "Russian Circles",
+    "artists": [
+     "Russian Circles"
+    ]
+   },
+   {
+    "id": 4262883,
+    "name": "Station",
+    "real": "Station",
+    "artist1": "Russian Circles",
+    "artists": [
+     "Russian Circles"
+    ]
+   },
+   {
+    "id": 4262893,
+    "name": "Youngblood",
+    "real": "Youngblood",
+    "artist1": "Russian Circles",
+    "artists": [
+     "Russian Circles"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 25,
+  "cat": "postrock",
+  "key": "Pelican",
+  "band": "Pelican",
+  "alias": "",
+  "region": "美国",
+  "desc": "芝加哥，post-metal 器乐先驱",
+  "album": "The Fire In Our Throats Will Beckon The Thaw",
+  "albumId": 1676509,
+  "artist": "Pelican",
+  "year": "2005",
+  "songs": [
+   {
+    "id": 18266239,
+    "name": "Last Day of Winter",
+    "real": "Last Day of Winter",
+    "artist1": "Pelican",
+    "artists": [
+     "Pelican"
+    ]
+   },
+   {
+    "id": 18266240,
+    "name": "Autumn Into Summer",
+    "real": "Autumn Into Summer",
+    "artist1": "Pelican",
+    "artists": [
+     "Pelican"
+    ]
+   },
+   {
+    "id": 18266241,
+    "name": "March to the Sea",
+    "real": "March to the Sea",
+    "artist1": "Pelican",
+    "artists": [
+     "Pelican"
+    ]
+   },
+   {
+    "id": 18266244,
+    "name": "Aurora Borealis",
+    "real": "Aurora Borealis",
+    "artist1": "Pelican",
+    "artists": [
+     "Pelican"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 26,
+  "cat": "postrock",
+  "key": "65daysofstatic",
+  "band": "65daysofstatic",
+  "alias": "",
+  "region": "英国",
+  "desc": "谢菲尔德，电子 + 后摇的爆裂",
+  "album": "The Fall of Math",
+  "albumId": 1490529,
+  "artist": "65daysofstatic",
+  "year": "2004",
+  "songs": [
+   {
+    "id": 16154475,
+    "name": "Retreat! Retreat!",
+    "real": "Retreat! Retreat!",
+    "artist1": "65daysofstatic",
+    "artists": [
+     "65daysofstatic"
+    ]
+   },
+   {
+    "id": 16154474,
+    "name": "Install a Beak In the Heart That Clucks Time In Arabic",
+    "real": "Install a Beak In the Heart That Clucks Time In Arabic",
+    "artist1": "65daysofstatic",
+    "artists": [
+     "65daysofstatic"
+    ]
+   },
+   {
+    "id": 16154478,
+    "name": "The Fall of Math",
+    "real": "The Fall of Math",
+    "artist1": "65daysofstatic",
+    "artists": [
+     "65daysofstatic"
+    ]
+   },
+   {
+    "id": 16154483,
+    "name": "Aren't We All Running?",
+    "real": "Aren't We All Running?",
+    "artist1": "65daysofstatic",
+    "artists": [
+     "65daysofstatic"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "cat": "postrock",
+  "key": "Maybeshewill",
+  "band": "Maybeshewill",
+  "alias": "",
+  "region": "英国",
+  "desc": "莱斯特，钢琴采样与电影感",
+  "album": "Not for Want of Trying",
+  "albumId": 1961061,
+  "artist": "Maybeshewill",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 21218348,
+    "name": "Seraphim & Cherubim",
+    "real": "Seraphim & Cherubim",
+    "artist1": "Maybeshewill",
+    "artists": [
+     "Maybeshewill"
+    ]
+   },
+   {
+    "id": 21218350,
+    "name": "I'm In Awe, Amadeus!",
+    "real": "I'm In Awe, Amadeus!",
+    "artist1": "Maybeshewill",
+    "artists": [
+     "Maybeshewill"
+    ]
+   },
+   {
+    "id": 21218354,
+    "name": "He Films The Clouds Pt. 2",
+    "real": "He Films The Clouds Pt. 2",
+    "artist1": "Maybeshewill",
+    "artists": [
+     "Maybeshewill"
+    ]
+   },
+   {
+    "id": 21218355,
+    "name": "Not For Want Of Trying",
+    "real": "Not For Want Of Trying",
+    "artist1": "Maybeshewill",
+    "artists": [
+     "Maybeshewill"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "cat": "postrock",
+  "key": "Pg.lost",
+  "band": "Pg.lost",
+  "alias": "",
+  "region": "瑞典",
+  "desc": "斯德哥尔摩，北欧式的冷冽渐强",
+  "album": "It's Not Me, It's You",
+  "albumId": 1679096,
+  "artist": "Pg.lost",
+  "year": "2008",
+  "songs": [
+   {
+    "id": 18291349,
+    "name": "The Day Shift",
+    "real": "The Day Shift",
+    "artist1": "Pg.lost",
+    "artists": [
+     "Pg.lost"
+    ]
+   },
+   {
+    "id": 18291351,
+    "name": "Pascal's Law",
+    "real": "Pascal's Law",
+    "artist1": "Pg.lost",
+    "artists": [
+     "Pg.lost"
+    ]
+   },
+   {
+    "id": 18291353,
+    "name": "Jonathan",
+    "real": "Jonathan",
+    "artist1": "Pg.lost",
+    "artists": [
+     "Pg.lost"
+    ]
+   },
+   {
+    "id": 18291354,
+    "name": "Siren",
+    "real": "Siren",
+    "artist1": "Pg.lost",
+    "artists": [
+     "Pg.lost"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 29,
+  "cat": "postrock",
+  "key": "We Lost The Sea",
+  "band": "We Lost The Sea",
+  "alias": "",
+  "region": "澳大利亚",
+  "desc": "悉尼，叙事型后摇的当代代表",
+  "album": "Departure Songs",
+  "albumId": 3263104,
+  "artist": "We Lost The Sea",
+  "year": "2015",
+  "songs": [
+   {
+    "id": 33785701,
+    "name": "A Gallant Gentleman",
+    "real": "A Gallant Gentleman",
+    "artist1": "We Lost The Sea",
+    "artists": [
+     "We Lost The Sea"
+    ]
+   },
+   {
+    "id": 33785703,
+    "name": "The Last Dive Of David Shaw",
+    "real": "The Last Dive Of David Shaw",
+    "artist1": "We Lost The Sea",
+    "artists": [
+     "We Lost The Sea"
+    ]
+   },
+   {
+    "id": 33785704,
+    "name": "Challenger part 1 - Flight",
+    "real": "Challenger part 1 - Flight",
+    "artist1": "We Lost The Sea",
+    "artists": [
+     "We Lost The Sea"
+    ]
+   },
+   {
+    "id": 33785705,
+    "name": "Challenger part 2 - A Swan Song",
+    "real": "Challenger part 2 - A Swan Song",
+    "artist1": "We Lost The Sea",
+    "artists": [
+     "We Lost The Sea"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 30,
+  "cat": "postrock",
+  "key": "Sleepmakeswaves",
+  "band": "Sleepmakeswaves",
+  "alias": "",
+  "region": "澳大利亚",
+  "desc": "悉尼，明亮旋律与电子质感",
+  "album": "Love Of Cartography",
+  "albumId": 2887640,
+  "artist": "Sleepmakeswaves",
+  "year": "2014",
+  "songs": [
+   {
+    "id": 28770581,
+    "name": "Perfect Detonator",
+    "real": "Perfect Detonator",
+    "artist1": "Sleepmakeswaves",
+    "artists": [
+     "Sleepmakeswaves"
+    ]
+   },
+   {
+    "id": 28770582,
+    "name": "Traced In Constellations",
+    "real": "Traced In Constellations",
+    "artist1": "Sleepmakeswaves",
+    "artists": [
+     "Sleepmakeswaves"
+    ]
+   },
+   {
+    "id": 28770589,
+    "name": "Something Like Avalanches",
+    "real": "Something Like Avalanches",
+    "artist1": "Sleepmakeswaves",
+    "artists": [
+     "Sleepmakeswaves"
+    ]
+   },
+   {
+    "id": 28770590,
+    "name": "Your Time Will Come Again",
+    "real": "Your Time Will Come Again",
+    "artist1": "Sleepmakeswaves",
+    "artists": [
+     "Sleepmakeswaves"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 31,
+  "cat": "postrock",
+  "key": "Alcest",
+  "band": "Alcest",
+  "alias": "",
+  "region": "法国",
+  "desc": "巴黎，blackgaze 的开创者",
+  "album": "Souvenirs d'un autre monde",
+  "albumId": 1505688,
+  "artist": "Alcest",
+  "year": "2007",
+  "songs": [
+   {
+    "id": 16321495,
+    "name": "Printemps émeraude",
+    "real": "Printemps émeraude",
+    "artist1": "Alcest",
+    "artists": [
+     "Alcest"
+    ]
+   },
+   {
+    "id": 16321496,
+    "name": "Souvenirs d'un autre monde",
+    "real": "Souvenirs d'un autre monde",
+    "artist1": "Alcest",
+    "artists": [
+     "Alcest"
+    ]
+   },
+   {
+    "id": 16321497,
+    "name": "Les iris",
+    "real": "Les iris",
+    "artist1": "Alcest",
+    "artists": [
+     "Alcest"
+    ]
+   },
+   {
+    "id": 16321500,
+    "name": "Tir nan og",
+    "real": "Tir nan og",
+    "artist1": "Alcest",
+    "artists": [
+     "Alcest"
+    ]
+   }
+  ]
+ }
+]

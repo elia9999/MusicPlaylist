@@ -1,0 +1,1532 @@
+[
+ {
+  "no": 1,
+  "cat": "shoegaze",
+  "key": "My Bloody Valentine",
+  "band": "My Bloody Valentine",
+  "alias": "mbv",
+  "region": "英国",
+  "desc": "伦敦，盯鞋的原点，Loveless 至今是天花板",
+  "album": "loveless",
+  "albumId": 422052,
+  "artist": "My Bloody Valentine",
+  "year": "1991",
+  "songs": [
+   {
+    "id": 4174117,
+    "name": "only shallow",
+    "real": "only shallow",
+    "artist1": "My Bloody Valentine",
+    "artists": [
+     "My Bloody Valentine"
+    ]
+   },
+   {
+    "id": 4174137,
+    "name": "when you sleep",
+    "real": "when you sleep",
+    "artist1": "My Bloody Valentine",
+    "artists": [
+     "My Bloody Valentine"
+    ]
+   },
+   {
+    "id": 4174129,
+    "name": "to here knows when",
+    "real": "to here knows when",
+    "artist1": "My Bloody Valentine",
+    "artists": [
+     "My Bloody Valentine"
+    ]
+   },
+   {
+    "id": 4174158,
+    "name": "soon",
+    "real": "soon",
+    "artist1": "My Bloody Valentine",
+    "artists": [
+     "My Bloody Valentine"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 2,
+  "cat": "shoegaze",
+  "key": "Ride",
+  "band": "Ride",
+  "alias": "",
+  "region": "英国",
+  "desc": "牛津，Nowhere 定义了「盯鞋」的第一波",
+  "album": "Nowhere (Expanded)",
+  "albumId": 1722871,
+  "artist": "Ride",
+  "year": "1990",
+  "songs": [
+   {
+    "id": 18835516,
+    "name": "Seagull (2001 Remaster)",
+    "real": "Seagull (2001 Remaster)",
+    "artist1": "Ride",
+    "artists": [
+     "Ride"
+    ]
+   },
+   {
+    "id": 18835523,
+    "name": "Vapour Trail (2001 Remaster)",
+    "real": "Vapour Trail (2001 Remaster)",
+    "artist1": "Ride",
+    "artists": [
+     "Ride"
+    ]
+   },
+   {
+    "id": 18835520,
+    "name": "Dreams Burn Down (2001 Remaster)",
+    "real": "Dreams Burn Down (2001 Remaster)",
+    "artist1": "Ride",
+    "artists": [
+     "Ride"
+    ]
+   },
+   {
+    "id": 18835517,
+    "name": "Kaleidoscope (2001 Remaster)",
+    "real": "Kaleidoscope (2001 Remaster)",
+    "artist1": "Ride",
+    "artists": [
+     "Ride"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 3,
+  "cat": "shoegaze",
+  "key": "Slowdive",
+  "band": "Slowdive",
+  "alias": "",
+  "region": "英国",
+  "desc": "雷丁，Souvlaki 是无数人入坑的那张",
+  "album": "Souvlaki",
+  "albumId": 1761243,
+  "artist": "Slowdive",
+  "year": "1993",
+  "songs": [
+   {
+    "id": 19204218,
+    "name": "Alison",
+    "real": "Alison",
+    "artist1": "Slowdive",
+    "artists": [
+     "Slowdive"
+    ]
+   },
+   {
+    "id": 19204224,
+    "name": "When the Sun Hits",
+    "real": "When the Sun Hits",
+    "artist1": "Slowdive",
+    "artists": [
+     "Slowdive"
+    ]
+   },
+   {
+    "id": 19204223,
+    "name": "Souvlaki Space Station",
+    "real": "Souvlaki Space Station",
+    "artist1": "Slowdive",
+    "artists": [
+     "Slowdive"
+    ]
+   },
+   {
+    "id": 19204220,
+    "name": "40 Days",
+    "real": "40 Days",
+    "artist1": "Slowdive",
+    "artists": [
+     "Slowdive"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 4,
+  "cat": "shoegaze",
+  "key": "Lush",
+  "band": "Lush",
+  "alias": "",
+  "region": "英国",
+  "desc": "伦敦，4AD 旗下最亮的一支",
+  "album": "Spooky",
+  "albumId": 419731,
+  "artist": "Lush",
+  "year": "1992",
+  "songs": [
+   {
+    "id": 4151881,
+    "name": "Stray",
+    "real": "Stray",
+    "artist1": "Lush",
+    "artists": [
+     "Lush"
+    ]
+   },
+   {
+    "id": 4151884,
+    "name": "Nothing Natural",
+    "real": "Nothing Natural",
+    "artist1": "Lush",
+    "artists": [
+     "Lush"
+    ]
+   },
+   {
+    "id": 4151894,
+    "name": "For Love",
+    "real": "For Love",
+    "artist1": "Lush",
+    "artists": [
+     "Lush"
+    ]
+   },
+   {
+    "id": 4151897,
+    "name": "Superblast!",
+    "real": "Superblast!",
+    "artist1": "Lush",
+    "artists": [
+     "Lush"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "cat": "shoegaze",
+  "key": "Chapterhouse",
+  "band": "Chapterhouse",
+  "alias": "",
+  "region": "英国",
+  "desc": "雷丁，Whirlpool 里的电子与吉他",
+  "album": "Whirlpool",
+  "albumId": 403424,
+  "artist": "Chapterhouse",
+  "year": "1991",
+  "songs": [
+   {
+    "id": 3988976,
+    "name": "Breather",
+    "real": "Breather",
+    "artist1": "Chapterhouse",
+    "artists": [
+     "Chapterhouse"
+    ]
+   },
+   {
+    "id": 3988980,
+    "name": "Pearl",
+    "real": "Pearl",
+    "artist1": "Chapterhouse",
+    "artists": [
+     "Chapterhouse"
+    ]
+   },
+   {
+    "id": 3988982,
+    "name": "Autosleeper",
+    "real": "Autosleeper",
+    "artist1": "Chapterhouse",
+    "artists": [
+     "Chapterhouse"
+    ]
+   },
+   {
+    "id": 3988988,
+    "name": "Falling Down",
+    "real": "Falling Down",
+    "artist1": "Chapterhouse",
+    "artists": [
+     "Chapterhouse"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 6,
+  "cat": "shoegaze",
+  "key": "Swervedriver",
+  "band": "Swervedriver",
+  "alias": "",
+  "region": "英国",
+  "desc": "牛津，更硬、更公路感的盯鞋",
+  "album": "Raise",
+  "albumId": 1759135,
+  "artist": "Swervedriver",
+  "year": "1991",
+  "songs": [
+   {
+    "id": 19183040,
+    "name": "Son Of Mustang Ford (2008 Remastered Version)",
+    "real": "Son Of Mustang Ford (2008 Remastered Version)",
+    "artist1": "Swervedriver",
+    "artists": [
+     "Swervedriver"
+    ]
+   },
+   {
+    "id": 19183042,
+    "name": "Rave Down (2008 Remastered Version)",
+    "real": "Rave Down (2008 Remastered Version)",
+    "artist1": "Swervedriver",
+    "artists": [
+     "Swervedriver"
+    ]
+   },
+   {
+    "id": 19183041,
+    "name": "Deep Seat (2008 Remastered Version)",
+    "real": "Deep Seat (2008 Remastered Version)",
+    "artist1": "Swervedriver",
+    "artists": [
+     "Swervedriver"
+    ]
+   },
+   {
+    "id": 19183045,
+    "name": "Sandblasted (2008 Remastered Version)",
+    "real": "Sandblasted (2008 Remastered Version)",
+    "artist1": "Swervedriver",
+    "artists": [
+     "Swervedriver"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 7,
+  "cat": "shoegaze",
+  "key": "Catherine Wheel",
+  "band": "Catherine Wheel",
+  "alias": "",
+  "region": "英国",
+  "desc": "大不列颠，Ferment 的重型音墙",
+  "album": "Ferment",
+  "albumId": 403624,
+  "artist": "Catherine Wheel",
+  "year": "1992",
+  "songs": [
+   {
+    "id": 3991069,
+    "name": "Black Metallic",
+    "real": "Black Metallic",
+    "artist1": "Catherine Wheel",
+    "artists": [
+     "Catherine Wheel"
+    ]
+   },
+   {
+    "id": 3991064,
+    "name": "I Want To Touch You",
+    "real": "I Want To Touch You",
+    "artist1": "Catherine Wheel",
+    "artists": [
+     "Catherine Wheel"
+    ]
+   },
+   {
+    "id": 3991058,
+    "name": "Texture (Album Version)",
+    "real": "Texture (Album Version)",
+    "artist1": "Catherine Wheel",
+    "artists": [
+     "Catherine Wheel"
+    ]
+   },
+   {
+    "id": 3991090,
+    "name": "Flower To Hide",
+    "real": "Flower To Hide",
+    "artist1": "Catherine Wheel",
+    "artists": [
+     "Catherine Wheel"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "cat": "shoegaze",
+  "key": "Pale Saints",
+  "band": "Pale Saints",
+  "alias": "",
+  "region": "英国",
+  "desc": "利兹，The Comforts of Madness 的梦幻噪响",
+  "album": "The Comforts of Madness",
+  "albumId": 1668699,
+  "artist": "Pale Saints",
+  "year": "1990",
+  "songs": [
+   {
+    "id": 18187322,
+    "name": "Sight of You",
+    "real": "Sight of You",
+    "artist1": "Pale Saints",
+    "artists": [
+     "Pale Saints"
+    ]
+   },
+   {
+    "id": 18187314,
+    "name": "You Tear the World in Two",
+    "real": "You Tear the World in Two",
+    "artist1": "Pale Saints",
+    "artists": [
+     "Pale Saints"
+    ]
+   },
+   {
+    "id": 18187315,
+    "name": "Sea of Sound",
+    "real": "Sea of Sound",
+    "artist1": "Pale Saints",
+    "artists": [
+     "Pale Saints"
+    ]
+   },
+   {
+    "id": 18187320,
+    "name": "Language of Flowers",
+    "real": "Language of Flowers",
+    "artist1": "Pale Saints",
+    "artists": [
+     "Pale Saints"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 9,
+  "cat": "shoegaze",
+  "key": "Curve",
+  "band": "Curve",
+  "alias": "",
+  "region": "英国",
+  "desc": "伦敦，盯鞋 + 工业电子的黑暗面",
+  "album": "Doppelgänger",
+  "albumId": 1578870,
+  "artist": "Curve",
+  "year": "1992",
+  "songs": [
+   {
+    "id": 17146154,
+    "name": "Horror Head",
+    "real": "Horror Head",
+    "artist1": "Curve",
+    "artists": [
+     "Curve"
+    ]
+   },
+   {
+    "id": 17146161,
+    "name": "Fait Accompli",
+    "real": "Fait Accompli",
+    "artist1": "Curve",
+    "artists": [
+     "Curve"
+    ]
+   },
+   {
+    "id": 17146153,
+    "name": "Already Yours",
+    "real": "Already Yours",
+    "artist1": "Curve",
+    "artists": [
+     "Curve"
+    ]
+   },
+   {
+    "id": 17146156,
+    "name": "Doppelgänger",
+    "real": "Doppelgänger",
+    "artist1": "Curve",
+    "artists": [
+     "Curve"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 10,
+  "cat": "shoegaze",
+  "key": "The Verve",
+  "band": "The Verve",
+  "alias": "",
+  "region": "英国",
+  "desc": "韦根，出道时是一支迷幻盯鞋乐队",
+  "album": "A Storm In Heaven",
+  "albumId": 2066066,
+  "artist": "The Verve",
+  "year": "1993",
+  "songs": [
+   {
+    "id": 22567401,
+    "name": "Slide Away",
+    "real": "Slide Away",
+    "artist1": "The Verve",
+    "artists": [
+     "The Verve"
+    ]
+   },
+   {
+    "id": 22567400,
+    "name": "Star Sail",
+    "real": "Star Sail",
+    "artist1": "The Verve",
+    "artists": [
+     "The Verve"
+    ]
+   },
+   {
+    "id": 22567407,
+    "name": "Blue",
+    "real": "Blue",
+    "artist1": "The Verve",
+    "artists": [
+     "The Verve"
+    ]
+   },
+   {
+    "id": 22567408,
+    "name": "Butterfly",
+    "real": "Butterfly",
+    "artist1": "The Verve",
+    "artists": [
+     "The Verve"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 11,
+  "cat": "shoegaze",
+  "key": "The Boo Radleys",
+  "band": "The Boo Radleys",
+  "alias": "",
+  "region": "英国",
+  "desc": "利物浦，Giant Steps 的拼贴与噪音",
+  "album": "Giant Steps",
+  "albumId": 2010978,
+  "artist": "The Boo Radleys",
+  "year": "1993",
+  "songs": [
+   {
+    "id": 21875099,
+    "name": "Lazarus",
+    "real": "Lazarus",
+    "artist1": "The Boo Radleys",
+    "artists": [
+     "The Boo Radleys"
+    ]
+   },
+   {
+    "id": 21875087,
+    "name": "I Hang Suspended",
+    "real": "I Hang Suspended",
+    "artist1": "The Boo Radleys",
+    "artists": [
+     "The Boo Radleys"
+    ]
+   },
+   {
+    "id": 21875089,
+    "name": "Wish I Was Skinny",
+    "real": "Wish I Was Skinny",
+    "artist1": "The Boo Radleys",
+    "artists": [
+     "The Boo Radleys"
+    ]
+   },
+   {
+    "id": 21875103,
+    "name": "The White Noise Revisited",
+    "real": "The White Noise Revisited",
+    "artist1": "The Boo Radleys",
+    "artists": [
+     "The Boo Radleys"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 12,
+  "cat": "shoegaze",
+  "key": "The Telescopes",
+  "band": "The Telescopes",
+  "alias": "",
+  "region": "英国",
+  "desc": "斯塔福德，1989 年的噪音先驱",
+  "album": "Taste + The Perfect Needle EP",
+  "albumId": 39683694,
+  "artist": "The Telescopes",
+  "year": "1989",
+  "songs": [
+   {
+    "id": 573159859,
+    "name": "The Perfect Needle",
+    "real": "The Perfect Needle",
+    "artist1": "Telescopes",
+    "artists": [
+     "Telescopes"
+    ]
+   },
+   {
+    "id": 573164188,
+    "name": "Violence",
+    "real": "Violence",
+    "artist1": "Telescopes",
+    "artists": [
+     "Telescopes"
+    ]
+   },
+   {
+    "id": 573159856,
+    "name": "I Fall, She Screams",
+    "real": "I Fall, She Screams",
+    "artist1": "Telescopes",
+    "artists": [
+     "Telescopes"
+    ]
+   },
+   {
+    "id": 573159861,
+    "name": "Anticipating Nowhere",
+    "real": "Anticipating Nowhere",
+    "artist1": "Telescopes",
+    "artists": [
+     "Telescopes"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 13,
+  "cat": "shoegaze",
+  "key": "The Jesus and Mary Chain",
+  "band": "The Jesus and Mary Chain",
+  "alias": "JAMC",
+  "region": "英国",
+  "desc": "东基尔布赖德，盯鞋的史前史",
+  "album": "Psychocandy",
+  "albumId": 2017714,
+  "artist": "The Jesus and Mary Chain",
+  "year": "1985",
+  "songs": [
+   {
+    "id": 21965464,
+    "name": "Just Like Honey",
+    "real": "Just Like Honey",
+    "artist1": "The Jesus and Mary Chain",
+    "artists": [
+     "The Jesus and Mary Chain"
+    ]
+   },
+   {
+    "id": 21965472,
+    "name": "Never Understand",
+    "real": "Never Understand",
+    "artist1": "The Jesus and Mary Chain",
+    "artists": [
+     "The Jesus and Mary Chain"
+    ]
+   },
+   {
+    "id": 21965476,
+    "name": "You Trip Me Up",
+    "real": "You Trip Me Up",
+    "artist1": "The Jesus and Mary Chain",
+    "artists": [
+     "The Jesus and Mary Chain"
+    ]
+   },
+   {
+    "id": 21965470,
+    "name": "Taste of Cindy",
+    "real": "Taste of Cindy",
+    "artist1": "The Jesus and Mary Chain",
+    "artists": [
+     "The Jesus and Mary Chain"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "cat": "shoegaze",
+  "key": "Cocteau Twins",
+  "band": "Cocteau Twins",
+  "alias": "",
+  "region": "英国",
+  "desc": "格兰奇茅斯，梦幻流行的鼻祖",
+  "album": "Heaven or Las Vegas",
+  "albumId": 1577480,
+  "artist": "Cocteau Twins",
+  "year": "1990",
+  "songs": [
+   {
+    "id": 17124788,
+    "name": "Cherry-coloured Funk",
+    "real": "Cherry-coloured Funk",
+    "artist1": "Cocteau Twins",
+    "artists": [
+     "Cocteau Twins"
+    ]
+   },
+   {
+    "id": 17124792,
+    "name": "Heaven or Las Vegas",
+    "real": "Heaven or Las Vegas",
+    "artist1": "Cocteau Twins",
+    "artists": [
+     "Cocteau Twins"
+    ]
+   },
+   {
+    "id": 17124790,
+    "name": "Iceblink Luck",
+    "real": "Iceblink Luck",
+    "artist1": "Cocteau Twins",
+    "artists": [
+     "Cocteau Twins"
+    ]
+   },
+   {
+    "id": 17124794,
+    "name": "Fotzepolitic",
+    "real": "Fotzepolitic",
+    "artist1": "Cocteau Twins",
+    "artists": [
+     "Cocteau Twins"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 15,
+  "cat": "shoegaze",
+  "key": "Spacemen 3",
+  "band": "Spacemen 3",
+  "alias": "",
+  "region": "英国",
+  "desc": "拉格比，drone 与迷幻的源头",
+  "album": "The Perfect Prescription",
+  "albumId": 347528,
+  "artist": "Spacemen 3",
+  "year": "1987",
+  "songs": [
+   {
+    "id": 3431537,
+    "name": "Take Me to the Other Side",
+    "real": "Take Me to the Other Side",
+    "artist1": "Spacemen 3",
+    "artists": [
+     "Spacemen 3"
+    ]
+   },
+   {
+    "id": 3431540,
+    "name": "Walking With Jesus",
+    "real": "Walking With Jesus",
+    "artist1": "Spacemen 3",
+    "artists": [
+     "Spacemen 3"
+    ]
+   },
+   {
+    "id": 3431564,
+    "name": "Come Down Easy",
+    "real": "Come Down Easy",
+    "artist1": "Spacemen 3",
+    "artists": [
+     "Spacemen 3"
+    ]
+   },
+   {
+    "id": 3431572,
+    "name": "Roller Coaster",
+    "real": "Roller Coaster",
+    "artist1": "Spacemen 3",
+    "artists": [
+     "Spacemen 3"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "cat": "shoegaze",
+  "key": "Drop Nineteens",
+  "band": "Drop Nineteens",
+  "alias": "",
+  "region": "美国",
+  "desc": "波士顿，Delaware 是美式盯鞋的起点",
+  "album": "Delaware",
+  "albumId": 2067430,
+  "artist": "Drop Nineteens",
+  "year": "1992",
+  "songs": [
+   {
+    "id": 22585465,
+    "name": "Winona",
+    "real": "Winona",
+    "artist1": "Drop Nineteens",
+    "artists": [
+     "Drop Nineteens"
+    ]
+   },
+   {
+    "id": 22585466,
+    "name": "Kick The Tragedy",
+    "real": "Kick The Tragedy",
+    "artist1": "Drop Nineteens",
+    "artists": [
+     "Drop Nineteens"
+    ]
+   },
+   {
+    "id": 22585463,
+    "name": "Delaware",
+    "real": "Delaware",
+    "artist1": "Drop Nineteens",
+    "artists": [
+     "Drop Nineteens"
+    ]
+   },
+   {
+    "id": 22585470,
+    "name": "Angel",
+    "real": "Angel",
+    "artist1": "Drop Nineteens",
+    "artists": [
+     "Drop Nineteens"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 17,
+  "cat": "shoegaze",
+  "key": "Swirlies",
+  "band": "Swirlies",
+  "alias": "",
+  "region": "美国",
+  "desc": "波士顿，拼贴、噪音与甜美旋律",
+  "album": "Blonder Tongue Audio Baton",
+  "albumId": 39191716,
+  "artist": "Swirlies",
+  "year": "1993",
+  "songs": [
+   {
+    "id": 565619757,
+    "name": "Bell",
+    "real": "Bell",
+    "artist1": "Swirlies",
+    "artists": [
+     "Swirlies"
+    ]
+   },
+   {
+    "id": 565619759,
+    "name": "Pancake",
+    "real": "Pancake",
+    "artist1": "Swirlies",
+    "artists": [
+     "Swirlies"
+    ]
+   },
+   {
+    "id": 565620364,
+    "name": "Jeremy Parker",
+    "real": "Jeremy Parker",
+    "artist1": "Swirlies",
+    "artists": [
+     "Swirlies"
+    ]
+   },
+   {
+    "id": 565620366,
+    "name": "Wrong Tube",
+    "real": "Wrong Tube",
+    "artist1": "Swirlies",
+    "artists": [
+     "Swirlies"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "cat": "shoegaze",
+  "key": "Lilys",
+  "band": "Lilys",
+  "alias": "",
+  "region": "美国",
+  "desc": "华盛顿，In the Presence of Nothing 的密集音墙",
+  "album": "In the Presence of Nothing",
+  "albumId": 296402,
+  "artist": "Lilys",
+  "year": "1992",
+  "songs": [
+   {
+    "id": 2936366,
+    "name": "There Is No Such Thing as Black Orchids",
+    "real": "There Is No Such Thing as Black Orchids",
+    "artist1": "Lilys",
+    "artists": [
+     "Lilys"
+    ]
+   },
+   {
+    "id": 2936367,
+    "name": "Elizabeth Colour Wheel",
+    "real": "Elizabeth Colour Wheel",
+    "artist1": "Lilys",
+    "artists": [
+     "Lilys"
+    ]
+   },
+   {
+    "id": 2936369,
+    "name": "Tone Bender",
+    "real": "Tone Bender",
+    "artist1": "Lilys",
+    "artists": [
+     "Lilys"
+    ]
+   },
+   {
+    "id": 2936384,
+    "name": "Claire Hates Me",
+    "real": "Claire Hates Me",
+    "artist1": "Lilys",
+    "artists": [
+     "Lilys"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 19,
+  "cat": "shoegaze",
+  "key": "Ringo Deathstarr",
+  "band": "Ringo Deathstarr",
+  "alias": "",
+  "region": "美国",
+  "desc": "奥斯汀，复兴盯鞋的当代代表",
+  "album": "Colour Trip",
+  "albumId": 1715862,
+  "artist": "Ringo Deathstarr",
+  "year": "2011",
+  "songs": [
+   {
+    "id": 18753553,
+    "name": "Imagine Hearts",
+    "real": "Imagine Hearts",
+    "artist1": "Ringo Deathstarr",
+    "artists": [
+     "Ringo Deathstarr"
+    ]
+   },
+   {
+    "id": 18753557,
+    "name": "Kaleidoscope",
+    "real": "Kaleidoscope",
+    "artist1": "Ringo Deathstarr",
+    "artists": [
+     "Ringo Deathstarr"
+    ]
+   },
+   {
+    "id": 18753555,
+    "name": "So High",
+    "real": "So High",
+    "artist1": "Ringo Deathstarr",
+    "artists": [
+     "Ringo Deathstarr"
+    ]
+   },
+   {
+    "id": 18753560,
+    "name": "Chloe",
+    "real": "Chloe",
+    "artist1": "Ringo Deathstarr",
+    "artists": [
+     "Ringo Deathstarr"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 20,
+  "cat": "shoegaze",
+  "key": "Nothing",
+  "band": "Nothing",
+  "alias": "",
+  "region": "美国",
+  "desc": "费城，重型盯鞋 / 噪音摇滚",
+  "album": "Guilty of Everything",
+  "albumId": 2759540,
+  "artist": "Nothing",
+  "year": "2014",
+  "songs": [
+   {
+    "id": 28253964,
+    "name": "Dig",
+    "real": "Dig",
+    "artist1": "Nothing",
+    "artists": [
+     "Nothing"
+    ]
+   },
+   {
+    "id": 28253965,
+    "name": "Bent Nail",
+    "real": "Bent Nail",
+    "artist1": "Nothing",
+    "artists": [
+     "Nothing"
+    ]
+   },
+   {
+    "id": 28253967,
+    "name": "Somersault",
+    "real": "Somersault",
+    "artist1": "Nothing",
+    "artists": [
+     "Nothing"
+    ]
+   },
+   {
+    "id": 28253971,
+    "name": "Guilty of Everything",
+    "real": "Guilty of Everything",
+    "artist1": "Nothing",
+    "artists": [
+     "Nothing"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 21,
+  "cat": "shoegaze",
+  "key": "Whirr",
+  "band": "Whirr",
+  "alias": "",
+  "region": "美国",
+  "desc": "旧金山，Sway 的柔软噪音",
+  "album": "Sway",
+  "albumId": 2981676,
+  "artist": "Whirr",
+  "year": "2014",
+  "songs": [
+   {
+    "id": 29034688,
+    "name": "Press",
+    "real": "Press",
+    "artist1": "Whirr",
+    "artists": [
+     "Whirr"
+    ]
+   },
+   {
+    "id": 29034693,
+    "name": "Sway",
+    "real": "Sway",
+    "artist1": "Whirr",
+    "artists": [
+     "Whirr"
+    ]
+   },
+   {
+    "id": 29034692,
+    "name": "Heavy",
+    "real": "Heavy",
+    "artist1": "Whirr",
+    "artists": [
+     "Whirr"
+    ]
+   },
+   {
+    "id": 29034694,
+    "name": "Lines",
+    "real": "Lines",
+    "artist1": "Whirr",
+    "artists": [
+     "Whirr"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 22,
+  "cat": "shoegaze",
+  "key": "DIIV",
+  "band": "DIIV",
+  "alias": "",
+  "region": "美国",
+  "desc": "布鲁克林，Oshin 的清凉吉他",
+  "album": "Oshin",
+  "albumId": 1605565,
+  "artist": "DIIV",
+  "year": "2012",
+  "songs": [
+   {
+    "id": 17417065,
+    "name": "Past Lives",
+    "real": "Past Lives",
+    "artist1": "DIIV",
+    "artists": [
+     "DIIV"
+    ]
+   },
+   {
+    "id": 17417066,
+    "name": "Human",
+    "real": "Human",
+    "artist1": "DIIV",
+    "artists": [
+     "DIIV"
+    ]
+   },
+   {
+    "id": 17417068,
+    "name": "How Long Have You Known",
+    "real": "How Long Have You Known",
+    "artist1": "DIIV",
+    "artists": [
+     "DIIV"
+    ]
+   },
+   {
+    "id": 17417075,
+    "name": "Doused",
+    "real": "Doused",
+    "artist1": "DIIV",
+    "artists": [
+     "DIIV"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "cat": "shoegaze",
+  "key": "東京酒吐座",
+  "band": "東京酒吐座",
+  "alias": "Tokyo Shoegazer",
+  "region": "日本",
+  "desc": "东京，日本盯鞋的门面",
+  "album": "crystallize (remastered)",
+  "albumId": 152494397,
+  "artist": "東京酒吐座",
+  "year": "2011",
+  "songs": [
+   {
+    "id": 1985721070,
+    "name": "299 Addiction",
+    "real": "299 Addiction",
+    "artist1": "東京酒吐座",
+    "artists": [
+     "東京酒吐座"
+    ]
+   },
+   {
+    "id": 1985721071,
+    "name": "Bright",
+    "real": "Bright",
+    "artist1": "東京酒吐座",
+    "artists": [
+     "東京酒吐座"
+    ]
+   },
+   {
+    "id": 1985721997,
+    "name": "Just Alright",
+    "real": "Just Alright",
+    "artist1": "東京酒吐座",
+    "artists": [
+     "東京酒吐座"
+    ]
+   },
+   {
+    "id": 1985721072,
+    "name": "Waltz Matilda",
+    "real": "Waltz Matilda",
+    "artist1": "東京酒吐座",
+    "artists": [
+     "東京酒吐座"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "cat": "shoegaze",
+  "key": "Luminous Orange",
+  "band": "Luminous Orange",
+  "alias": "",
+  "region": "日本",
+  "desc": "横滨，90 年代以来的日系盯鞋",
+  "album": "Drop You Vivid Colours",
+  "albumId": 2078872,
+  "artist": "Luminous Orange",
+  "year": "2002",
+  "songs": [
+   {
+    "id": 22667087,
+    "name": "Drop You Vivid Colours",
+    "real": "Drop You Vivid Colours",
+    "artist1": "Luminous Orange",
+    "artists": [
+     "Luminous Orange"
+    ]
+   },
+   {
+    "id": 22667085,
+    "name": "the Sky",
+    "real": "the Sky",
+    "artist1": "Luminous Orange",
+    "artists": [
+     "Luminous Orange"
+    ]
+   },
+   {
+    "id": 22667086,
+    "name": "Starred Leaf",
+    "real": "Starred Leaf",
+    "artist1": "Luminous Orange",
+    "artists": [
+     "Luminous Orange"
+    ]
+   },
+   {
+    "id": 22667089,
+    "name": "Sun Ray",
+    "real": "Sun Ray",
+    "artist1": "Luminous Orange",
+    "artists": [
+     "Luminous Orange"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 25,
+  "cat": "shoegaze",
+  "key": "Cruyff In The Bedroom",
+  "band": "Cruyff In The Bedroom",
+  "alias": "",
+  "region": "日本",
+  "desc": "东京，日系盯鞋的另一条支线",
+  "album": "hacanatzkina",
+  "albumId": 2386192,
+  "artist": "Cruyff In The Bedroom",
+  "year": "2012",
+  "songs": [
+   {
+    "id": 26093619,
+    "name": "when moonrise",
+    "real": "when moonrise",
+    "artist1": "Cruyff In The Bedroom",
+    "artists": [
+     "Cruyff In The Bedroom"
+    ]
+   },
+   {
+    "id": 26093620,
+    "name": "moondaze moongaze",
+    "real": "moondaze moongaze",
+    "artist1": "Cruyff In The Bedroom",
+    "artists": [
+     "Cruyff In The Bedroom"
+    ]
+   },
+   {
+    "id": 26093628,
+    "name": "Tokyo Loves You",
+    "real": "Tokyo Loves You",
+    "artist1": "Cruyff In The Bedroom",
+    "artists": [
+     "Cruyff In The Bedroom"
+    ]
+   },
+   {
+    "id": 26093625,
+    "name": "Diamond Bell",
+    "real": "Diamond Bell",
+    "artist1": "Cruyff In The Bedroom",
+    "artists": [
+     "Cruyff In The Bedroom"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 26,
+  "cat": "shoegaze",
+  "key": "缺省",
+  "band": "缺省",
+  "alias": "Default",
+  "region": "大陆",
+  "desc": "北京，中国盯鞋 / 后摇的新一代",
+  "album": "California Nebula",
+  "albumId": 35230772,
+  "artist": "缺省",
+  "year": "2017",
+  "songs": [
+   {
+    "id": 466142770,
+    "name": "一日入冬",
+    "real": "一日入冬",
+    "artist1": "缺省",
+    "artists": [
+     "缺省"
+    ]
+   },
+   {
+    "id": 466143763,
+    "name": "鸽哨",
+    "real": "鸽哨",
+    "artist1": "缺省",
+    "artists": [
+     "缺省"
+    ]
+   },
+   {
+    "id": 466142956,
+    "name": "将死之时掩以水门汀",
+    "real": "将死之时掩以水门汀",
+    "artist1": "缺省",
+    "artists": [
+     "缺省"
+    ]
+   },
+   {
+    "id": 466144632,
+    "name": "Moon Plate",
+    "real": "Moon Plate",
+    "artist1": "缺省",
+    "artists": [
+     "缺省"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "cat": "shoegaze",
+  "key": "发光曲线",
+  "band": "发光曲线",
+  "alias": "Glow Curve",
+  "region": "大陆",
+  "desc": "北京，迷幻与噪音的器乐",
+  "album": "迷航",
+  "albumId": 2674178,
+  "artist": "发光曲线",
+  "year": "2013",
+  "songs": [
+   {
+    "id": 27785104,
+    "name": "迷航",
+    "real": "迷航",
+    "artist1": "发光曲线",
+    "artists": [
+     "发光曲线"
+    ]
+   },
+   {
+    "id": 27785103,
+    "name": "午夜快车",
+    "real": "午夜快车",
+    "artist1": "发光曲线",
+    "artists": [
+     "发光曲线"
+    ]
+   },
+   {
+    "id": 27785107,
+    "name": "银河革命计划",
+    "real": "银河革命计划",
+    "artist1": "发光曲线",
+    "artists": [
+     "发光曲线"
+    ]
+   },
+   {
+    "id": 27785109,
+    "name": "醉鸟启示录",
+    "real": "醉鸟启示录",
+    "artist1": "发光曲线",
+    "artists": [
+     "发光曲线"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "cat": "shoegaze",
+  "key": "Pinkshinyultrablast",
+  "band": "Pinkshinyultrablast",
+  "alias": "",
+  "region": "俄罗斯",
+  "desc": "圣彼得堡，电子化的新派盯鞋",
+  "album": "Everything Else Matters",
+  "albumId": 3095157,
+  "artist": "Pinkshinyultrablast",
+  "year": "2015",
+  "songs": [
+   {
+    "id": 30355840,
+    "name": "Holy Forest",
+    "real": "Holy Forest",
+    "artist1": "Pinkshinyultrablast",
+    "artists": [
+     "Pinkshinyultrablast"
+    ]
+   },
+   {
+    "id": 30355841,
+    "name": "Glitter",
+    "real": "Glitter",
+    "artist1": "Pinkshinyultrablast",
+    "artists": [
+     "Pinkshinyultrablast"
+    ]
+   },
+   {
+    "id": 30355843,
+    "name": "Umi",
+    "real": "Umi",
+    "artist1": "Pinkshinyultrablast",
+    "artists": [
+     "Pinkshinyultrablast"
+    ]
+   },
+   {
+    "id": 30355844,
+    "name": "Land's End",
+    "real": "Land's End",
+    "artist1": "Pinkshinyultrablast",
+    "artists": [
+     "Pinkshinyultrablast"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 29,
+  "cat": "shoegaze",
+  "key": "Serena Maneesh",
+  "band": "Serena Maneesh",
+  "alias": "",
+  "region": "挪威",
+  "desc": "奥斯陆，粗粝而华丽的盯鞋",
+  "album": "Serena-Maneesh",
+  "albumId": 347890,
+  "artist": "Serena Maneesh",
+  "year": "2006",
+  "songs": [
+   {
+    "id": 3435370,
+    "name": "Drain Cosmetics",
+    "real": "Drain Cosmetics",
+    "artist1": "Serena Maneesh",
+    "artists": [
+     "Serena Maneesh"
+    ]
+   },
+   {
+    "id": 3435372,
+    "name": "Selina's Melodie Fountain",
+    "real": "Selina's Melodie Fountain",
+    "artist1": "Serena Maneesh",
+    "artists": [
+     "Serena Maneesh"
+    ]
+   },
+   {
+    "id": 3435384,
+    "name": "Her Name Is Suicide",
+    "real": "Her Name Is Suicide",
+    "artist1": "Serena Maneesh",
+    "artists": [
+     "Serena Maneesh"
+    ]
+   },
+   {
+    "id": 3435400,
+    "name": "Simplicity",
+    "real": "Simplicity",
+    "artist1": "Serena Maneesh",
+    "artists": [
+     "Serena Maneesh"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 30,
+  "cat": "shoegaze",
+  "key": "No Joy",
+  "band": "No Joy",
+  "alias": "",
+  "region": "加拿大",
+  "desc": "蒙特利尔，噪音流行 / 盯鞋",
+  "album": "Wait to Pleasure",
+  "albumId": 2422769,
+  "artist": "No Joy",
+  "year": "2013",
+  "songs": [
+   {
+    "id": 26223625,
+    "name": "Hare Tarot Lies",
+    "real": "Hare Tarot Lies",
+    "artist1": "No Joy",
+    "artists": [
+     "No Joy"
+    ]
+   },
+   {
+    "id": 26223627,
+    "name": "Slug Night",
+    "real": "Slug Night",
+    "artist1": "No Joy",
+    "artists": [
+     "No Joy"
+    ]
+   },
+   {
+    "id": 26223630,
+    "name": "Lunar Phobia",
+    "real": "Lunar Phobia",
+    "artist1": "No Joy",
+    "artists": [
+     "No Joy"
+    ]
+   },
+   {
+    "id": 26223633,
+    "name": "Pleasure",
+    "real": "Pleasure",
+    "artist1": "No Joy",
+    "artists": [
+     "No Joy"
+    ]
+   }
+  ]
+ }
+]

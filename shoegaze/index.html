@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shoegaze · 30 张经典专辑</title>
+<style>
+:root{--bg:#0e0c12;--card:#16131c;--line:#282334;--fg:#e8eaef;--mut:#9397a2;--accent:#cf8bf0;--cn:#e05a4f;--tw:#d9a441;--jp:#5aa9e6;--us:#9d7fe0;--uk:#4fc2a0;--ca:#e07fb0;--is:#8fd0c8;--ru:#a0b8e0;--no:#8fd0c8}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 620px at 18% -10%,#231033 0%,transparent 62%),var(--bg);color:var(--fg);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+header.hero{padding:64px 0 26px}
+.kicker{color:var(--accent);font-size:12px;letter-spacing:.22em;text-transform:uppercase;margin:0 0 14px}
+h1{font-size:clamp(26px,4vw,44px);line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--accent)}
+.lede{color:var(--mut);max-width:680px;margin:0 0 22px;font-size:15px}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin:0 0 26px}
+.stat{min-width:78px;display:flex;flex-direction:column;gap:3px}
+.stat b{display:block;font-size:26px;line-height:1.1;letter-spacing:-.01em}
+.stat span{color:var(--mut);font-size:12px;letter-spacing:.08em}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+button{font:inherit;cursor:pointer}
+.btn{border:1px solid var(--accent);background:var(--accent);color:#0d1420;font-weight:600;padding:10px 18px;border-radius:999px;font-size:14px;transition:.15s}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--fg);font-weight:400;border-color:var(--line)}
+.btn.ghost:hover{border-color:#3d3650}
+.toolbar{position:sticky;top:0;z-index:9;background:rgba(14,12,18,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:11px 0;margin-top:22px}
+.toolbar .wrap{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.search{flex:1 1 220px;min-width:180px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 16px;color:var(--fg);font-size:14px;outline:none}
+.search:focus{border-color:#433a58}
+.filters{display:flex;gap:7px;flex-wrap:wrap;align-items:center}
+.chip{background:transparent;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:6px 13px;font-size:13px}
+.chip.on{color:#0d1420;border-color:var(--accent);background:var(--accent);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;padding:26px 0 10px}
+.card{background:linear-gradient(180deg,#1a1622,#141119);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;display:flex;flex-direction:column;transition:.18s}
+.card:hover{border-color:#333844;transform:translateY(-2px)}
+.card-top{display:flex;gap:12px;align-items:flex-start}
+.idx{font-variant-numeric:tabular-nums;color:#5f5870;font-size:13px;padding-top:4px}
+.titles{flex:1;min-width:0}
+h3{margin:0;font-size:17px;letter-spacing:-.01em;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.alias{font-size:11px;color:var(--mut);font-weight:400}
+.album{margin:3px 0 0;font-size:13px;color:var(--mut)}
+.album a{color:#c7cad3;text-decoration:none;border-bottom:1px dotted #3d3650}
+.album a:hover{color:#fff}
+.year{margin-left:8px;font-variant-numeric:tabular-nums;color:#6f6880;font-size:12px}
+.tag{font-size:11px;padding:2px 8px;border-radius:6px;border:1px solid;white-space:nowrap;margin-top:2px}
+.t-cn{color:var(--cn);border-color:rgba(224,90,79,.4);background:rgba(224,90,79,.08)}
+.t-tw{color:var(--tw);border-color:rgba(217,164,65,.4);background:rgba(217,164,65,.08)}
+.t-jp{color:var(--jp);border-color:rgba(90,169,230,.4);background:rgba(90,169,230,.08)}
+.t-us{color:var(--us);border-color:rgba(157,127,224,.4);background:rgba(157,127,224,.08)}
+.t-uk{color:var(--uk);border-color:rgba(79,194,160,.4);background:rgba(79,194,160,.08)}
+.t-ca{color:var(--ca);border-color:rgba(224,127,176,.4);background:rgba(224,127,176,.08)}
+.t-ru{color:var(--ru);border-color:rgba(160,184,224,.4);background:rgba(160,184,224,.08)}
+.t-no{color:var(--no);border-color:rgba(143,208,200,.4);background:rgba(143,208,200,.08)}
+.desc{color:#857e96;font-size:12px;margin:10px 0 12px}
+.tracks{list-style:none;margin:0;padding:0;border-top:1px solid var(--line);flex:1}
+.tracks li{border-bottom:1px solid rgba(40,35,52,.65)}
+.tracks a{display:flex;align-items:center;gap:10px;padding:8px 2px;text-decoration:none;color:#d4d7de;font-size:13.5px;border-radius:6px}
+.tracks a:hover{color:#fff;background:rgba(255,255,255,.03)}
+.tracks .n{color:#5f5870;font-size:11px;font-variant-numeric:tabular-nums;width:16px;flex:none}
+.tracks .t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tracks .go{opacity:0;font-size:11px;color:var(--accent);transition:.15s;flex:none}
+.tracks a:hover .go{opacity:1}
+.card-actions{display:flex;gap:8px;margin-top:12px}
+.mini{background:rgba(255,255,255,.04);border:1px solid var(--line);color:#b7bbc4;font-size:12px;padding:6px 11px;border-radius:8px;text-decoration:none}
+.mini:hover{color:#fff;border-color:#3d3650}
+.mini.ghost{background:transparent}
+.hidden{display:none!important}
+footer{margin:34px 0 0;border-top:1px solid var(--line);padding:30px 0 70px;color:#857e96;font-size:13px}
+footer h4{color:#c7cad3;font-size:13px;letter-spacing:.06em;margin:0 0 8px}
+footer ol{margin:0 0 22px;padding-left:18px}
+footer li{margin:5px 0}
+code{background:rgba(207,139,240,.12);border:1px solid rgba(207,139,240,.22);padding:1px 6px;border-radius:5px;font-size:12px;color:#e3c8ff}
+.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:#fff;color:#111;padding:9px 18px;border-radius:999px;font-size:13px;opacity:0;pointer-events:none;transition:.25s;z-index:99;box-shadow:0 8px 30px rgba(0,0,0,.45)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+@media(max-width:560px){header.hero{padding:40px 0 20px}.grid{grid-template-columns:1fr}.stats{gap:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <p class="kicker">Shoegaze · Netease</p>
+  <h1>30 组<em>盯鞋</em>，30 张专辑</h1>
+  <p class="lede">从 JAMC、Cocteau Twins、Spacemen 3 这三块「前史」开始，到 Ride、Slowdive、Lush、Chapterhouse 的第一波，再到 Catherine Wheel、Swervedriver 更硬的一面；美国线有 Drop Nineteens、Swirlies、Lilys 和 Nothing、Whirr、DIIV，日本线是東京酒吐座、Luminous Orange、Cruyff In The Bedroom，华语只有缺省和发光曲线，外加俄罗斯的 Pinkshinyultrablast 与挪威的 Serena Maneesh。每张专辑 4 首，共 120 首。</p>
+  <div class="stats">
+    <div class="stat"><b>30</b><span>专辑</span></div>
+    <div class="stat"><b>120</b><span>首歌</span></div>
+    <div class="stat"><b>7</b><span>国家 / 地区</span></div>
+    <div class="stat"><b>1985–2017</b><span>跨度</span></div>
+  </div>
+  <div class="actions">
+    <button class="btn" id="copyAll">复制批量文本（歌名 - 歌手）</button>
+    <button class="btn ghost" id="download">下载 .txt</button>
+    <a class="btn ghost" href="https://music.163.com" target="_blank" rel="noopener">打开网易云网页版 ↗</a>
+  </div>
+</header>
+</div>
+
+<div class="toolbar"><div class="wrap">
+  <input class="search" id="q" type="search" placeholder="搜乐队 / 专辑 / 曲名…" autocomplete="off">
+  <div class="filters"><button class="chip on" data-r="*">全部地区</button><button class="chip" data-r="英国">英国</button><button class="chip" data-r="美国">美国</button><button class="chip" data-r="日本">日本</button><button class="chip" data-r="大陆">大陆</button><button class="chip" data-r="加拿大">加拿大</button><button class="chip" data-r="俄罗斯">俄罗斯</button><button class="chip" data-r="挪威">挪威</button></div>
+</div></div>
+
+<div class="wrap"><div class="grid" id="grid">
+<article class="card" data-region="英国" data-songs="4" data-search="my bloody valentine loveless my bloody valentine mbv 伦敦，盯鞋的原点，loveless 至今是天花板">
+  <header class="card-top">
+    <span class="idx">01</span>
+    <div class="titles">
+      <h3>My Bloody Valentine<span class="alias">mbv</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=422052" target="_blank" rel="noopener">loveless</a><span class="year">1991</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">伦敦，盯鞋的原点，Loveless 至今是天花板</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=4174117" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">only shallow</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4174137" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">when you sleep</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4174129" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">to here knows when</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4174158" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">soon</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="only shallow - My Bloody Valentine
+when you sleep - My Bloody Valentine
+to here knows when - My Bloody Valentine
+soon - My Bloody Valentine">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=422052" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="ride nowhere (expanded) ride  牛津，nowhere 定义了「盯鞋」的第一波">
+  <header class="card-top">
+    <span class="idx">02</span>
+    <div class="titles">
+      <h3>Ride</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1722871" target="_blank" rel="noopener">Nowhere (Expanded)</a><span class="year">1990</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">牛津，Nowhere 定义了「盯鞋」的第一波</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=18835516" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Seagull (2001 Remaster)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18835523" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Vapour Trail (2001 Remaster)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18835520" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Dreams Burn Down (2001 Remaster)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18835517" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Kaleidoscope (2001 Remaster)</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Seagull (2001 Remaster) - Ride
+Vapour Trail (2001 Remaster) - Ride
+Dreams Burn Down (2001 Remaster) - Ride
+Kaleidoscope (2001 Remaster) - Ride">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1722871" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="slowdive souvlaki slowdive  雷丁，souvlaki 是无数人入坑的那张">
+  <header class="card-top">
+    <span class="idx">03</span>
+    <div class="titles">
+      <h3>Slowdive</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1761243" target="_blank" rel="noopener">Souvlaki</a><span class="year">1993</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">雷丁，Souvlaki 是无数人入坑的那张</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=19204218" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Alison</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19204224" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">When the Sun Hits</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19204223" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Souvlaki Space Station</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19204220" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">40 Days</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Alison - Slowdive
+When the Sun Hits - Slowdive
+Souvlaki Space Station - Slowdive
+40 Days - Slowdive">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1761243" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="lush spooky lush  伦敦，4ad 旗下最亮的一支">
+  <header class="card-top">
+    <span class="idx">04</span>
+    <div class="titles">
+      <h3>Lush</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=419731" target="_blank" rel="noopener">Spooky</a><span class="year">1992</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">伦敦，4AD 旗下最亮的一支</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=4151881" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Stray</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4151884" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Nothing Natural</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4151894" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">For Love</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=4151897" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Superblast!</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Stray - Lush
+Nothing Natural - Lush
+For Love - Lush
+Superblast! - Lush">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=419731" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="chapterhouse whirlpool chapterhouse  雷丁，whirlpool 里的电子与吉他">
+  <header class="card-top">
+    <span class="idx">05</span>
+    <div class="titles">
+      <h3>Chapterhouse</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=403424" target="_blank" rel="noopener">Whirlpool</a><span class="year">1991</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">雷丁，Whirlpool 里的电子与吉他</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=3988976" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Breather</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3988980" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Pearl</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3988982" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Autosleeper</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3988988" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Falling Down</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Breather - Chapterhouse
+Pearl - Chapterhouse
+Autosleeper - Chapterhouse
+Falling Down - Chapterhouse">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=403424" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="swervedriver raise swervedriver  牛津，更硬、更公路感的盯鞋">
+  <header class="card-top">
+    <span class="idx">06</span>
+    <div class="titles">
+      <h3>Swervedriver</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1759135" target="_blank" rel="noopener">Raise</a><span class="year">1991</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">牛津，更硬、更公路感的盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=19183040" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Son Of Mustang Ford (2008 Remastered Version)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19183042" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Rave Down (2008 Remastered Version)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19183041" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Deep Seat (2008 Remastered Version)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=19183045" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Sandblasted (2008 Remastered Version)</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Son Of Mustang Ford (2008 Remastered Version) - Swervedriver
+Rave Down (2008 Remastered Version) - Swervedriver
+Deep Seat (2008 Remastered Version) - Swervedriver
+Sandblasted (2008 Remastered Version) - Swervedriver">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1759135" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="catherine wheel ferment catherine wheel  大不列颠，ferment 的重型音墙">
+  <header class="card-top">
+    <span class="idx">07</span>
+    <div class="titles">
+      <h3>Catherine Wheel</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=403624" target="_blank" rel="noopener">Ferment</a><span class="year">1992</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">大不列颠，Ferment 的重型音墙</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=3991069" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Black Metallic</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3991064" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">I Want To Touch You</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3991058" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Texture (Album Version)</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3991090" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Flower To Hide</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Black Metallic - Catherine Wheel
+I Want To Touch You - Catherine Wheel
+Texture (Album Version) - Catherine Wheel
+Flower To Hide - Catherine Wheel">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=403624" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="pale saints the comforts of madness pale saints  利兹，the comforts of madness 的梦幻噪响">
+  <header class="card-top">
+    <span class="idx">08</span>
+    <div class="titles">
+      <h3>Pale Saints</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1668699" target="_blank" rel="noopener">The Comforts of Madness</a><span class="year">1990</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">利兹，The Comforts of Madness 的梦幻噪响</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=18187322" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Sight of You</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18187314" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">You Tear the World in Two</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18187315" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Sea of Sound</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18187320" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Language of Flowers</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Sight of You - Pale Saints
+You Tear the World in Two - Pale Saints
+Sea of Sound - Pale Saints
+Language of Flowers - Pale Saints">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1668699" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="curve doppelgänger curve  伦敦，盯鞋 + 工业电子的黑暗面">
+  <header class="card-top">
+    <span class="idx">09</span>
+    <div class="titles">
+      <h3>Curve</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1578870" target="_blank" rel="noopener">Doppelgänger</a><span class="year">1992</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">伦敦，盯鞋 + 工业电子的黑暗面</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=17146154" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Horror Head</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17146161" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Fait Accompli</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17146153" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Already Yours</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17146156" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Doppelgänger</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Horror Head - Curve
+Fait Accompli - Curve
+Already Yours - Curve
+Doppelgänger - Curve">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1578870" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="the verve a storm in heaven the verve  韦根，出道时是一支迷幻盯鞋乐队">
+  <header class="card-top">
+    <span class="idx">10</span>
+    <div class="titles">
+      <h3>The Verve</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2066066" target="_blank" rel="noopener">A Storm In Heaven</a><span class="year">1993</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">韦根，出道时是一支迷幻盯鞋乐队</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22567401" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Slide Away</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22567400" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Star Sail</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22567407" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Blue</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22567408" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Butterfly</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Slide Away - The Verve
+Star Sail - The Verve
+Blue - The Verve
+Butterfly - The Verve">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2066066" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="the boo radleys giant steps the boo radleys  利物浦，giant steps 的拼贴与噪音">
+  <header class="card-top">
+    <span class="idx">11</span>
+    <div class="titles">
+      <h3>The Boo Radleys</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2010978" target="_blank" rel="noopener">Giant Steps</a><span class="year">1993</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">利物浦，Giant Steps 的拼贴与噪音</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=21875099" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Lazarus</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21875087" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">I Hang Suspended</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21875089" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Wish I Was Skinny</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21875103" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">The White Noise Revisited</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Lazarus - The Boo Radleys
+I Hang Suspended - The Boo Radleys
+Wish I Was Skinny - The Boo Radleys
+The White Noise Revisited - The Boo Radleys">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2010978" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="the telescopes taste + the perfect needle ep the telescopes  斯塔福德，1989 年的噪音先驱">
+  <header class="card-top">
+    <span class="idx">12</span>
+    <div class="titles">
+      <h3>The Telescopes</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=39683694" target="_blank" rel="noopener">Taste + The Perfect Needle EP</a><span class="year">1989</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">斯塔福德，1989 年的噪音先驱</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=573159859" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">The Perfect Needle</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=573164188" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Violence</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=573159856" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">I Fall, She Screams</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=573159861" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Anticipating Nowhere</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="The Perfect Needle - Telescopes
+Violence - Telescopes
+I Fall, She Screams - Telescopes
+Anticipating Nowhere - Telescopes">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=39683694" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="the jesus and mary chain psychocandy the jesus and mary chain jamc 东基尔布赖德，盯鞋的史前史">
+  <header class="card-top">
+    <span class="idx">13</span>
+    <div class="titles">
+      <h3>The Jesus and Mary Chain<span class="alias">JAMC</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2017714" target="_blank" rel="noopener">Psychocandy</a><span class="year">1985</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">东基尔布赖德，盯鞋的史前史</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=21965464" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Just Like Honey</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21965472" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Never Understand</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21965476" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">You Trip Me Up</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=21965470" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Taste of Cindy</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Just Like Honey - The Jesus and Mary Chain
+Never Understand - The Jesus and Mary Chain
+You Trip Me Up - The Jesus and Mary Chain
+Taste of Cindy - The Jesus and Mary Chain">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2017714" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="cocteau twins heaven or las vegas cocteau twins  格兰奇茅斯，梦幻流行的鼻祖">
+  <header class="card-top">
+    <span class="idx">14</span>
+    <div class="titles">
+      <h3>Cocteau Twins</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1577480" target="_blank" rel="noopener">Heaven or Las Vegas</a><span class="year">1990</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">格兰奇茅斯，梦幻流行的鼻祖</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=17124788" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Cherry-coloured Funk</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17124792" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Heaven or Las Vegas</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17124790" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Iceblink Luck</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17124794" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Fotzepolitic</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Cherry-coloured Funk - Cocteau Twins
+Heaven or Las Vegas - Cocteau Twins
+Iceblink Luck - Cocteau Twins
+Fotzepolitic - Cocteau Twins">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1577480" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="英国" data-songs="4" data-search="spacemen 3 the perfect prescription spacemen 3  拉格比，drone 与迷幻的源头">
+  <header class="card-top">
+    <span class="idx">15</span>
+    <div class="titles">
+      <h3>Spacemen 3</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=347528" target="_blank" rel="noopener">The Perfect Prescription</a><span class="year">1987</span></p>
+    </div>
+    <span class="tag t-uk">英国</span>
+  </header>
+  <p class="desc">拉格比，drone 与迷幻的源头</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=3431537" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Take Me to the Other Side</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3431540" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Walking With Jesus</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3431564" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Come Down Easy</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3431572" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Roller Coaster</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Take Me to the Other Side - Spacemen 3
+Walking With Jesus - Spacemen 3
+Come Down Easy - Spacemen 3
+Roller Coaster - Spacemen 3">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=347528" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-songs="4" data-search="drop nineteens delaware drop nineteens  波士顿，delaware 是美式盯鞋的起点">
+  <header class="card-top">
+    <span class="idx">16</span>
+    <div class="titles">
+      <h3>Drop Nineteens</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2067430" target="_blank" rel="noopener">Delaware</a><span class="year">1992</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc">波士顿，Delaware 是美式盯鞋的起点</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22585465" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Winona</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22585466" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Kick The Tragedy</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22585463" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Delaware</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22585470" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Angel</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Winona - Drop Nineteens
+Kick The Tragedy - Drop Nineteens
+Delaware - Drop Nineteens
+Angel - Drop Nineteens">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2067430" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-songs="4" data-search="swirlies blonder tongue audio baton swirlies  波士顿，拼贴、噪音与甜美旋律">
+  <header class="card-top">
+    <span class="idx">17</span>
+    <div class="titles">
+      <h3>Swirlies</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=39191716" target="_blank" rel="noopener">Blonder Tongue Audio Baton</a><span class="year">1993</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc">波士顿，拼贴、噪音与甜美旋律</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=565619757" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Bell</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=565619759" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Pancake</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=565620364" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Jeremy Parker</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=565620366" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Wrong Tube</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Bell - Swirlies
+Pancake - Swirlies
+Jeremy Parker - Swirlies
+Wrong Tube - Swirlies">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=39191716" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-songs="4" data-search="lilys in the presence of nothing lilys  华盛顿，in the presence of nothing 的密集音墙">
+  <header class="card-top">
+    <span class="idx">18</span>
+    <div class="titles">
+      <h3>Lilys</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=296402" target="_blank" rel="noopener">In the Presence of Nothing</a><span class="year">1992</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc">华盛顿，In the Presence of Nothing 的密集音墙</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=2936366" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">There Is No Such Thing as Black Orchids</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2936367" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Elizabeth Colour Wheel</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2936369" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Tone Bender</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=2936384" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Claire Hates Me</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="There Is No Such Thing as Black Orchids - Lilys
+Elizabeth Colour Wheel - Lilys
+Tone Bender - Lilys
+Claire Hates Me - Lilys">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=296402" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-songs="4" data-search="ringo deathstarr colour trip ringo deathstarr  奥斯汀，复兴盯鞋的当代代表">
+  <header class="card-top">
+    <span class="idx">19</span>
+    <div class="titles">
+      <h3>Ringo Deathstarr</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1715862" target="_blank" rel="noopener">Colour Trip</a><span class="year">2011</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc">奥斯汀，复兴盯鞋的当代代表</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=18753553" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Imagine Hearts</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18753557" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Kaleidoscope</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18753555" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">So High</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=18753560" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Chloe</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Imagine Hearts - Ringo Deathstarr
+Kaleidoscope - Ringo Deathstarr
+So High - Ringo Deathstarr
+Chloe - Ringo Deathstarr">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1715862" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-songs="4" data-search="nothing guilty of everything nothing  费城，重型盯鞋 / 噪音摇滚">
+  <header class="card-top">
+    <span class="idx">20</span>
+    <div class="titles">
+      <h3>Nothing</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2759540" target="_blank" rel="noopener">Guilty of Everything</a><span class="year">2014</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc">费城，重型盯鞋 / 噪音摇滚</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=28253964" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Dig</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=28253965" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Bent Nail</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=28253967" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Somersault</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=28253971" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Guilty of Everything</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Dig - Nothing
+Bent Nail - Nothing
+Somersault - Nothing
+Guilty of Everything - Nothing">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2759540" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-songs="4" data-search="whirr sway whirr  旧金山，sway 的柔软噪音">
+  <header class="card-top">
+    <span class="idx">21</span>
+    <div class="titles">
+      <h3>Whirr</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2981676" target="_blank" rel="noopener">Sway</a><span class="year">2014</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc">旧金山，Sway 的柔软噪音</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=29034688" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Press</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29034693" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Sway</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29034692" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Heavy</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=29034694" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Lines</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Press - Whirr
+Sway - Whirr
+Heavy - Whirr
+Lines - Whirr">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2981676" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="美国" data-songs="4" data-search="diiv oshin diiv  布鲁克林，oshin 的清凉吉他">
+  <header class="card-top">
+    <span class="idx">22</span>
+    <div class="titles">
+      <h3>DIIV</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=1605565" target="_blank" rel="noopener">Oshin</a><span class="year">2012</span></p>
+    </div>
+    <span class="tag t-us">美国</span>
+  </header>
+  <p class="desc">布鲁克林，Oshin 的清凉吉他</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=17417065" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Past Lives</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17417066" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Human</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17417068" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">How Long Have You Known</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=17417075" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Doused</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Past Lives - DIIV
+Human - DIIV
+How Long Have You Known - DIIV
+Doused - DIIV">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=1605565" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-songs="4" data-search="東京酒吐座 crystallize (remastered) 東京酒吐座 tokyo shoegazer 东京，日本盯鞋的门面">
+  <header class="card-top">
+    <span class="idx">23</span>
+    <div class="titles">
+      <h3>東京酒吐座<span class="alias">Tokyo Shoegazer</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=152494397" target="_blank" rel="noopener">crystallize (remastered)</a><span class="year">2011</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">东京，日本盯鞋的门面</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=1985721070" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">299 Addiction</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1985721071" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Bright</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1985721997" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Just Alright</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=1985721072" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Waltz Matilda</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="299 Addiction - 東京酒吐座
+Bright - 東京酒吐座
+Just Alright - 東京酒吐座
+Waltz Matilda - 東京酒吐座">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=152494397" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-songs="4" data-search="luminous orange drop you vivid colours luminous orange  横滨，90 年代以来的日系盯鞋">
+  <header class="card-top">
+    <span class="idx">24</span>
+    <div class="titles">
+      <h3>Luminous Orange</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2078872" target="_blank" rel="noopener">Drop You Vivid Colours</a><span class="year">2002</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">横滨，90 年代以来的日系盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=22667087" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Drop You Vivid Colours</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22667085" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">the Sky</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22667086" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Starred Leaf</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=22667089" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Sun Ray</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Drop You Vivid Colours - Luminous Orange
+the Sky - Luminous Orange
+Starred Leaf - Luminous Orange
+Sun Ray - Luminous Orange">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2078872" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="日本" data-songs="4" data-search="cruyff in the bedroom hacanatzkina cruyff in the bedroom  东京，日系盯鞋的另一条支线">
+  <header class="card-top">
+    <span class="idx">25</span>
+    <div class="titles">
+      <h3>Cruyff In The Bedroom</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2386192" target="_blank" rel="noopener">hacanatzkina</a><span class="year">2012</span></p>
+    </div>
+    <span class="tag t-jp">日本</span>
+  </header>
+  <p class="desc">东京，日系盯鞋的另一条支线</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=26093619" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">when moonrise</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26093620" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">moondaze moongaze</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26093628" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Tokyo Loves You</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26093625" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Diamond Bell</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="when moonrise - Cruyff In The Bedroom
+moondaze moongaze - Cruyff In The Bedroom
+Tokyo Loves You - Cruyff In The Bedroom
+Diamond Bell - Cruyff In The Bedroom">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2386192" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="大陆" data-songs="4" data-search="缺省 california nebula 缺省 default 北京，中国盯鞋 / 后摇的新一代">
+  <header class="card-top">
+    <span class="idx">26</span>
+    <div class="titles">
+      <h3>缺省<span class="alias">Default</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=35230772" target="_blank" rel="noopener">California Nebula</a><span class="year">2017</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc">北京，中国盯鞋 / 后摇的新一代</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=466142770" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">一日入冬</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=466143763" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">鸽哨</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=466142956" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">将死之时掩以水门汀</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=466144632" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Moon Plate</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="一日入冬 - 缺省
+鸽哨 - 缺省
+将死之时掩以水门汀 - 缺省
+Moon Plate - 缺省">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=35230772" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="大陆" data-songs="4" data-search="发光曲线 迷航 发光曲线 glow curve 北京，迷幻与噪音的器乐">
+  <header class="card-top">
+    <span class="idx">27</span>
+    <div class="titles">
+      <h3>发光曲线<span class="alias">Glow Curve</span></h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2674178" target="_blank" rel="noopener">迷航</a><span class="year">2013</span></p>
+    </div>
+    <span class="tag t-cn">大陆</span>
+  </header>
+  <p class="desc">北京，迷幻与噪音的器乐</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=27785104" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">迷航</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=27785103" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">午夜快车</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=27785107" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">银河革命计划</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=27785109" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">醉鸟启示录</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="迷航 - 发光曲线
+午夜快车 - 发光曲线
+银河革命计划 - 发光曲线
+醉鸟启示录 - 发光曲线">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2674178" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="俄罗斯" data-songs="4" data-search="pinkshinyultrablast everything else matters pinkshinyultrablast  圣彼得堡，电子化的新派盯鞋">
+  <header class="card-top">
+    <span class="idx">28</span>
+    <div class="titles">
+      <h3>Pinkshinyultrablast</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=3095157" target="_blank" rel="noopener">Everything Else Matters</a><span class="year">2015</span></p>
+    </div>
+    <span class="tag t-ru">俄罗斯</span>
+  </header>
+  <p class="desc">圣彼得堡，电子化的新派盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=30355840" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Holy Forest</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=30355841" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Glitter</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=30355843" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Umi</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=30355844" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Land&#x27;s End</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Holy Forest - Pinkshinyultrablast
+Glitter - Pinkshinyultrablast
+Umi - Pinkshinyultrablast
+Land&#x27;s End - Pinkshinyultrablast">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=3095157" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="挪威" data-songs="4" data-search="serena maneesh serena-maneesh serena maneesh  奥斯陆，粗粝而华丽的盯鞋">
+  <header class="card-top">
+    <span class="idx">29</span>
+    <div class="titles">
+      <h3>Serena Maneesh</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=347890" target="_blank" rel="noopener">Serena-Maneesh</a><span class="year">2006</span></p>
+    </div>
+    <span class="tag t-no">挪威</span>
+  </header>
+  <p class="desc">奥斯陆，粗粝而华丽的盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=3435370" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Drain Cosmetics</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3435372" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Selina&#x27;s Melodie Fountain</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3435384" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Her Name Is Suicide</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=3435400" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Simplicity</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Drain Cosmetics - Serena Maneesh
+Selina&#x27;s Melodie Fountain - Serena Maneesh
+Her Name Is Suicide - Serena Maneesh
+Simplicity - Serena Maneesh">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=347890" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+<article class="card" data-region="加拿大" data-songs="4" data-search="no joy wait to pleasure no joy  蒙特利尔，噪音流行 / 盯鞋">
+  <header class="card-top">
+    <span class="idx">30</span>
+    <div class="titles">
+      <h3>No Joy</h3>
+      <p class="album"><a href="https://music.163.com/#/album?id=2422769" target="_blank" rel="noopener">Wait to Pleasure</a><span class="year">2013</span></p>
+    </div>
+    <span class="tag t-ca">加拿大</span>
+  </header>
+  <p class="desc">蒙特利尔，噪音流行 / 盯鞋</p>
+  <ul class="tracks">
+        <li><a href="https://music.163.com/#/song?id=26223625" target="_blank" rel="noopener">
+<span class="n">01</span><span class="t">Hare Tarot Lies</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26223627" target="_blank" rel="noopener">
+<span class="n">02</span><span class="t">Slug Night</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26223630" target="_blank" rel="noopener">
+<span class="n">03</span><span class="t">Lunar Phobia</span><span class="go">播放 ↗</span></a></li>
+    <li><a href="https://music.163.com/#/song?id=26223633" target="_blank" rel="noopener">
+<span class="n">04</span><span class="t">Pleasure</span><span class="go">播放 ↗</span></a></li>
+  </ul>
+  <div class="card-actions">
+    <button class="mini" data-copy="Hare Tarot Lies - No Joy
+Slug Night - No Joy
+Lunar Phobia - No Joy
+Pleasure - No Joy">复制这张专辑</button>
+    <a class="mini ghost" href="https://music.163.com/#/album?id=2422769" target="_blank" rel="noopener">网易云专辑 ↗</a>
+  </div>
+</article>
+</div>
+<footer>
+  <h4>怎么变成网易云里的歌单</h4>
+  <ol>
+    <li>复制上面的<strong>批量文本</strong>，每行 <code>歌名 - 歌手</code>，歌手名用的是网易云单曲页上的主艺人。</li>
+    <li>手机端「我的 → 导入外部歌单」支持贴其他平台链接；文本可用第三方迁移工具批量匹配。</li>
+    <li>后摇曲目偏长、部分日本地下盘版权不稳，匹配不上的点单曲直链手动补。</li>
+  </ol>
+  <h4>说明</h4>
+  <ol>
+    <li>网易云没有「文本直出歌单链接」的公开接口，歌单需登录后创建；这里给的是可批量识别的清单 + 逐首直链。</li>
+    <li>前 3 首（JAMC / Cocteau Twins / Spacemen 3）严格说是盯鞋的「前史」，想听纯正盯鞋可以从第 4 首 <code>Ride</code> 开始。</li>
+    <li>mbv 的 <code>Loveless</code> 在 emo/盯鞋那份歌单里也出现过，两份都保留是因为它绕不开。</li>
+  </ol>
+</footer>
+</div>
+
+<div class="toast" id="toast">已复制</div>
+<script id="txtdata" type="text/plain">only shallow - My Bloody Valentine
+when you sleep - My Bloody Valentine
+to here knows when - My Bloody Valentine
+soon - My Bloody Valentine
+Seagull (2001 Remaster) - Ride
+Vapour Trail (2001 Remaster) - Ride
+Dreams Burn Down (2001 Remaster) - Ride
+Kaleidoscope (2001 Remaster) - Ride
+Alison - Slowdive
+When the Sun Hits - Slowdive
+Souvlaki Space Station - Slowdive
+40 Days - Slowdive
+Stray - Lush
+Nothing Natural - Lush
+For Love - Lush
+Superblast! - Lush
+Breather - Chapterhouse
+Pearl - Chapterhouse
+Autosleeper - Chapterhouse
+Falling Down - Chapterhouse
+Son Of Mustang Ford (2008 Remastered Version) - Swervedriver
+Rave Down (2008 Remastered Version) - Swervedriver
+Deep Seat (2008 Remastered Version) - Swervedriver
+Sandblasted (2008 Remastered Version) - Swervedriver
+Black Metallic - Catherine Wheel
+I Want To Touch You - Catherine Wheel
+Texture (Album Version) - Catherine Wheel
+Flower To Hide - Catherine Wheel
+Sight of You - Pale Saints
+You Tear the World in Two - Pale Saints
+Sea of Sound - Pale Saints
+Language of Flowers - Pale Saints
+Horror Head - Curve
+Fait Accompli - Curve
+Already Yours - Curve
+Doppelgänger - Curve
+Slide Away - The Verve
+Star Sail - The Verve
+Blue - The Verve
+Butterfly - The Verve
+Lazarus - The Boo Radleys
+I Hang Suspended - The Boo Radleys
+Wish I Was Skinny - The Boo Radleys
+The White Noise Revisited - The Boo Radleys
+The Perfect Needle - Telescopes
+Violence - Telescopes
+I Fall, She Screams - Telescopes
+Anticipating Nowhere - Telescopes
+Just Like Honey - The Jesus and Mary Chain
+Never Understand - The Jesus and Mary Chain
+You Trip Me Up - The Jesus and Mary Chain
+Taste of Cindy - The Jesus and Mary Chain
+Cherry-coloured Funk - Cocteau Twins
+Heaven or Las Vegas - Cocteau Twins
+Iceblink Luck - Cocteau Twins
+Fotzepolitic - Cocteau Twins
+Take Me to the Other Side - Spacemen 3
+Walking With Jesus - Spacemen 3
+Come Down Easy - Spacemen 3
+Roller Coaster - Spacemen 3
+Winona - Drop Nineteens
+Kick The Tragedy - Drop Nineteens
+Delaware - Drop Nineteens
+Angel - Drop Nineteens
+Bell - Swirlies
+Pancake - Swirlies
+Jeremy Parker - Swirlies
+Wrong Tube - Swirlies
+There Is No Such Thing as Black Orchids - Lilys
+Elizabeth Colour Wheel - Lilys
+Tone Bender - Lilys
+Claire Hates Me - Lilys
+Imagine Hearts - Ringo Deathstarr
+Kaleidoscope - Ringo Deathstarr
+So High - Ringo Deathstarr
+Chloe - Ringo Deathstarr
+Dig - Nothing
+Bent Nail - Nothing
+Somersault - Nothing
+Guilty of Everything - Nothing
+Press - Whirr
+Sway - Whirr
+Heavy - Whirr
+Lines - Whirr
+Past Lives - DIIV
+Human - DIIV
+How Long Have You Known - DIIV
+Doused - DIIV
+299 Addiction - 東京酒吐座
+Bright - 東京酒吐座
+Just Alright - 東京酒吐座
+Waltz Matilda - 東京酒吐座
+Drop You Vivid Colours - Luminous Orange
+the Sky - Luminous Orange
+Starred Leaf - Luminous Orange
+Sun Ray - Luminous Orange
+when moonrise - Cruyff In The Bedroom
+moondaze moongaze - Cruyff In The Bedroom
+Tokyo Loves You - Cruyff In The Bedroom
+Diamond Bell - Cruyff In The Bedroom
+一日入冬 - 缺省
+鸽哨 - 缺省
+将死之时掩以水门汀 - 缺省
+Moon Plate - 缺省
+迷航 - 发光曲线
+午夜快车 - 发光曲线
+银河革命计划 - 发光曲线
+醉鸟启示录 - 发光曲线
+Holy Forest - Pinkshinyultrablast
+Glitter - Pinkshinyultrablast
+Umi - Pinkshinyultrablast
+Land&#x27;s End - Pinkshinyultrablast
+Drain Cosmetics - Serena Maneesh
+Selina&#x27;s Melodie Fountain - Serena Maneesh
+Her Name Is Suicide - Serena Maneesh
+Simplicity - Serena Maneesh
+Hare Tarot Lies - No Joy
+Slug Night - No Joy
+Lunar Phobia - No Joy
+Pleasure - No Joy
+</script>
+<script>
+const q=document.getElementById('q'), toast=document.getElementById('toast');
+let region='*';
+function show(m){toast.textContent=m;toast.classList.add('on');clearTimeout(show._t);show._t=setTimeout(()=>toast.classList.remove('on'),1600);}
+function apply(){
+  const kw=q.value.trim().toLowerCase();
+  document.querySelectorAll('.card').forEach(c=>{
+    const ok=(region==='*'||c.dataset.region===region)&&(!kw||c.dataset.search.includes(kw));
+    c.classList.toggle('hidden',!ok);
+  });
+}
+q.addEventListener('input',apply);
+document.querySelectorAll('[data-r]').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('[data-r]').forEach(x=>x.classList.remove('on'));b.classList.add('on');region=b.dataset.r;apply();}));
+async function copy(t){try{await navigator.clipboard.writeText(t);}catch(e){
+  const ta=document.createElement('textarea');ta.value=t;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();}
+  show('已复制 '+t.split('\n').filter(Boolean).length+' 行');}
+document.getElementById('copyAll').addEventListener('click',()=>copy(document.getElementById('txtdata').textContent.trim()));
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>copy(b.dataset.copy)));
+document.getElementById('download').addEventListener('click',()=>{
+  const blob=new Blob([document.getElementById('txtdata').textContent],{type:'text/plain;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='网易云歌单_盯鞋30张.txt';a.click();URL.revokeObjectURL(a.href);});
+</script>
+</body>
+</html>

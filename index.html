@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>网易云歌单 · 四份</title>
+<style>
+:root{--bg:#0b0c0f;--card:#131418;--line:#24262d;--fg:#eceef2;--mut:#9498a2;--accent:#ec4141}
+*{box-sizing:border-box}
+body{margin:0;background:
+ radial-gradient(900px 480px at 12% -8%,#2a0d10 0%,transparent 60%),
+ radial-gradient(900px 520px at 88% 0%,#0d1b2a 0%,transparent 55%),
+ var(--bg);
+ color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+ line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+header{padding:72px 0 30px}
+.kicker{color:var(--accent);font-size:12px;letter-spacing:.24em;text-transform:uppercase;margin:0 0 16px}
+h1{font-size:clamp(30px,4.6vw,52px);line-height:1.1;margin:0 0 16px;letter-spacing:-.025em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ec4141,#f0a35e 55%,#7aa2ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{color:var(--mut);max-width:640px;margin:0 0 26px;font-size:15px}
+.stats{display:flex;gap:40px;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0}
+.stat b{display:block;font-size:24px;line-height:1.15;letter-spacing:-.01em}
+.stat span{color:var(--mut);font-size:12px;letter-spacing:.08em}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;padding:30px 0 10px}
+.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;transition:.2s}
+.card:hover{border-color:#3a3d47;transform:translateY(-3px);box-shadow:0 18px 50px -24px rgba(0,0,0,.9)}
+.thumb{position:relative;aspect-ratio:16/9.6;overflow:hidden;background:#0f1013}
+.thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(19,20,24,0) 55%,rgba(19,20,24,.55) 82%,#131418 100%)}
+.thumb img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;transition:.4s;filter:saturate(.95)}
+.card:hover .thumb img{transform:scale(1.03)}
+.body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.eyebrow{margin:0;color:var(--accent);font-size:12px;letter-spacing:.1em;font-variant-numeric:tabular-nums}
+h2{margin:0;font-size:21px;letter-spacing:-.015em}
+.desc{margin:0;color:var(--mut);font-size:13.5px;flex:1}
+.pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:2px}
+.pill{font-size:11px;color:#a9adba;border:1px solid #2c2f38;border-radius:999px;padding:2px 9px}
+.cta{margin-top:10px;font-size:13px;color:#d6d9e2;opacity:.85}
+.card:hover .cta{color:#fff;opacity:1}
+footer{margin:26px 0 0;border-top:1px solid var(--line);padding:26px 0 70px;color:#7e828d;font-size:13px}
+footer a{color:#b9bdc8;text-decoration:none;border-bottom:1px dotted #3a3d47}
+footer p{margin:0 0 8px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}header{padding:44px 0 22px}.stats{gap:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="kicker">Netease Cloud Music · Playlists</p>
+  <h1>四份歌单，<em>121 张专辑</em></h1>
+  <p class="lede">按「一支乐队 / 一位音乐人 → 一张代表作 → 3–4 首」整理，每份都配了批量导入文本、CSV 和可搜索的页面。挑一份进去，或者四份都听完。</p>
+  <div class="stats">
+    <div class="stat"><b>4</b><span>歌单</span></div>
+    <div class="stat"><b>121</b><span>专辑</span></div>
+    <div class="stat"><b>482</b><span>首歌</span></div>
+    <div class="stat"><b>1984–2026</b><span>跨度</span></div>
+  </div>
+</header>
+
+<div class="grid">
+<a class="card" href="emo-shoegaze/index.html">
+  <div class="thumb"><img src="emo-shoegaze/card.jpg" alt="emo / 盯鞋 预览" loading="lazy"></div>
+  <div class="body">
+    <p class="eyebrow">29 张专辑 · 116 首</p>
+    <h2>emo / 盯鞋</h2>
+    <p class="desc">两岸三地 + 日本的 emo 与盯鞋：透明杂志、午夜乒乓、返校日、Chinese Football、Number Girl、ミドリ、東京酒吐座、honeydip、mbv</p>
+    <div class="pills"><span class="pill">大陆</span><span class="pill">台湾</span><span class="pill">波兰</span><span class="pill">英国</span><span class="pill">韩国</span></div>
+    <span class="cta">打开歌单 →</span>
+  </div>
+</a>
+<a class="card" href="jazz/index.html">
+  <div class="thumb"><img src="jazz/card.jpg" alt="Jazz Hiphop × Jazz Pop 预览" loading="lazy"></div>
+  <div class="body">
+    <p class="eyebrow">31 张专辑 · 124 首</p>
+    <h2>Jazz Hiphop × Jazz Pop</h2>
+    <p class="desc">上半场 Nujabes 那条线到 J Dilla、ATCQ、蛋堡；下半场二宮愛、BLU-SWING 到 Norah Jones、Sade</p>
+    <div class="pills"><span class="pill">日本</span><span class="pill">美国</span><span class="pill">台湾</span><span class="pill">大陆</span><span class="pill">加拿大</span></div>
+    <span class="cta">打开歌单 →</span>
+  </div>
+</a>
+<a class="card" href="post-rock/index.html">
+  <div class="thumb"><img src="post-rock/card.jpg" alt="Post-rock 预览" loading="lazy"></div>
+  <div class="body">
+    <p class="eyebrow">31 张专辑 · 122 首</p>
+    <h2>Post-rock</h2>
+    <p class="desc">Slint、Talk Talk 的前史，Mogwai、EITS、GY!BE 的黄金一代，再到 MONO、惘闻、甜梅号与重型器乐</p>
+    <div class="pills"><span class="pill">英国</span><span class="pill">美国</span><span class="pill">加拿大</span><span class="pill">冰岛</span><span class="pill">日本</span></div>
+    <span class="cta">打开歌单 →</span>
+  </div>
+</a>
+<a class="card" href="shoegaze/index.html">
+  <div class="thumb"><img src="shoegaze/card.jpg" alt="Shoegaze 预览" loading="lazy"></div>
+  <div class="body">
+    <p class="eyebrow">30 张专辑 · 120 首</p>
+    <h2>Shoegaze</h2>
+    <p class="desc">mbv、Ride、Slowdive、Lush 的第一波，加 Drop Nineteens、東京酒吐座、缺省、发光曲线</p>
+    <div class="pills"><span class="pill">英国</span><span class="pill">美国</span><span class="pill">日本</span><span class="pill">大陆</span><span class="pill">俄罗斯</span></div>
+    <span class="cta">打开歌单 →</span>
+  </div>
+</a>
+</div>
+
+<footer>
+  <p>每份歌单的目录里都有：<code>歌单_批量导入.txt</code>（每行「歌名 - 歌手」，喂给文本转歌单工具批量建单）、<code>歌单.csv</code>（带网易云歌曲 ID）、<code>index.html</code>（可搜索 / 筛选 / 逐首直达）。</p>
+  <p>网易云没有「文本直出歌单链接」的公开接口，歌单需要在登录状态下创建；这些文件负责把批量识别那一步做掉。</p>
+  <p>源码与全部文件：<a href="https://github.com/elia9999/MusicPlaylist">github.com/elia9999/MusicPlaylist</a></p>
+</footer>
+</div>
+</body>
+</html>

@@ -3,118 +3,193 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>网易云歌单 · 四份</title>
+<title>网易云歌单 · 五份</title>
 <style>
-:root{--bg:#0b0c0f;--card:#131418;--line:#24262d;--fg:#eceef2;--mut:#9498a2;--accent:#ec4141}
+:root{--bg:#060709;--card:#0e1014;--line:#23262e;--fg:#f0f2f6;--mut:#9296a2;--accent:#ec4141}
 *{box-sizing:border-box}
-body{margin:0;background:
- radial-gradient(900px 480px at 12% -8%,#2a0d10 0%,transparent 60%),
- radial-gradient(900px 520px at 88% 0%,#0d1b2a 0%,transparent 55%),
- var(--bg);
- color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
- line-height:1.55;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
-header{padding:72px 0 30px}
-.kicker{color:var(--accent);font-size:12px;letter-spacing:.24em;text-transform:uppercase;margin:0 0 16px}
-h1{font-size:clamp(30px,4.6vw,52px);line-height:1.1;margin:0 0 16px;letter-spacing:-.025em}
-h1 em{font-style:normal;background:linear-gradient(90deg,#ec4141,#f0a35e 55%,#7aa2ff);-webkit-background-clip:text;background-clip:text;color:transparent}
-.lede{color:var(--mut);max-width:640px;margin:0 0 26px;font-size:15px}
-.stats{display:flex;gap:40px;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0}
-.stat b{display:block;font-size:24px;line-height:1.15;letter-spacing:-.01em}
-.stat span{color:var(--mut);font-size:12px;letter-spacing:.08em}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;padding:30px 0 10px}
-.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;transition:.2s}
-.card:hover{border-color:#3a3d47;transform:translateY(-3px);box-shadow:0 18px 50px -24px rgba(0,0,0,.9)}
-.thumb{position:relative;aspect-ratio:16/9.6;overflow:hidden;background:#0f1013}
-.thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(19,20,24,0) 55%,rgba(19,20,24,.55) 82%,#131418 100%)}
-.thumb img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;transition:.4s;filter:saturate(.95)}
-.card:hover .thumb img{transform:scale(1.03)}
-.body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
-.eyebrow{margin:0;color:var(--accent);font-size:12px;letter-spacing:.1em;font-variant-numeric:tabular-nums}
-h2{margin:0;font-size:21px;letter-spacing:-.015em}
+html{scroll-behavior:smooth}
+body::after{content:"";position:fixed;inset:0;z-index:3;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='140' height='140' filter='url(%23n)' opacity='.6'/></svg>")}
+body{margin:0;background:var(--bg);color:var(--fg);overflow-x:hidden;
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.aurora{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:.5;will-change:transform}
+.o1{width:46vw;height:46vw;left:-10vw;top:-16vw;background:#7a1f24;animation:float1 22s ease-in-out infinite}
+.o2{width:40vw;height:40vw;right:-8vw;top:-6vw;background:#152a4a;animation:float2 26s ease-in-out infinite}
+.o3{width:36vw;height:36vw;left:35vw;bottom:-22vw;background:#2a1a3a;animation:float3 30s ease-in-out infinite}
+@keyframes float1{50%{transform:translate3d(6vw,4vh,0) scale(1.12)}}
+@keyframes float2{50%{transform:translate3d(-5vw,6vh,0) scale(1.08)}}
+@keyframes float3{50%{transform:translate3d(4vw,-5vh,0) scale(1.15)}}
+.wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:0 24px}
+header{padding:78px 0 10px;position:relative}
+.kicker{color:var(--accent);font-size:12px;letter-spacing:.26em;text-transform:uppercase;margin:0 0 18px}
+h1{font-size:clamp(32px,5vw,60px);line-height:1.05;margin:0 0 20px;letter-spacing:-.03em;font-weight:800}
+h1 em{font-style:normal;background:linear-gradient(100deg,#ec4141,#f0a35e 40%,#7aa2ff 70%,#cf8bf0);background-size:220% 100%;
+-webkit-background-clip:text;background-clip:text;color:transparent;animation:flow 9s linear infinite}
+@keyframes flow{to{background-position:220% 0}}
+.lede{color:var(--mut);max-width:620px;margin:0 0 30px;font-size:15px}
+.stats{display:flex;gap:44px;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 0}
+.stat b{display:block;font-size:clamp(22px,2.6vw,30px);line-height:1.1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.stat span{color:var(--mut);font-size:12px;letter-spacing:.1em}
+.vinyl{position:absolute;right:-40px;top:40px;width:300px;height:300px;opacity:.16;animation:spin 40s linear infinite;pointer-events:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+.marquee{margin:26px 0 6px;border-bottom:1px solid var(--line);padding:12px 0;overflow:hidden;
+-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.mtrack{display:flex;gap:16px;white-space:nowrap;width:max-content;animation:slide 46s linear infinite;color:#8b8f9a;font-size:13px;letter-spacing:.06em}
+.marquee:hover .mtrack{animation-play-state:paused}
+.mtrack i{color:var(--accent);font-style:normal;opacity:.6}
+@keyframes slide{to{transform:translateX(-50%)}}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;padding:34px 0 8px}
+.card{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;
+text-decoration:none;color:inherit;transition:transform .35s cubic-bezier(.2,.7,.3,1),border-color .35s,box-shadow .35s;
+opacity:0;transform:translateY(26px)}
+.card.in{opacity:1;transform:none}
+.card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--c1) 45%,rgba(255,255,255,.2));box-shadow:0 28px 70px -30px rgba(0,0,0,.95),0 0 0 1px rgba(255,255,255,.04)}
+.card::before{content:"";position:absolute;inset:-1px;border-radius:21px;pointer-events:none;opacity:0;transition:opacity .45s;
+background:radial-gradient(520px 260px at 50% -10%,color-mix(in srgb,var(--c1) 22%,transparent),transparent 70%)}
+.card:hover::before{opacity:1}
+.cover{position:relative;aspect-ratio:16/8.6;overflow:hidden;background:
+radial-gradient(130% 130% at 12% 0%,color-mix(in srgb,var(--c1) 60%,transparent),transparent 62%),
+radial-gradient(120% 120% at 100% 100%,color-mix(in srgb,var(--c2) 45%,transparent),transparent 58%),#0a0b0e}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,11,14,0) 45%,rgba(10,11,14,.7) 82%,var(--card) 100%)}
+.ring{position:absolute;left:50%;top:50%;width:150%;aspect-ratio:1;translate:-50% -50%;
+background:conic-gradient(from 0deg,transparent 0deg,color-mix(in srgb,var(--c1) 55%,transparent) 55deg,transparent 130deg);
+filter:blur(26px);opacity:.55;animation:spin 16s linear infinite}
+.glyph{position:absolute;z-index:1;left:26px;bottom:20px;font-size:clamp(64px,7.6vw,102px);font-weight:900;line-height:1;letter-spacing:-.04em;
+color:#fff;opacity:.92;text-shadow:0 0 46px color-mix(in srgb,var(--c1) 70%,transparent);transition:transform .45s cubic-bezier(.2,.7,.3,1)}
+.card:hover .glyph{transform:scale(1.06) rotate(-3deg)}
+.sticker{position:absolute;z-index:2;top:16px;right:16px;font-size:11px;letter-spacing:.04em;color:#eef0f5;background:rgba(8,9,12,.55);
+border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:4px 11px;backdrop-filter:blur(8px);transform:rotate(-4deg)}
+.s2{top:auto;bottom:16px;right:16px;transform:rotate(3deg);color:#c9ccd6}
+.body{padding:18px 22px 22px;display:flex;flex-direction:column;gap:9px;flex:1}
+.eyebrow{margin:0;color:color-mix(in srgb,var(--c1) 80%,#fff);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+h2{margin:0;font-size:22px;letter-spacing:-.015em;line-height:1.25}
 .desc{margin:0;color:var(--mut);font-size:13.5px;flex:1}
 .pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:2px}
 .pill{font-size:11px;color:#a9adba;border:1px solid #2c2f38;border-radius:999px;padding:2px 9px}
-.cta{margin-top:10px;font-size:13px;color:#d6d9e2;opacity:.85}
-.card:hover .cta{color:#fff;opacity:1}
-footer{margin:26px 0 0;border-top:1px solid var(--line);padding:26px 0 70px;color:#7e828d;font-size:13px}
-footer a{color:#b9bdc8;text-decoration:none;border-bottom:1px dotted #3a3d47}
+.cta{margin-top:8px;font-size:13px;color:#d6d9e2;display:inline-flex;align-items:center;gap:6px}
+.cta i{font-style:normal;transition:transform .3s}
+.card:hover .cta{color:#fff}
+.card:hover .cta i{transform:translateX(5px)}
+footer{margin:24px 0 0;border-top:1px solid var(--line);padding:26px 0 70px;color:#7d818c;font-size:13px}
+footer a{color:#c2c6d0;text-decoration:none;border-bottom:1px dotted #3a3d47}
 footer p{margin:0 0 8px}
-@media(max-width:760px){.grid{grid-template-columns:1fr}header{padding:44px 0 22px}.stats{gap:22px}}
+code{background:rgba(236,65,65,.1);border:1px solid rgba(236,65,65,.2);padding:1px 6px;border-radius:5px;font-size:12px;color:#f3cfcf}
+@media(max-width:820px){.grid{grid-template-columns:1fr}.vinyl{display:none}.stats{gap:26px}header{padding:52px 0 8px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.card{opacity:1;transform:none}}
 </style>
 </head>
 <body>
+<div class="aurora"><span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span></div>
 <div class="wrap">
 <header>
-  <p class="kicker">Netease Cloud Music · Playlists</p>
+  <svg class="vinyl" viewBox="0 0 200 200" aria-hidden="true">
+    <defs><radialGradient id="g" cx="50%" cy="50%"><stop offset="0%" stop-color="#fff" stop-opacity=".9"/><stop offset="55%" stop-color="#fff" stop-opacity=".12"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+    <circle cx="100" cy="100" r="98" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width=".8"/>
+    <circle cx="100" cy="100" r="82" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width=".6"/>
+    <circle cx="100" cy="100" r="66" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width=".6"/>
+    <circle cx="100" cy="100" r="50" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width=".6"/>
+    <circle cx="100" cy="100" r="16" fill="url(#g)"/>
+  </svg>
+  <p class="kicker">Netease Cloud Music · 5 Playlists</p>
   <h1>五份歌单，<em>151 张专辑</em></h1>
-  <p class="lede">按「一支乐队 / 一位音乐人 → 一张代表作 → 3–4 首」整理，每份都配了批量导入文本、CSV 和可搜索的页面。挑一份进去，或者五份都听完。</p>
+  <p class="lede">按「一支乐队 / 一位音乐人 → 一张代表作 → 3–4 首」整理：emo 与盯鞋、爵士嘻哈与爵士流行、后摇、盯鞋、前卫摇滚。每份都配了批量导入文本、CSV 和可搜索的页面。</p>
   <div class="stats">
     <div class="stat"><b>5</b><span>歌单</span></div>
     <div class="stat"><b>151</b><span>专辑</span></div>
     <div class="stat"><b>602</b><span>首歌</span></div>
-    <div class="stat"><b>1984–2026</b><span>跨度</span></div>
+    <div class="stat"><b>1969–2026</b><span>跨度</span></div>
   </div>
 </header>
-
+<div class="marquee"><div class="mtrack"><span>Nujabes</span><i>·</i><span>Slowdive</span><i>·</i><span>Mogwai</span><i>·</i><span>New Trolls</span><i>·</i><span>透明杂志</span><i>·</i><span>Number Girl</span><i>·</i><span>Caravan</span><i>·</i><span>Weather Report</span><i>·</i><span>mbv</span><i>·</i><span>惘闻</span><i>·</i><span>Magma</span><i>·</i><span>toe</span><i>·</i><span>ハチ公</span><i>·</i><span>King Crimson</span><i>·</i><span>甜梅号</span><i>·</i><span>BLU-SWING</span><i>·</i><span>GY!BE</span><i>·</i><span>QVL</span><i>·</i><span>honeydip</span><i>·</i><span>素顔</span><i>·</i><span>Nujabes</span><i>·</i><span>Slowdive</span><i>·</i><span>Mogwai</span><i>·</i><span>New Trolls</span><i>·</i><span>透明杂志</span><i>·</i><span>Number Girl</span><i>·</i><span>Caravan</span><i>·</i><span>Weather Report</span><i>·</i><span>mbv</span><i>·</i><span>惘闻</span><i>·</i><span>Magma</span><i>·</i><span>toe</span><i>·</i><span>ハチ公</span><i>·</i><span>King Crimson</span><i>·</i><span>甜梅号</span><i>·</i><span>BLU-SWING</span><i>·</i><span>GY!BE</span><i>·</i><span>QVL</span><i>·</i><span>honeydip</span><i>·</i><span>素顔</span><i>·</i></div></div>
 <div class="grid">
-<a class="card" href="emo-shoegaze/index.html">
-  <div class="thumb"><img src="emo-shoegaze/card.jpg" alt="emo / 盯鞋 预览" loading="lazy"></div>
+<a class="card" href="emo-shoegaze/index.html" style="--c1:#ff5a4e;--c2:#ffb15c">
+  <div class="cover">
+    <div class="ring"></div>
+    <span class="glyph">盯</span>
+    <span class="sticker">29 张 · 116 首</span>
+    <span class="sticker s2">1984–2026</span>
+  </div>
   <div class="body">
-    <p class="eyebrow">29 张专辑 · 116 首</p>
+    <p class="eyebrow">两岸三地 + 日本</p>
     <h2>emo / 盯鞋</h2>
     <p class="desc">两岸三地 + 日本的 emo 与盯鞋：透明杂志、午夜乒乓、返校日、Chinese Football、Number Girl、ミドリ、東京酒吐座、honeydip、mbv</p>
     <div class="pills"><span class="pill">大陆</span><span class="pill">台湾</span><span class="pill">波兰</span><span class="pill">英国</span><span class="pill">韩国</span></div>
-    <span class="cta">打开歌单 →</span>
+    <span class="cta">打开歌单 <i>→</i></span>
   </div>
 </a>
-<a class="card" href="jazz/index.html">
-  <div class="thumb"><img src="jazz/card.jpg" alt="Jazz Hiphop × Jazz Pop 预览" loading="lazy"></div>
+<a class="card" href="jazz/index.html" style="--c1:#f0c05a;--c2:#e0803a">
+  <div class="cover">
+    <div class="ring"></div>
+    <span class="glyph">J</span>
+    <span class="sticker">31 张 · 124 首</span>
+    <span class="sticker s2">1984–2026</span>
+  </div>
   <div class="body">
-    <p class="eyebrow">31 张专辑 · 124 首</p>
+    <p class="eyebrow">东京到纽约</p>
     <h2>Jazz Hiphop × Jazz Pop</h2>
     <p class="desc">上半场 Nujabes 那条线到 J Dilla、ATCQ、蛋堡；下半场二宮愛、BLU-SWING 到 Norah Jones、Sade</p>
     <div class="pills"><span class="pill">日本</span><span class="pill">美国</span><span class="pill">台湾</span><span class="pill">大陆</span><span class="pill">加拿大</span></div>
-    <span class="cta">打开歌单 →</span>
+    <span class="cta">打开歌单 <i>→</i></span>
   </div>
 </a>
-<a class="card" href="post-rock/index.html">
-  <div class="thumb"><img src="post-rock/card.jpg" alt="Post-rock 预览" loading="lazy"></div>
+<a class="card" href="post-rock/index.html" style="--c1:#7aa2ff;--c2:#6fd0c0">
+  <div class="cover">
+    <div class="ring"></div>
+    <span class="glyph">摇</span>
+    <span class="sticker">31 张 · 122 首</span>
+    <span class="sticker s2">1985–2015</span>
+  </div>
   <div class="body">
-    <p class="eyebrow">31 张专辑 · 122 首</p>
+    <p class="eyebrow">从 Slint 到 MONO</p>
     <h2>Post-rock</h2>
     <p class="desc">Slint、Talk Talk 的前史，Mogwai、EITS、GY!BE 的黄金一代，再到 MONO、惘闻、甜梅号与重型器乐</p>
     <div class="pills"><span class="pill">英国</span><span class="pill">美国</span><span class="pill">加拿大</span><span class="pill">冰岛</span><span class="pill">日本</span></div>
-    <span class="cta">打开歌单 →</span>
+    <span class="cta">打开歌单 <i>→</i></span>
   </div>
 </a>
-<a class="card" href="shoegaze/index.html">
-  <div class="thumb"><img src="shoegaze/card.jpg" alt="Shoegaze 预览" loading="lazy"></div>
+<a class="card" href="shoegaze/index.html" style="--c1:#cf8bf0;--c2:#ff8fc4">
+  <div class="cover">
+    <div class="ring"></div>
+    <span class="glyph">鞋</span>
+    <span class="sticker">30 张 · 120 首</span>
+    <span class="sticker s2">1985–2017</span>
+  </div>
   <div class="body">
-    <p class="eyebrow">30 张专辑 · 120 首</p>
+    <p class="eyebrow">从 mbv 到缺省</p>
     <h2>Shoegaze</h2>
     <p class="desc">mbv、Ride、Slowdive、Lush 的第一波，加 Drop Nineteens、東京酒吐座、缺省、发光曲线</p>
     <div class="pills"><span class="pill">英国</span><span class="pill">美国</span><span class="pill">日本</span><span class="pill">大陆</span><span class="pill">俄罗斯</span></div>
-    <span class="cta">打开歌单 →</span>
+    <span class="cta">打开歌单 <i>→</i></span>
   </div>
 </a>
-<a class="card" href="prog-rock/index.html">
-  <div class="thumb"><img src="prog-rock/card.jpg" alt="前卫摇滚 预览" loading="lazy"></div>
+<a class="card" href="prog-rock/index.html" style="--c1:#d9b26a;--c2:#c98fa8">
+  <div class="cover">
+    <div class="ring"></div>
+    <span class="glyph">前</span>
+    <span class="sticker">30 张 · 120 首</span>
+    <span class="sticker s2">1969–2011</span>
+  </div>
   <div class="body">
-    <p class="eyebrow">30 张专辑 · 120 首</p>
+    <p class="eyebrow">意大利到坎特伯雷</p>
     <h2>Prog Rock</h2>
-    <p class="desc">意大利交响前卫（New Trolls、PFM、Banco、QVL）、英国（Genesis、Yes、KC、ELP）、法国 Zeuhl（Magma、Zao）与融合爵士（Mahavishnu、Weather Report）</p>
+    <p class="desc">意大利交响前卫、英国坎特伯雷、法国 Zeuhl 与融合爵士：New Trolls、Genesis、Magma、Weather Report</p>
     <div class="pills"><span class="pill">意大利</span><span class="pill">英国</span><span class="pill">法国</span><span class="pill">美国</span><span class="pill">荷兰</span></div>
-    <span class="cta">打开歌单 →</span>
+    <span class="cta">打开歌单 <i>→</i></span>
   </div>
 </a>
 </div>
-
 <footer>
-  <p>每份歌单的目录里都有：<code>歌单_批量导入.txt</code>（每行「歌名 - 歌手」，喂给文本转歌单工具批量建单）、<code>歌单.csv</code>（带网易云歌曲 ID）、<code>index.html</code>（可搜索 / 筛选 / 逐首直达）。</p>
+  <p>每份歌单目录里都有 <code>歌单_批量导入.txt</code>（每行「歌名 - 歌手」）、<code>歌单.csv</code>（带网易云歌曲 ID）、<code>index.html</code>（可搜索 / 筛选 / 逐首直达）。</p>
   <p>网易云没有「文本直出歌单链接」的公开接口，歌单需要在登录状态下创建；这些文件负责把批量识别那一步做掉。</p>
-  <p>源码与全部文件：<a href="https://github.com/elia9999/MusicPlaylist">github.com/elia9999/MusicPlaylist</a></p>
+  <p>源码：<a href="https://github.com/elia9999/MusicPlaylist">github.com/elia9999/MusicPlaylist</a></p>
 </footer>
 </div>
+<script>
+const cards=[...document.querySelectorAll('.card')];
+const io=new IntersectionObserver((es)=>{es.forEach((e,i)=>{if(e.isIntersecting){e.target.style.transitionDelay=(i%2)*70+'ms';e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+cards.forEach(c=>io.observe(c));
+setTimeout(()=>cards.forEach(c=>c.classList.add('in')),1400);
+</script>
 </body>
 </html>

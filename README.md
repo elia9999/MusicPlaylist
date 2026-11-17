@@ -1,14 +1,15 @@
-# 网易云歌单 · 四份
+# 网易云歌单 · 五份
 
 **在线版：<https://elia9999.github.io/MusicPlaylist/>**（GitHub Pages，点卡片进入各歌单）
 
-四组按「一支乐队 / 一位音乐人 → 一张代表作 → 3–4 首」整理的歌单，每份都带批量导入文本、CSV、可视化页面和曲目表。
+五组按「一支乐队 / 一位音乐人 → 一张代表作 → 3–4 首」整理的歌单，每份都带批量导入文本、CSV、可视化页面和曲目表。
 
 | 目录 | 内容 | 规模 |
 | --- | --- | --- |
 | [`emo-shoegaze/`](emo-shoegaze/) | 两岸三地 + 日本的 emo / 盯鞋：透明杂志、午夜乒乓、返校日、Chinese Football、Number Girl、ミドリ、東京酒吐座、honeydip、mbv… | 29 张专辑 / 116 首 |
 | [`jazz/`](jazz/) | Jazz Hiphop（Nujabes、DJ OKAWARI、J Dilla、ATCQ、蛋堡…）+ Jazz Pop（二宮愛、BLU-SWING、Norah Jones、Sade…） | 31 张专辑 / 124 首 |
 | [`post-rock/`](post-rock/) | 后摇：Slint、Talk Talk、Mogwai、EITS、GY!BE、MONO、Envy、toe、惘闻、沼泽、甜梅号、Russian Circles、Pelican… | 31 张专辑 / 122 首 |
+| [`prog-rock/`](prog-rock/) | 前卫摇滚：New Trolls、PFM、Banco、QVL、Genesis、Yes、KC、ELP、Magma、Zao、Mahavishnu、Weather Report… | 30 张专辑 / 120 首 |
 | [`shoegaze/`](shoegaze/) | 盯鞋：mbv、Ride、Slowdive、Lush、Chapterhouse、Swervedriver、JAMC、Cocteau Twins、Drop Nineteens、東京酒吐座、缺省、发光曲线… | 30 张专辑 / 120 首 |
 
 ## 用法

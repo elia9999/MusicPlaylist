@@ -1,0 +1,1532 @@
+[
+ {
+  "no": 1,
+  "cat": "prog",
+  "key": "New Trolls",
+  "band": "New Trolls",
+  "alias": "",
+  "region": "意大利",
+  "desc": "热那亚，把巴洛克协奏曲写进摇滚的第一批人",
+  "album": "Concerto Grosso n. 1",
+  "albumId": 75389747,
+  "artist": "New Trolls",
+  "year": "1971",
+  "songs": [
+   {
+    "id": 1343253176,
+    "name": "Concerto Grosso n. 1, I Tempo: Allegro",
+    "real": "Concerto Grosso n. 1, I Tempo: Allegro",
+    "artist1": "New Trolls",
+    "artists": [
+     "New Trolls"
+    ]
+   },
+   {
+    "id": 1343253177,
+    "name": "Concerto Grosso n. 1, I Tempo: Adagio (Shadows)",
+    "real": "Concerto Grosso n. 1, I Tempo: Adagio (Shadows)",
+    "artist1": "New Trolls",
+    "artists": [
+     "New Trolls"
+    ]
+   },
+   {
+    "id": 1343253178,
+    "name": "Concerto Grosso n. 1: 3° Tempo: Cadenza-Andante con moto",
+    "real": "Concerto Grosso n. 1: 3° Tempo: Cadenza-Andante con moto",
+    "artist1": "New Trolls",
+    "artists": [
+     "New Trolls"
+    ]
+   },
+   {
+    "id": 1343253179,
+    "name": "Concerto Grosso n. 1: 4° Tempo Shadows (Per Jimy Hendrix)",
+    "real": "Concerto Grosso n. 1: 4° Tempo Shadows (Per Jimy Hendrix)",
+    "artist1": "New Trolls",
+    "artists": [
+     "New Trolls"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 2,
+  "cat": "prog",
+  "key": "Premiata Forneria Marconi",
+  "band": "PFM",
+  "alias": "Premiata Forneria Marconi",
+  "region": "意大利",
+  "desc": "米兰，意大利前卫摇滚最国际化的名字",
+  "album": "Per Un Amico",
+  "albumId": 1972188,
+  "artist": "Premiata Forneria Marconi",
+  "year": "1972",
+  "songs": [
+   {
+    "id": 21359168,
+    "name": "Appena un po'",
+    "real": "Appena un po'",
+    "artist1": "Premiata Forneria Marconi",
+    "artists": [
+     "Premiata Forneria Marconi"
+    ]
+   },
+   {
+    "id": 21359169,
+    "name": "Generale",
+    "real": "Generale",
+    "artist1": "Premiata Forneria Marconi",
+    "artists": [
+     "Premiata Forneria Marconi"
+    ]
+   },
+   {
+    "id": 21359170,
+    "name": "Per un amico",
+    "real": "Per un amico",
+    "artist1": "Premiata Forneria Marconi",
+    "artists": [
+     "Premiata Forneria Marconi"
+    ]
+   },
+   {
+    "id": 21359171,
+    "name": "Il banchetto",
+    "real": "Il banchetto",
+    "artist1": "Premiata Forneria Marconi",
+    "artists": [
+     "Premiata Forneria Marconi"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 3,
+  "cat": "prog",
+  "key": "Banco del Mutuo Soccorso",
+  "band": "Banco del Mutuo Soccorso",
+  "alias": "Banco",
+  "region": "意大利",
+  "desc": "罗马，歌剧式的人声与键盘",
+  "album": "Io Sono Nato Libero",
+  "albumId": 1541719,
+  "artist": "Banco del Mutuo Soccorso",
+  "year": "1973",
+  "songs": [
+   {
+    "id": 16729784,
+    "name": "Canto nomade per un prigioniero politico",
+    "real": "Canto nomade per un prigioniero politico",
+    "artist1": "Banco del Mutuo Soccorso",
+    "artists": [
+     "Banco del Mutuo Soccorso"
+    ]
+   },
+   {
+    "id": 16729785,
+    "name": "Non mi rompete",
+    "real": "Non mi rompete",
+    "artist1": "Banco del Mutuo Soccorso",
+    "artists": [
+     "Banco del Mutuo Soccorso"
+    ]
+   },
+   {
+    "id": 16729786,
+    "name": "La città sottile",
+    "real": "La città sottile",
+    "artist1": "Banco del Mutuo Soccorso",
+    "artists": [
+     "Banco del Mutuo Soccorso"
+    ]
+   },
+   {
+    "id": 16729788,
+    "name": "Traccia II",
+    "real": "Traccia II",
+    "artist1": "Banco del Mutuo Soccorso",
+    "artists": [
+     "Banco del Mutuo Soccorso"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 4,
+  "cat": "prog",
+  "key": "Le Orme",
+  "band": "Le Orme",
+  "alias": "",
+  "region": "意大利",
+  "desc": "威尼斯，Felona e Sorona 的古典叙事",
+  "album": "Felona e Sorona",
+  "albumId": 300661,
+  "artist": "Le Orme",
+  "year": "1973",
+  "songs": [
+   {
+    "id": 2976621,
+    "name": "Felona",
+    "real": "Felona",
+    "artist1": "Le Orme",
+    "artists": [
+     "Le Orme"
+    ]
+   },
+   {
+    "id": 2976624,
+    "name": "La Solitudine Di Chi Protegge Il Mondo",
+    "real": "La Solitudine Di Chi Protegge Il Mondo",
+    "artist1": "Le Orme",
+    "artists": [
+     "Le Orme"
+    ]
+   },
+   {
+    "id": 2976627,
+    "name": "L' Equilibrio",
+    "real": "L' Equilibrio",
+    "artist1": "Le Orme",
+    "artists": [
+     "Le Orme"
+    ]
+   },
+   {
+    "id": 2976639,
+    "name": "Ritorno Al Nulla",
+    "real": "Ritorno Al Nulla",
+    "artist1": "Le Orme",
+    "artists": [
+     "Le Orme"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 5,
+  "cat": "prog",
+  "key": "Quella Vecchia Locanda",
+  "band": "Quella Vecchia Locanda",
+  "alias": "QVL",
+  "region": "意大利",
+  "desc": "罗马，小提琴与长笛主导的交响前卫",
+  "album": "Il Tempo Della Gioia",
+  "albumId": 122470248,
+  "artist": "Quella Vecchia Locanda",
+  "year": "1974",
+  "songs": [
+   {
+    "id": 1817072807,
+    "name": "Villa doria pamphili",
+    "real": "Villa doria pamphili",
+    "artist1": "Quella Vecchia Locanda",
+    "artists": [
+     "Quella Vecchia Locanda"
+    ]
+   },
+   {
+    "id": 1817072809,
+    "name": "A forma di...",
+    "real": "A forma di...",
+    "artist1": "Quella Vecchia Locanda",
+    "artists": [
+     "Quella Vecchia Locanda"
+    ]
+   },
+   {
+    "id": 1817074745,
+    "name": "Il tempo della gioia",
+    "real": "Il tempo della gioia",
+    "artist1": "Quella Vecchia Locanda",
+    "artists": [
+     "Quella Vecchia Locanda"
+    ]
+   },
+   {
+    "id": 1817074746,
+    "name": "E' accaduto una notte",
+    "real": "E' accaduto una notte",
+    "artist1": "Quella Vecchia Locanda",
+    "artists": [
+     "Quella Vecchia Locanda"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 6,
+  "cat": "prog",
+  "key": "Museo Rosenbach",
+  "band": "Museo Rosenbach",
+  "alias": "",
+  "region": "意大利",
+  "desc": "博尔迪盖拉，Zarathustra 一张封神",
+  "album": "Zarathustra",
+  "albumId": 134510365,
+  "artist": "Museo Rosenbach",
+  "year": "1973",
+  "songs": [
+   {
+    "id": 1885406702,
+    "name": "Zarathustra- L'ultimo Uomo",
+    "real": "Zarathustra- L'ultimo Uomo",
+    "artist1": "Museo Rosenbach",
+    "artists": [
+     "Museo Rosenbach"
+    ]
+   },
+   {
+    "id": 1885406703,
+    "name": "Zarathustra- Il Re Di Ieri",
+    "real": "Zarathustra- Il Re Di Ieri",
+    "artist1": "Museo Rosenbach",
+    "artists": [
+     "Museo Rosenbach"
+    ]
+   },
+   {
+    "id": 1885405900,
+    "name": "Zarathustra- Superuomo",
+    "real": "Zarathustra- Superuomo",
+    "artist1": "Museo Rosenbach",
+    "artists": [
+     "Museo Rosenbach"
+    ]
+   },
+   {
+    "id": 1885406705,
+    "name": "Zarathustra- Il Tempio Delle Cles",
+    "real": "Zarathustra- Il Tempio Delle Cles",
+    "artist1": "Museo Rosenbach",
+    "artists": [
+     "Museo Rosenbach"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 7,
+  "cat": "prog",
+  "key": "Genesis",
+  "band": "Genesis",
+  "alias": "",
+  "region": "英国",
+  "desc": "Selling England 时期的田园与戏剧性",
+  "album": "Selling England By the Pound",
+  "albumId": 357726755,
+  "artist": "Genesis",
+  "year": "1973",
+  "songs": [
+   {
+    "id": 3337497224,
+    "name": "Dancing With The Moonlit Knight",
+    "real": "Dancing With The Moonlit Knight",
+    "artist1": "Genesis",
+    "artists": [
+     "Genesis"
+    ]
+   },
+   {
+    "id": 3337496228,
+    "name": "Firth Of Fifth",
+    "real": "Firth Of Fifth",
+    "artist1": "Genesis",
+    "artists": [
+     "Genesis"
+    ]
+   },
+   {
+    "id": 3337496229,
+    "name": "The Cinema Show",
+    "real": "The Cinema Show",
+    "artist1": "Genesis",
+    "artists": [
+     "Genesis"
+    ]
+   },
+   {
+    "id": 3337497229,
+    "name": "Aisle Of Plenty",
+    "real": "Aisle Of Plenty",
+    "artist1": "Genesis",
+    "artists": [
+     "Genesis"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 8,
+  "cat": "prog",
+  "key": "Yes",
+  "band": "Yes",
+  "alias": "",
+  "region": "英国",
+  "desc": "Close to the Edge 的三首长曲",
+  "album": "Close To The Edge [Expanded]",
+  "albumId": 1929493,
+  "artist": "Yes",
+  "year": "1972",
+  "songs": [
+   {
+    "id": 20789561,
+    "name": "Close to the Edge (i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man) [2003 Remaster]",
+    "real": "Close to the Edge (i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man) [2003 Remaster]",
+    "artist1": "Yes",
+    "artists": [
+     "Yes"
+    ]
+   },
+   {
+    "id": 20789562,
+    "name": "And You and I (2003 Remaster)",
+    "real": "And You and I (2003 Remaster)",
+    "artist1": "Yes",
+    "artists": [
+     "Yes"
+    ]
+   },
+   {
+    "id": 20789563,
+    "name": "Siberian Khatru (2003 Remaster)",
+    "real": "Siberian Khatru (2003 Remaster)",
+    "artist1": "Yes",
+    "artists": [
+     "Yes"
+    ]
+   },
+   {
+    "id": 20789564,
+    "name": "America (2003 Remaster)",
+    "real": "America (2003 Remaster)",
+    "artist1": "Yes",
+    "artists": [
+     "Yes"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 9,
+  "cat": "prog",
+  "key": "King Crimson",
+  "band": "King Crimson",
+  "alias": "KC",
+  "region": "英国",
+  "desc": "1969 年那张定义了「前卫」的处女作",
+  "album": "In The Court Of The Crimson King (An Observation By King Crimson)",
+  "albumId": 364741870,
+  "artist": "King Crimson",
+  "year": "1969",
+  "songs": [
+   {
+    "id": 3355861508,
+    "name": "21st Century Schizoid Man (Including 'Mirrors')",
+    "real": "21st Century Schizoid Man (Including 'Mirrors')",
+    "artist1": "King Crimson",
+    "artists": [
+     "King Crimson"
+    ]
+   },
+   {
+    "id": 3355863933,
+    "name": "I Talk To The Wind",
+    "real": "I Talk To The Wind",
+    "artist1": "King Crimson",
+    "artists": [
+     "King Crimson"
+    ]
+   },
+   {
+    "id": 3355863934,
+    "name": "Epitaph (Including 'March for No Reason' & 'Tomorrow & Tomorrow')",
+    "real": "Epitaph (Including 'March for No Reason' & 'Tomorrow & Tomorrow')",
+    "artist1": "King Crimson",
+    "artists": [
+     "King Crimson"
+    ]
+   },
+   {
+    "id": 3355863935,
+    "name": "The Court Of The Crimson King (Including 'The Return of the Fire Witch' &'The Dance of the Puppets')",
+    "real": "The Court Of The Crimson King (Including 'The Return of the Fire Witch' &'The Dance of the Puppets')",
+    "artist1": "King Crimson",
+    "artists": [
+     "King Crimson"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 10,
+  "cat": "prog",
+  "key": "Emerson, Lake & Palmer",
+  "band": "Emerson, Lake & Palmer",
+  "alias": "ELP",
+  "region": "英国",
+  "desc": "键盘炫技与组曲结构的极致",
+  "album": "Tarkus",
+  "albumId": 1626840,
+  "artist": "Emerson, Lake & Palmer",
+  "year": "1971",
+  "songs": [
+   {
+    "id": 17682573,
+    "name": "Tarkus (i. Eruption, ii. Stones of Years, iii. Iconoclast, iv. Mass, v. Manticore, vi. Battlefield, vii. Aquatarkus) (2012 Remaster)",
+    "real": "Tarkus (i. Eruption, ii. Stones of Years, iii. Iconoclast, iv. Mass, v. Manticore, vi. Battlefield, vii. Aquatarkus) (2012 Remaster)",
+    "artist1": "Emerson, Lake & Palmer",
+    "artists": [
+     "Emerson, Lake & Palmer"
+    ]
+   },
+   {
+    "id": 17682574,
+    "name": "Jeremy Bender (2012 Remaster)",
+    "real": "Jeremy Bender (2012 Remaster)",
+    "artist1": "Emerson, Lake & Palmer",
+    "artists": [
+     "Emerson, Lake & Palmer"
+    ]
+   },
+   {
+    "id": 17682575,
+    "name": "Bitches Crystal (2012 Remaster)",
+    "real": "Bitches Crystal (2012 Remaster)",
+    "artist1": "Emerson, Lake & Palmer",
+    "artists": [
+     "Emerson, Lake & Palmer"
+    ]
+   },
+   {
+    "id": 17682576,
+    "name": "The Only Way (Hymn) (2012 Remaster)",
+    "real": "The Only Way (Hymn) (2012 Remaster)",
+    "artist1": "Emerson, Lake & Palmer",
+    "artists": [
+     "Emerson, Lake & Palmer"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 11,
+  "cat": "prog",
+  "key": "Gentle Giant",
+  "band": "Gentle Giant",
+  "alias": "",
+  "region": "英国",
+  "desc": "复调、对位与变拍子的怪才",
+  "album": "Octopus",
+  "albumId": 1663594,
+  "artist": "Gentle Giant",
+  "year": "1972",
+  "songs": [
+   {
+    "id": 18104181,
+    "name": "The Advent Of Panurge",
+    "real": "The Advent Of Panurge",
+    "artist1": "Gentle Giant",
+    "artists": [
+     "Gentle Giant"
+    ]
+   },
+   {
+    "id": 18104182,
+    "name": "Raconteur Troubadour",
+    "real": "Raconteur Troubadour",
+    "artist1": "Gentle Giant",
+    "artists": [
+     "Gentle Giant"
+    ]
+   },
+   {
+    "id": 18104184,
+    "name": "Knots",
+    "real": "Knots",
+    "artist1": "Gentle Giant",
+    "artists": [
+     "Gentle Giant"
+    ]
+   },
+   {
+    "id": 18104188,
+    "name": "River",
+    "real": "River",
+    "artist1": "Gentle Giant",
+    "artists": [
+     "Gentle Giant"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 12,
+  "cat": "prog",
+  "key": "Camel",
+  "band": "Camel",
+  "alias": "",
+  "region": "英国",
+  "desc": "The Snow Goose 的器乐叙事",
+  "album": "The Snow Goose",
+  "albumId": 1577420,
+  "artist": "Camel",
+  "year": "1975",
+  "songs": [
+   {
+    "id": 17124048,
+    "name": "The Great Marsh (Instrumental Album Version)",
+    "real": "The Great Marsh (Instrumental Album Version)",
+    "artist1": "Camel",
+    "artists": [
+     "Camel"
+    ]
+   },
+   {
+    "id": 17124050,
+    "name": "Rhayader Goes To Town (Instrumental Album Version)",
+    "real": "Rhayader Goes To Town (Instrumental Album Version)",
+    "artist1": "Camel",
+    "artists": [
+     "Camel"
+    ]
+   },
+   {
+    "id": 17124057,
+    "name": "Flight Of The Snow Goose (Instrumental Album Version)",
+    "real": "Flight Of The Snow Goose (Instrumental Album Version)",
+    "artist1": "Camel",
+    "artists": [
+     "Camel"
+    ]
+   },
+   {
+    "id": 17124059,
+    "name": "Dunkirk (Instrumental Album Version)",
+    "real": "Dunkirk (Instrumental Album Version)",
+    "artist1": "Camel",
+    "artists": [
+     "Camel"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 13,
+  "cat": "prog",
+  "key": "Renaissance",
+  "band": "Renaissance",
+  "alias": "",
+  "region": "英国",
+  "desc": "古典钢琴 + 女高音的交响前卫",
+  "album": "Scheherazade & Other Stories",
+  "albumId": 338212,
+  "artist": "Renaissance",
+  "year": "1975",
+  "songs": [
+   {
+    "id": 3339106,
+    "name": "Trip to the Fair",
+    "real": "Trip to the Fair",
+    "artist1": "Renaissance",
+    "artists": [
+     "Renaissance"
+    ]
+   },
+   {
+    "id": 3339114,
+    "name": "Ocean Gypsy",
+    "real": "Ocean Gypsy",
+    "artist1": "Renaissance",
+    "artists": [
+     "Renaissance"
+    ]
+   },
+   {
+    "id": 3339119,
+    "name": "Song Of Scheherazade : I. Fanfare / II. The Betrayal / III. The Sultan / IV. Love Theme / V. The Young Prince and Princess as told by Scheherazade / VI. Festival Preparations / VII. Fugue for the Sultan / VIII. The Festival / IX. Finale",
+    "real": "Song Of Scheherazade : I. Fanfare / II. The Betrayal / III. The Sultan / IV. Love Theme / V. The Young Prince and Princess as told by Scheherazade / VI. Festival Preparations / VII. Fugue for the Sultan / VIII. The Festival / IX. Finale",
+    "artist1": "Renaissance",
+    "artists": [
+     "Renaissance"
+    ]
+   },
+   {
+    "id": 3339109,
+    "name": "The Vultures Fly High",
+    "real": "The Vultures Fly High",
+    "artist1": "Renaissance",
+    "artists": [
+     "Renaissance"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 14,
+  "cat": "prog",
+  "key": "Gryphon",
+  "band": "Gryphon",
+  "alias": "",
+  "region": "英国",
+  "desc": "用古乐器（竖笛、克鲁姆管）做摇滚",
+  "album": "Red Queen to Gryphon Three",
+  "albumId": 267491,
+  "artist": "Gryphon",
+  "year": "1974",
+  "songs": [
+   {
+    "id": 2654032,
+    "name": "Opening Move",
+    "real": "Opening Move",
+    "artist1": "Gryphon",
+    "artists": [
+     "Gryphon"
+    ]
+   },
+   {
+    "id": 2654034,
+    "name": "Second Spasm",
+    "real": "Second Spasm",
+    "artist1": "Gryphon",
+    "artists": [
+     "Gryphon"
+    ]
+   },
+   {
+    "id": 2654036,
+    "name": "Lament",
+    "real": "Lament",
+    "artist1": "Gryphon",
+    "artists": [
+     "Gryphon"
+    ]
+   },
+   {
+    "id": 2654038,
+    "name": "Checkmate",
+    "real": "Checkmate",
+    "artist1": "Gryphon",
+    "artists": [
+     "Gryphon"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 15,
+  "cat": "prog",
+  "key": "Caravan",
+  "band": "Caravan",
+  "alias": "",
+  "region": "英国",
+  "desc": "坎特伯雷场景，Nine Feet Underground",
+  "album": "In The Land Of Grey And Pink",
+  "albumId": 1579000,
+  "artist": "Caravan",
+  "year": "1971",
+  "songs": [
+   {
+    "id": 17148680,
+    "name": "Golf Girl",
+    "real": "Golf Girl",
+    "artist1": "Caravan",
+    "artists": [
+     "Caravan"
+    ]
+   },
+   {
+    "id": 17148681,
+    "name": "Winter Wine",
+    "real": "Winter Wine",
+    "artist1": "Caravan",
+    "artists": [
+     "Caravan"
+    ]
+   },
+   {
+    "id": 17148684,
+    "name": "Nine Feet Underground",
+    "real": "Nine Feet Underground",
+    "artist1": "Caravan",
+    "artists": [
+     "Caravan"
+    ]
+   },
+   {
+    "id": 17148683,
+    "name": "In The Land Of Grey & Pink",
+    "real": "In The Land Of Grey & Pink",
+    "artist1": "Caravan",
+    "artists": [
+     "Caravan"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 16,
+  "cat": "prog",
+  "key": "Soft Machine",
+  "band": "Soft Machine",
+  "alias": "",
+  "region": "英国",
+  "desc": "坎特伯雷，爵士摇滚的实验场",
+  "album": "Third",
+  "albumId": 36243620,
+  "artist": "Soft Machine",
+  "year": "1970",
+  "songs": [
+   {
+    "id": 506623305,
+    "name": "Facelift (Live - Remastered 2006)",
+    "real": "Facelift (Live - Remastered 2006)",
+    "artist1": "Soft Machine",
+    "artists": [
+     "Soft Machine"
+    ]
+   },
+   {
+    "id": 506623306,
+    "name": "Slightly All The Time (Remastered 2006)",
+    "real": "Slightly All The Time (Remastered 2006)",
+    "artist1": "Soft Machine",
+    "artists": [
+     "Soft Machine"
+    ]
+   },
+   {
+    "id": 506623307,
+    "name": "Moon In June (Remastered 2006)",
+    "real": "Moon In June (Remastered 2006)",
+    "artist1": "Soft Machine",
+    "artists": [
+     "Soft Machine"
+    ]
+   },
+   {
+    "id": 506623308,
+    "name": "Out-Bloody-Rageous (Remastered 2006)",
+    "real": "Out-Bloody-Rageous (Remastered 2006)",
+    "artist1": "Soft Machine",
+    "artists": [
+     "Soft Machine"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 17,
+  "cat": "prog",
+  "key": "National Health",
+  "band": "National Health",
+  "alias": "",
+  "region": "英国",
+  "desc": "坎特伯雷余脉，复杂的爵士摇滚",
+  "album": "Of Queues And Cures",
+  "albumId": 1617453,
+  "artist": "National Health",
+  "year": "1978",
+  "songs": [
+   {
+    "id": 17586309,
+    "name": "The Collapso",
+    "real": "The Collapso",
+    "artist1": "National Health",
+    "artists": [
+     "National Health"
+    ]
+   },
+   {
+    "id": 17586310,
+    "name": "Squarer For Maud",
+    "real": "Squarer For Maud",
+    "artist1": "National Health",
+    "artists": [
+     "National Health"
+    ]
+   },
+   {
+    "id": 17586311,
+    "name": "Dreams Wide Awake",
+    "real": "Dreams Wide Awake",
+    "artist1": "National Health",
+    "artists": [
+     "National Health"
+    ]
+   },
+   {
+    "id": 17586312,
+    "name": "Binoculars",
+    "real": "Binoculars",
+    "artist1": "National Health",
+    "artists": [
+     "National Health"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 18,
+  "cat": "prog",
+  "key": "Magma",
+  "band": "Magma",
+  "alias": "",
+  "region": "法国",
+  "desc": "Zeuhl 的发明者，自造语言与合唱",
+  "album": "Mëkanïk Dëstruktïẁ Kömmandöh",
+  "albumId": 35174113,
+  "artist": "Magma",
+  "year": "1973",
+  "songs": [
+   {
+    "id": 459062700,
+    "name": "Hortz Fur Dehn Stekehn West",
+    "real": "Hortz Fur Dehn Stekehn West",
+    "artist1": "Magma",
+    "artists": [
+     "Magma"
+    ]
+   },
+   {
+    "id": 458995844,
+    "name": "Kobaia Iss Deh Hundin",
+    "real": "Kobaia Iss Deh Hundin",
+    "artist1": "Magma",
+    "artists": [
+     "Magma"
+    ]
+   },
+   {
+    "id": 459062702,
+    "name": "Da Zeuhl Wortz Mekanik",
+    "real": "Da Zeuhl Wortz Mekanik",
+    "artist1": "Magma",
+    "artists": [
+     "Magma"
+    ]
+   },
+   {
+    "id": 459062703,
+    "name": "Mekanik Kommandoh",
+    "real": "Mekanik Kommandoh",
+    "artist1": "Magma",
+    "artists": [
+     "Magma"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 19,
+  "cat": "prog",
+  "key": "Zao",
+  "band": "Zao",
+  "alias": "",
+  "region": "法国",
+  "desc": "Zeuhl 另一支，小提琴与科拉琴",
+  "album": "Kawana 1973 - 1976",
+  "albumId": 380948150,
+  "artist": "Zao",
+  "year": "1973",
+  "songs": [
+   {
+    "id": 3392080677,
+    "name": "Natura",
+    "real": "Natura",
+    "artist1": "Zao",
+    "artists": [
+     "Zao"
+    ]
+   },
+   {
+    "id": 3392080678,
+    "name": "Tserouf",
+    "real": "Tserouf",
+    "artist1": "Zao",
+    "artists": [
+     "Zao"
+    ]
+   },
+   {
+    "id": 3392080680,
+    "name": "Sadie",
+    "real": "Sadie",
+    "artist1": "Zao",
+    "artists": [
+     "Zao"
+    ]
+   },
+   {
+    "id": 3392080681,
+    "name": "Free Folk",
+    "real": "Free Folk",
+    "artist1": "Zao",
+    "artists": [
+     "Zao"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 20,
+  "cat": "prog",
+  "key": "Eskaton",
+  "band": "Eskaton",
+  "alias": "",
+  "region": "法国",
+  "desc": "Zeuhl 的女性声部与黑暗质感",
+  "album": "4 Visions",
+  "albumId": 166630402,
+  "artist": "Eskaton",
+  "year": "1978",
+  "songs": [
+   {
+    "id": 2051498317,
+    "name": "Eskaton",
+    "real": "Eskaton",
+    "artist1": "Eskaton",
+    "artists": [
+     "Eskaton"
+    ]
+   },
+   {
+    "id": 2051496560,
+    "name": "Attente",
+    "real": "Attente",
+    "artist1": "Eskaton",
+    "artists": [
+     "Eskaton"
+    ]
+   },
+   {
+    "id": 2051496561,
+    "name": "Ecoute",
+    "real": "Ecoute",
+    "artist1": "Eskaton",
+    "artists": [
+     "Eskaton"
+    ]
+   },
+   {
+    "id": 2051496563,
+    "name": "Le Cri",
+    "real": "Le Cri",
+    "artist1": "Eskaton",
+    "artists": [
+     "Eskaton"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 21,
+  "cat": "prog",
+  "key": "Mahavishnu Orchestra",
+  "band": "Mahavishnu Orchestra",
+  "alias": "",
+  "region": "美国",
+  "desc": "McLaughlin 的融合爵士爆裂",
+  "album": "The Inner Mounting Flame",
+  "albumId": 1587593,
+  "artist": "Mahavishnu Orchestra",
+  "year": "1971",
+  "songs": [
+   {
+    "id": 17238908,
+    "name": "Meeting Of The Spirits",
+    "real": "Meeting Of The Spirits",
+    "artist1": "Mahavishnu Orchestra",
+    "artists": [
+     "Mahavishnu Orchestra"
+    ]
+   },
+   {
+    "id": 17238910,
+    "name": "The Noonward Race",
+    "real": "The Noonward Race",
+    "artist1": "Mahavishnu Orchestra",
+    "artists": [
+     "Mahavishnu Orchestra"
+    ]
+   },
+   {
+    "id": 17238913,
+    "name": "The Dance Of Maya",
+    "real": "The Dance Of Maya",
+    "artist1": "Mahavishnu Orchestra",
+    "artists": [
+     "Mahavishnu Orchestra"
+    ]
+   },
+   {
+    "id": 17238915,
+    "name": "Awakening",
+    "real": "Awakening",
+    "artist1": "Mahavishnu Orchestra",
+    "artists": [
+     "Mahavishnu Orchestra"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 22,
+  "cat": "prog",
+  "key": "Return to Forever",
+  "band": "Return to Forever",
+  "alias": "RTF",
+  "region": "美国",
+  "desc": "Chick Corea 的融合爵士",
+  "album": "Romantic Warrior",
+  "albumId": 1713591,
+  "artist": "Return to Forever",
+  "year": "1976",
+  "songs": [
+   {
+    "id": 18688382,
+    "name": "Medieval Overture (Instrumental)",
+    "real": "Medieval Overture (Instrumental)",
+    "artist1": "Return to Forever",
+    "artists": [
+     "Return to Forever"
+    ]
+   },
+   {
+    "id": 18688383,
+    "name": "Sorceress (Instrumental)",
+    "real": "Sorceress (Instrumental)",
+    "artist1": "Return to Forever",
+    "artists": [
+     "Return to Forever"
+    ]
+   },
+   {
+    "id": 18688384,
+    "name": "The Romantic Warrior (Instrumental)",
+    "real": "The Romantic Warrior (Instrumental)",
+    "artist1": "Return to Forever",
+    "artists": [
+     "Return to Forever"
+    ]
+   },
+   {
+    "id": 18688387,
+    "name": "Duel of the Jester and the Tyrant ((Pt. 1 & Pt. 2) [Instrumental])",
+    "real": "Duel of the Jester and the Tyrant ((Pt. 1 & Pt. 2) [Instrumental])",
+    "artist1": "Return to Forever",
+    "artists": [
+     "Return to Forever"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 23,
+  "cat": "prog",
+  "key": "Weather Report",
+  "band": "Weather Report",
+  "alias": "",
+  "region": "美国",
+  "desc": "Birdland 与爵士融合的巅峰",
+  "album": "Heavy Weather",
+  "albumId": 1928583,
+  "artist": "Weather Report",
+  "year": "1977",
+  "songs": [
+   {
+    "id": 20779188,
+    "name": "Birdland",
+    "real": "Birdland",
+    "artist1": "Weather Report",
+    "artists": [
+     "Weather Report"
+    ]
+   },
+   {
+    "id": 20779190,
+    "name": "A Remark You Made",
+    "real": "A Remark You Made",
+    "artist1": "Weather Report",
+    "artists": [
+     "Weather Report"
+    ]
+   },
+   {
+    "id": 20779192,
+    "name": "Teen Town",
+    "real": "Teen Town",
+    "artist1": "Weather Report",
+    "artists": [
+     "Weather Report"
+    ]
+   },
+   {
+    "id": 20779202,
+    "name": "Havona",
+    "real": "Havona",
+    "artist1": "Weather Report",
+    "artists": [
+     "Weather Report"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 24,
+  "cat": "prog",
+  "key": "Brand X",
+  "band": "Brand X",
+  "alias": "",
+  "region": "英国",
+  "desc": "Phil Collins 参与的爵士摇滚",
+  "album": "Unorthodox Behaviour",
+  "albumId": 1544403,
+  "artist": "Brand X",
+  "year": "1976",
+  "songs": [
+   {
+    "id": 16761056,
+    "name": "Nuclear Burn",
+    "real": "Nuclear Burn",
+    "artist1": "Brand X",
+    "artists": [
+     "Brand X"
+    ]
+   },
+   {
+    "id": 16761057,
+    "name": "Euthanasia Waltz",
+    "real": "Euthanasia Waltz",
+    "artist1": "Brand X",
+    "artists": [
+     "Brand X"
+    ]
+   },
+   {
+    "id": 16761058,
+    "name": "Born Ugly",
+    "real": "Born Ugly",
+    "artist1": "Brand X",
+    "artists": [
+     "Brand X"
+    ]
+   },
+   {
+    "id": 16761062,
+    "name": "Touch Wood",
+    "real": "Touch Wood",
+    "artist1": "Brand X",
+    "artists": [
+     "Brand X"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 25,
+  "cat": "prog",
+  "key": "Focus",
+  "band": "Focus",
+  "alias": "",
+  "region": "荷兰",
+  "desc": "Hocus Pocus 的约德尔与古典键盘",
+  "album": "Moving Waves",
+  "albumId": 261380,
+  "artist": "Focus",
+  "year": "1971",
+  "songs": [
+   {
+    "id": 2595657,
+    "name": "Hocus Pocus (Extended Version)",
+    "real": "Hocus Pocus (Extended Version)",
+    "artist1": "Focus",
+    "artists": [
+     "Focus"
+    ]
+   },
+   {
+    "id": 2595677,
+    "name": "Eruption",
+    "real": "Eruption",
+    "artist1": "Focus",
+    "artists": [
+     "Focus"
+    ]
+   },
+   {
+    "id": 2595674,
+    "name": "Focus II",
+    "real": "Focus II",
+    "artist1": "Focus",
+    "artists": [
+     "Focus"
+    ]
+   },
+   {
+    "id": 2595666,
+    "name": "Janis",
+    "real": "Janis",
+    "artist1": "Focus",
+    "artists": [
+     "Focus"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 26,
+  "cat": "prog",
+  "key": "Triumvirat",
+  "band": "Triumvirat",
+  "alias": "",
+  "region": "德国",
+  "desc": "德国版 ELP，组曲与管风琴",
+  "album": "Illusions On A Double Dimple",
+  "albumId": 2066867,
+  "artist": "Triumvirat",
+  "year": "1974",
+  "songs": [
+   {
+    "id": 22578398,
+    "name": "Illusions On A Double Dimple (Digital Remaster)",
+    "real": "Illusions On A Double Dimple (Digital Remaster)",
+    "artist1": "Triumvirat",
+    "artists": [
+     "Triumvirat"
+    ]
+   },
+   {
+    "id": 22578399,
+    "name": "Mister Ten Percent (Digital Remaster)",
+    "real": "Mister Ten Percent (Digital Remaster)",
+    "artist1": "Triumvirat",
+    "artists": [
+     "Triumvirat"
+    ]
+   },
+   {
+    "id": 22578402,
+    "name": "Dimplicity (Edit / Digital Remaster)",
+    "real": "Dimplicity (Edit / Digital Remaster)",
+    "artist1": "Triumvirat",
+    "artists": [
+     "Triumvirat"
+    ]
+   },
+   {
+    "id": 22578403,
+    "name": "Million Dollars (Edit / Digital Remaster)",
+    "real": "Million Dollars (Edit / Digital Remaster)",
+    "artist1": "Triumvirat",
+    "artists": [
+     "Triumvirat"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 27,
+  "cat": "prog",
+  "key": "John G. Perry",
+  "band": "John G. Perry",
+  "alias": "",
+  "region": "英国",
+  "desc": "Caravan 贝斯手的个人交响前卫",
+  "album": "Sunset Wading",
+  "albumId": 1697674,
+  "artist": "John G. Perry",
+  "year": "1976",
+  "songs": [
+   {
+    "id": 18494797,
+    "name": "I Wait My Friend",
+    "real": "I Wait My Friend",
+    "artist1": "John G. Perry",
+    "artists": [
+     "John G. Perry"
+    ]
+   },
+   {
+    "id": 18494801,
+    "name": "Devoke Water",
+    "real": "Devoke Water",
+    "artist1": "John G. Perry",
+    "artists": [
+     "John G. Perry"
+    ]
+   },
+   {
+    "id": 18494807,
+    "name": "Storm",
+    "real": "Storm",
+    "artist1": "John G. Perry",
+    "artists": [
+     "John G. Perry"
+    ]
+   },
+   {
+    "id": 18494818,
+    "name": "Sunset Wading",
+    "real": "Sunset Wading",
+    "artist1": "John G. Perry",
+    "artists": [
+     "John G. Perry"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 28,
+  "cat": "prog",
+  "key": "Änglagård",
+  "band": "Änglagård",
+  "alias": "Anglagard",
+  "region": "瑞典",
+  "desc": "90 年代瑞典交响前卫复兴",
+  "album": "Hybris",
+  "albumId": 216772,
+  "artist": "Änglagård",
+  "year": "1992",
+  "songs": [
+   {
+    "id": 2151830,
+    "name": "Jordrök",
+    "real": "Jordrök",
+    "artist1": "Änglagård",
+    "artists": [
+     "Änglagård"
+    ]
+   },
+   {
+    "id": 2151834,
+    "name": "Vandringar I Vilsenhet",
+    "real": "Vandringar I Vilsenhet",
+    "artist1": "Änglagård",
+    "artists": [
+     "Änglagård"
+    ]
+   },
+   {
+    "id": 2151840,
+    "name": "Kung Bore",
+    "real": "Kung Bore",
+    "artist1": "Änglagård",
+    "artists": [
+     "Änglagård"
+    ]
+   },
+   {
+    "id": 2151843,
+    "name": "Gånglåt Från Knapptibble",
+    "real": "Gånglåt Från Knapptibble",
+    "artist1": "Änglagård",
+    "artists": [
+     "Änglagård"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 29,
+  "cat": "prog",
+  "key": "Wobbler",
+  "band": "Wobbler",
+  "alias": "",
+  "region": "挪威",
+  "desc": "当代挪威交响前卫，古键盘与长笛",
+  "album": "Rites at Dawn",
+  "albumId": 1831756,
+  "artist": "Wobbler",
+  "year": "2011",
+  "songs": [
+   {
+    "id": 19859690,
+    "name": "Lucid",
+    "real": "Lucid",
+    "artist1": "Wobbler",
+    "artists": [
+     "Wobbler"
+    ]
+   },
+   {
+    "id": 19859691,
+    "name": "Lá Bealtaine",
+    "real": "Lá Bealtaine",
+    "artist1": "Wobbler",
+    "artists": [
+     "Wobbler"
+    ]
+   },
+   {
+    "id": 19859692,
+    "name": "In Orbit",
+    "real": "In Orbit",
+    "artist1": "Wobbler",
+    "artists": [
+     "Wobbler"
+    ]
+   },
+   {
+    "id": 19859695,
+    "name": "The River",
+    "real": "The River",
+    "artist1": "Wobbler",
+    "artists": [
+     "Wobbler"
+    ]
+   }
+  ]
+ },
+ {
+  "no": 30,
+  "cat": "prog",
+  "key": "Hatfield and the North",
+  "band": "Hatfield and the North",
+  "alias": "",
+  "region": "英国",
+  "desc": "坎特伯雷，和声与即兴的奇想",
+  "album": "The Rotters' Club",
+  "albumId": 415068,
+  "artist": "Hatfield and the North",
+  "year": "1975",
+  "songs": [
+   {
+    "id": 4105050,
+    "name": "Share It",
+    "real": "Share It",
+    "artist1": "Hatfield and the North",
+    "artists": [
+     "Hatfield and the North"
+    ]
+   },
+   {
+    "id": 4105054,
+    "name": "Lounging There Trying",
+    "real": "Lounging There Trying",
+    "artist1": "Hatfield and the North",
+    "artists": [
+     "Hatfield and the North"
+    ]
+   },
+   {
+    "id": 4105072,
+    "name": "Fitter Stoke Has a Bath",
+    "real": "Fitter Stoke Has a Bath",
+    "artist1": "Hatfield and the North",
+    "artists": [
+     "Hatfield and the North"
+    ]
+   },
+   {
+    "id": 4105083,
+    "name": "Mumps/ Your Majesty Is Like a Cream Donut (Quiet) / Lumps/ Prenut/ ...",
+    "real": "Mumps/ Your Majesty Is Like a Cream Donut (Quiet) / Lumps/ Prenut/ ...",
+    "artist1": "Hatfield and the North",
+    "artists": [
+     "Hatfield and the North"
+    ]
+   }
+  ]
+ }
+]
